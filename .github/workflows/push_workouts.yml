@@ -11,30 +11,13 @@ jobs:
         run: pip install requests
 
       - name: Push QH Build W1 workouts
-        env:
-          INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
-          ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
         run: |
           python3 - <<'PYEOF'
           import requests
-          import os
-          import json
 
-          athlete_id = os.environ.get("ATHLETE_ID", "i33449")
-          api_key = os.environ.get("INTERVALS_KEY", "6fvmznn634hdzzvnf5djnhii0")
-
-          session = requests.Session()
-          session.auth = ("API_KEY", api_key)
-          session.headers.update({
-            "Content-Type": "application/json",
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-            "Accept": "application/json, text/plain, */*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Origin": "https://intervals.icu",
-            "Referer": "https://intervals.icu/"
-          })
-
-          url = f"https://intervals.icu/api/v1/athlete/{athlete_id}/workouts"
+          AUTH = ("API_KEY", "6fvmznn634hdzzvnf5djnhii0")
+          ATHLETE = "i33449"
+          URL = f"https://intervals.icu/api/v1/athlete/{ATHLETE}/workouts"
 
           workouts = [
             {
@@ -42,7 +25,7 @@ jobs:
               "type": "Ride",
               "date": "2026-05-06",
               "moving_time": 4500,
-              "description": "OBJETIVO: Elevar VO2max. Activar fibras rapidas para sostener potencia en subidas de QH.\nTSS estimado: ~110\n\nCALENTAMIENTO 20min progresivo @180-211W\n4x (1min @276W / 30seg spin-up)\n\nBLOQUE PRINCIPAL\nBloque A — 8x (40seg @120% FTP=390W / 20seg @55%=179W)\nBloque B — 6x (40seg @125% FTP=406W / 20seg @55%=179W)\nBloque C — 4x (40seg @130% FTP=423W / 20seg @55%=179W)\nDescanso entre bloques: 5min @55% FTP\nCadencia >=95rpm. RPE 9/10 en Bloque C.\n\nENFRIAMIENTO: 15min @163W\n\nNUTRICION\nAntes (2h): 80g carbs — avena + platano + miel + cafe\nDurante: 1 gel a los 40min\nPost (30min): Whey 40g + platano\nHidratacion: 500ml antes, 500-750ml/h con electrolitos",
+              "description": "OBJETIVO: Elevar VO2max. Activar fibras rapidas para subidas de QH.\nTSS estimado: ~110\n\nCALENTAMIENTO 20min progresivo @180-211W\n4x (1min @276W / 30seg spin-up)\n\nBLOQUE PRINCIPAL\nBloque A — 8x (40seg @120% FTP=390W / 20seg @55%=179W)\nBloque B — 6x (40seg @125% FTP=406W / 20seg @55%=179W)\nBloque C — 4x (40seg @130% FTP=423W / 20seg @55%=179W)\nDescanso entre bloques: 5min @55% FTP\nCadencia >=95rpm. RPE 9/10 en Bloque C.\n\nENFRIAMIENTO: 15min @163W\n\nNUTRICION\nAntes (2h): 80g carbs — avena + platano + miel + cafe\nDurante: 1 gel a los 40min\nPost (30min): Whey 40g + platano\nHidratacion: 500ml antes, 500-750ml/h con electrolitos",
               "workout_doc": {
                 "steps": [
                   {"duration": 600, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False},
@@ -93,7 +76,7 @@ jobs:
               "type": "Ride",
               "date": "2026-05-08",
               "moving_time": 6300,
-              "description": "OBJETIVO: Entrenar clearance de lactato. Critico para gestionar subidas repetidas en QH.\nTSS estimado: ~130\n\nCALENTAMIENTO 20min progresivo @179-228W\n\n3 SERIES DE 12min continuos (x4 dentro de cada serie):\n2min @95% FTP = 309W (Under — justo bajo umbral)\n1min @108% FTP = 351W (Over — acumulacion lactato)\nRecupery entre series: 6min @179W\n\nCadencia: 90-95rpm. No levantarse del sillin.\nHR esperado final ultimo Over: ~175-178bpm.\nSi no puedes mantener el Under en serie 3 -> reduce a 90% FTP.\n\nENFRIAMIENTO: 15min @163-179W\nPreferible indoor para control exacto.\n\nNUTRICION\nAntes (2h): 80-100g carbs — avena + platano + cafe\nDurante: 1 gel a los 45min si sientes vacio\nPost: 40g proteina + 60g carbs en 30min\nHidratacion: 500-750ml/h con sal",
+              "description": "OBJETIVO: Entrenar clearance de lactato. Critico para subidas repetidas en QH.\nTSS estimado: ~130\n\nCALENTAMIENTO 20min progresivo @179-228W\n\n3 SERIES DE 12min continuos (x4 dentro de cada serie):\n2min @95% FTP = 309W (Under — justo bajo umbral)\n1min @108% FTP = 351W (Over — acumulacion lactato)\nRecupery entre series: 6min @179W\n\nCadencia: 90-95rpm. No levantarse del sillin.\nHR esperado final ultimo Over: ~175-178bpm.\nSi no puedes mantener el Under en serie 3 -> reduce a 90% FTP.\n\nENFRIAMIENTO: 15min @163-179W\nPreferible indoor para control exacto.\n\nNUTRICION\nAntes (2h): 80-100g carbs — avena + platano + cafe\nDurante: 1 gel a los 45min si sientes vacio\nPost: 40g proteina + 60g carbs en 30min\nHidratacion: 500-750ml/h con sal",
               "workout_doc": {
                 "steps": [
                   {"duration": 600, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False},
@@ -118,7 +101,7 @@ jobs:
               "type": "Ride",
               "date": "2026-05-09",
               "moving_time": 9900,
-              "description": "ENTRENO CLAVE DE LA SEMANA\nOBJETIVO: Simular horas 5-6 de QH — potencia umbral en estado de fatiga acumulada.\nTSS estimado: ~145\n\n2h Z2 continuo @221-237W (68-73% FTP)\nHR: <160bpm | Cadencia: 88-95rpm | Decoupling objetivo: <7%\nSi decoupling >10% a los 90min -> omite el SS final, termina en Z2.\n\nBLOQUE SS FINAL (ultimos 35min)\nSerie 1: 15min @88-92% FTP = 286-299W\nRecovery: 5min @195W\nSerie 2: 15min @90-93% FTP = 293-302W\nRPE esperado: 7-8/10 con piernas cargadas.\n\nOUTDOOR obligatorio si el tiempo lo permite. Ruta con 1000-1500m D+.\n\nNUTRICION — MAS IMPORTANTE DEL DIA\nDesayuno (2.5h antes): 120g carbs — arroz + huevo + miel o porridge grande\nEn bici cada 30min (minimo 80-90g carbs/h):\nMin 30: gel 25g | Min 60: barrita 40g + electrolitos\nMin 90: gel 25g | Min 120: platano/barrita 40g | Min 150: gel\nPost (30min): 40g proteina + 100g carbs\nHidratacion: 2 bidones grandes + electrolitos. Si >22C: botellín extra.",
+              "description": "ENTRENO CLAVE DE LA SEMANA\nOBJETIVO: Simular horas 5-6 de QH — potencia umbral en estado de fatiga acumulada.\nTSS estimado: ~145\n\n2h Z2 continuo @221-237W (68-73% FTP)\nHR: <160bpm | Cadencia: 88-95rpm | Decoupling objetivo: <7%\nSi decoupling >10% a los 90min -> omite el SS final, termina en Z2.\n\nBLOQUE SS FINAL (ultimos 35min)\nSerie 1: 15min @88-92% FTP = 286-299W\nRecovery: 5min @195W\nSerie 2: 15min @90-93% FTP = 293-302W\nRPE esperado: 7-8/10 con piernas cargadas.\n\nOUTDOOR obligatorio si el tiempo lo permite. Ruta con 1000-1500m D+.\n\nNUTRICION — MAS IMPORTANTE DEL DIA\nDesayuno (2.5h antes): 120g carbs — arroz + huevo + miel o porridge grande\nEn bici cada 30min (minimo 80-90g carbs/h):\nMin 30: gel 25g | Min 60: barrita 40g + electrolitos\nMin 90: gel 25g | Min 120: platano/barrita 40g | Min 150: gel\nPost (30min): 40g proteina + 100g carbs\nHidratacion: 2 bidones grandes + electrolitos. Si >22C: botell\u00edn extra.",
               "workout_doc": {
                 "steps": [
                   {"duration": 7200, "power": {"value": 70, "units": "percent_ftp"}, "ramp": False},
@@ -162,19 +145,15 @@ jobs:
 
           ok = 0
           for w in workouts:
-            try:
-              resp = session.post(url, json=w, timeout=30)
-              if resp.status_code in (200, 201):
-                body = resp.json()
-                print(f"OK: {w['name']} -> id={body.get('id')}")
-                ok += 1
-              else:
-                print(f"ERROR {resp.status_code}: {w['name']}")
-                print(f"  Response: {resp.text[:400]}")
-            except Exception as e:
-              print(f"EXCEPTION: {w['name']} -> {e}")
+            r = requests.post(URL, auth=AUTH, json=w, timeout=30)
+            if r.status_code in (200, 201):
+              print(f"OK: {w['name']} -> id={r.json().get('id')}")
+              ok += 1
+            else:
+              print(f"ERROR {r.status_code}: {w['name']}")
+              print(f"  {r.text[:500]}")
 
-          print(f"\nDone: {ok} / 6 workouts uploaded")
+          print(f"\nDone: {ok}/6 workouts uploaded")
           if ok < 6:
             exit(1)
           PYEOF
