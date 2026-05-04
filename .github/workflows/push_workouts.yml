@@ -1,0 +1,170 @@
+name: Push Workouts to Intervals.icu
+
+on:
+  workflow_dispatch:
+
+jobs:
+  push-workouts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push QH Build W1 workouts
+        env:
+          ICU_API_KEY: ${{ secrets.ICU_API_KEY }}
+        run: |
+          python3 - <<'PYEOF'
+          import urllib.request
+          import urllib.error
+          import json
+          import base64
+          import os
+
+          athlete_id = "i33449"
+          api_key = os.environ.get("ICU_API_KEY", "6fvmznn634hdzzvnf5djnhii0")
+          credentials = base64.b64encode(f"API_KEY:{api_key}".encode()).decode()
+
+          workouts = [
+            {
+              "name": "VO2max — Ladder 40/20 | QH Build W1",
+              "type": "Ride",
+              "date": "2026-05-06",
+              "moving_time": 4500,
+              "description": "OBJETIVO: Elevar VO2max. Activar fibras rapidas para sostener potencia en subidas de QH.\nTSS estimado: ~110\n\nCALENTAMIENTO 20min progresivo @180-211W + 4x (1min @276W / 30seg spin-up)\n\nBLOQUE PRINCIPAL\nBloque A - 8x (40seg @120% FTP=390W / 20seg @55%=179W)\nBloque B - 6x (40seg @125% FTP=406W / 20seg @55%=179W)\nBloque C - 4x (40seg @130% FTP=423W / 20seg @55%=179W)\nDescanso entre bloques: 5min @55% FTP\nCadencia >=95rpm. RPE 9/10 en Bloque C.\n\nENFRIAMIENTO: 15min @163W\n\nNUTRICION\nAntes (2h): 80g carbs - avena + platano + miel + cafe\nDurante: 1 gel a los 40min\nPost (30min): Whey 40g + platano\nHidratacion: 500ml antes, 500-750ml/h con electrolitos",
+              "workout_doc": {
+                "steps": [
+                  {"duration": 600, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 600, "power": {"value": 70, "units": "percent_ftp"}, "ramp": True},
+                  {"reps": 4, "steps": [
+                    {"duration": 60, "power": {"value": 85, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 30, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False}
+                  ]},
+                  {"reps": 8, "steps": [
+                    {"duration": 40, "power": {"value": 120, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 20, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False}
+                  ]},
+                  {"duration": 300, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False},
+                  {"reps": 6, "steps": [
+                    {"duration": 40, "power": {"value": 125, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 20, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False}
+                  ]},
+                  {"duration": 300, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False},
+                  {"reps": 4, "steps": [
+                    {"duration": 40, "power": {"value": 130, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 20, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False}
+                  ]},
+                  {"duration": 900, "power": {"value": 50, "units": "percent_ftp"}, "ramp": False}
+                ]
+              }
+            },
+            {
+              "name": "Z2 Endurance + Sprint Activation | QH Build W1",
+              "type": "Ride",
+              "date": "2026-05-07",
+              "moving_time": 9000,
+              "description": "OBJETIVO: Volumen aerobico base + activacion neuromuscular sin fatiga central.\nTSS estimado: ~130\n\n2h Z2 continuo @211-234W (65-72% FTP)\nHR: <155bpm | Cadencia: 88-95rpm | Decoupling objetivo: <5%\n\n6x SPRINTS ACTIVACION (min 85-110)\n8 segundos al maximo sentado, cadencia libre.\nRecupery completo entre sprints: 4-5min Z2 estricto.\nObjetivo: >900W (Pmax reciente: 1169W)\n\nENFRIAMIENTO: 10min @<180W\nOutdoor ideal. Tramo llano para sprints.\n\nNUTRICION\nAntes (2h): 100g carbs - tostadas + huevo + miel + cafe\nDurante: 50-60g carbs/h - platano h1, gel h2\nHidratacion: 2 bidones (1 con electrolitos)\nPost: Comida completa proteina + arroz/pasta en 45min",
+              "workout_doc": {
+                "steps": [
+                  {"duration": 900, "power": {"value": 60, "units": "percent_ftp"}, "ramp": True},
+                  {"duration": 2800, "power": {"value": 68, "units": "percent_ftp"}, "ramp": False},
+                  {"reps": 6, "steps": [
+                    {"duration": 8, "power": {"value": 150, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 292, "power": {"value": 68, "units": "percent_ftp"}, "ramp": False}
+                  ]},
+                  {"duration": 1300, "power": {"value": 68, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 600, "power": {"value": 50, "units": "percent_ftp"}, "ramp": False}
+                ]
+              }
+            },
+            {
+              "name": "Over-Unders Lactate Clearance | QH Build W1",
+              "type": "Ride",
+              "date": "2026-05-08",
+              "moving_time": 6300,
+              "description": "OBJETIVO: Entrenar clearance de lactato. Critico para gestionar subidas repetidas en QH sin acumular deuda.\nTSS estimado: ~130\n\nCALENTAMIENTO 20min progresivo @179-228W\n\n3 SERIES DE 12min continuos (x4 dentro de cada serie):\n2min @95% FTP = 309W (Under - justo bajo umbral)\n1min @108% FTP = 351W (Over - acumulacion lactato)\nRecupery entre series: 6min @179W\n\nCadencia: 90-95rpm. No levantarse del sillin.\nHR esperado final ultimo Over: ~175-178bpm.\nSi no puedes mantener el Under en serie 3 -> reduce a 90% FTP.\n\nENFRIAMIENTO: 15min @163-179W\nPreferible indoor para control exacto.\n\nNUTRICION\nAntes (2h): 80-100g carbs - avena + platano + cafe\nDurante: 1 gel a los 45min si sientes vacio\nPost: 40g proteina + 60g carbs en 30min\nHidratacion: 500-750ml/h con sal",
+              "workout_doc": {
+                "steps": [
+                  {"duration": 600, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 600, "power": {"value": 70, "units": "percent_ftp"}, "ramp": True},
+                  {"reps": 3, "steps": [
+                    {"duration": 120, "power": {"value": 95, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 60, "power": {"value": 108, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 120, "power": {"value": 95, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 60, "power": {"value": 108, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 120, "power": {"value": 95, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 60, "power": {"value": 108, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 120, "power": {"value": 95, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 60, "power": {"value": 108, "units": "percent_ftp"}, "ramp": False},
+                    {"duration": 360, "power": {"value": 55, "units": "percent_ftp"}, "ramp": False}
+                  ]},
+                  {"duration": 900, "power": {"value": 52, "units": "percent_ftp"}, "ramp": False}
+                ]
+              }
+            },
+            {
+              "name": "Endurance + Sweet Spot Final | QH Build W1",
+              "type": "Ride",
+              "date": "2026-05-09",
+              "moving_time": 9900,
+              "description": "ENTRENO CLAVE DE LA SEMANA\nOBJETIVO: Simular horas 5-6 de QH - potencia umbral en estado de fatiga acumulada.\nTSS estimado: ~145\n\n2h Z2 continuo @221-237W (68-73% FTP)\nHR: <160bpm | Cadencia: 88-95rpm | Decoupling objetivo: <7%\nSi decoupling >10% a los 90min -> omite el SS final, termina en Z2.\n\nBLOQUE SS FINAL (ultimos 35min)\nSerie 1: 15min @88-92% FTP = 286-299W\nRecovery: 5min @195W\nSerie 2: 15min @90-93% FTP = 293-302W\nRPE esperado: 7-8/10 con piernas cargadas.\n\nOUTDOOR obligatorio si el tiempo lo permite. Ruta con 1000-1500m D+.\n\nNUTRICION - MAS IMPORTANTE DEL DIA\nDesayuno (2.5h antes): 120g carbs - arroz + huevo + miel o porridge grande\nEn bici cada 30min (minimo 80-90g carbs/h):\nMin 30: gel 25g | Min 60: barrita 40g + electrolitos\nMin 90: gel 25g | Min 120: platano/barrita 40g | Min 150: gel\nPost (30min): 40g proteina + 100g carbs\nHidratacion: 2 bidones grandes + electrolitos. Si >22C: botellín extra.",
+              "workout_doc": {
+                "steps": [
+                  {"duration": 7200, "power": {"value": 70, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 900, "power": {"value": 90, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 300, "power": {"value": 60, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 900, "power": {"value": 91, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 300, "power": {"value": 50, "units": "percent_ftp"}, "ramp": False}
+                ]
+              }
+            },
+            {
+              "name": "Long Ride Race-Specific | QH Build W1",
+              "type": "Ride",
+              "date": "2026-05-10",
+              "moving_time": 12600,
+              "description": "OBJETIVO: Simular distribucion de potencia de QH. Volumen largo con intensidad progresiva.\nTSS estimado: ~160 | NP objetivo: 234-244W | IF objetivo: 0.72-0.75\n\nESTRUCTURA\n0h00-0h30: Calentamiento progresivo @180-210W\n0h30-1h30: Z2 estable @228-244W (70-75% FTP)\n1h30-2h00: Sweet Spot @88% FTP = 286W\n2h00-2h30: Z2 activo @228W\n2h30-3h00: Sweet Spot @90% FTP = 293W - simula puerto final\n3h00-3h30: Z2 suave vuelta @<215W\n\nIF final 0.72-0.75. Si supera 0.78 -> gestionaste mal el inicio.\nRuta: minimo 1200-1500m D+ (Garraf, Ordal, o similar).\n\nNUTRICION - CRITICO (minimo 70-80g carbs/h)\nDesayuno (2.5h antes): 120-140g carbs\nh1: gel 25g + agua cada 15min\nh2: barrita 40g + electrolitos\nh2h30: gel antes del segundo SS\nh3: platano + gel\nPost: comida completa en 45min. Hidratacion: 3 bidones, electrolitos en 2.",
+              "workout_doc": {
+                "steps": [
+                  {"duration": 1800, "power": {"value": 62, "units": "percent_ftp"}, "ramp": True},
+                  {"duration": 3600, "power": {"value": 72, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 1800, "power": {"value": 88, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 1800, "power": {"value": 70, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 1800, "power": {"value": 90, "units": "percent_ftp"}, "ramp": False},
+                  {"duration": 1800, "power": {"value": 65, "units": "percent_ftp"}, "ramp": False}
+                ]
+              }
+            },
+            {
+              "name": "Z2 Recovery Ride | QH Build W1",
+              "type": "Ride",
+              "date": "2026-05-11",
+              "moving_time": 7200,
+              "description": "OBJETIVO: Flush metabolico y mantenimiento de CTL. NO generar fatiga nueva.\nTSS estimado: ~90\n\n2h ESTRICTO Z2\nPotencia: 195-221W (60-68% FTP)\nHR: <150bpm ESTRICTO | Cadencia: 85-90rpm\nSin esfuerzos, sin subidas duras, sin sprints.\n\nREGLA DE ORO: Este entreno vale menos cuanto mas duro lo hagas.\n\nCheck matutino - si:\nHRV <60 o >15% bajo tu media -> 1h Z1 o descanso total\nPiernas muy cargadas -> 1h30 y para\nTe sientes bien -> completa las 2h dentro de los limites\n\nNUTRICION\nComida normal. Sin restriccion calorica.\nHidratacion: 1.5L agua minimo en el dia.\nPost: proteina en comida principal + verduras + carbs moderados.",
+              "workout_doc": {
+                "steps": [
+                  {"duration": 7200, "power": {"value": 63, "units": "percent_ftp"}, "ramp": False}
+                ]
+              }
+            }
+          ]
+
+          url = f"https://intervals.icu/api/v1/athlete/{athlete_id}/workouts"
+          headers_req = {
+            "Authorization": f"Basic {credentials}",
+            "Content-Type": "application/json"
+          }
+
+          results = []
+          for w in workouts:
+            data = json.dumps(w).encode("utf-8")
+            req = urllib.request.Request(url, data=data, method="POST", headers=headers_req)
+            try:
+              with urllib.request.urlopen(req) as resp:
+                body = json.loads(resp.read())
+                results.append({"name": w["name"], "status": "OK", "id": body.get("id")})
+                print(f"OK: {w['name']} -> id={body.get('id')}")
+            except urllib.error.HTTPError as e:
+              err = e.read().decode()
+              results.append({"name": w["name"], "status": f"ERROR {e.code}", "detail": err[:300]})
+              print(f"ERROR {e.code}: {w['name']} -> {err[:300]}")
+
+          print("\nDone:", len([r for r in results if r['status']=='OK']), "/ 6 workouts uploaded")
+          PYEOF
