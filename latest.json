@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-05T17:52:52.236823",
+    "last_updated": "2026-05-05T19:28:20.984148",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -614,7 +614,7 @@
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 5,
           "race_proximity": 46,
-          "next_week_load": 1.31,
+          "next_week_load": 1.25,
           "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 1.6
         },
@@ -649,7 +649,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 68.0,
-    "calculation_timestamp": "2026-05-05T17:52:52.235594",
+    "calculation_timestamp": "2026-05-05T19:28:20.983242",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -5703,17 +5703,17 @@
       "description": ""
     },
     {
-      "id": 108434807,
+      "id": 108446653,
       "date": "2026-05-12",
-      "name": "QH Build W2 | VO2max 8\u00d73' Ladder",
+      "name": "QH Specificity W4 | VO2max Ladder 40/20 \u2014 8\u00d73 Bloques",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 123,
-      "duration_hours": 1.56,
-      "duration_formatted": "1h33m50s",
-      "workout_summary": "2 \u00d7 3m | 1m30s @360W | 10m @186W | 5m @236W | 10s @0W | 3\u00d740s @365W / 20s rec | 5m @178W | 10s @0W | 8\u00d73m @391W / 3m rec | 15m @186W",
+      "planned_tss": 89,
+      "duration_hours": 1.09,
+      "duration_formatted": "1h5m30s",
+      "workout_summary": "10m @234W | 4\u00d71m @276W / 30s rec | 5m @178W | 10s @0W | 8\u00d740s @428W / 20s rec | 5m @178W | 10s @0W | 8\u00d740s @428W / 20s rec | 5m @178W | 10s @0W | 8\u00d740s @428W / 20s rec | 10m @186W",
       "has_terrain": false,
-      "description": "## QH Build W2 | VO2max 8\u00d73' Ladder\n## TSS objetivo: ~120 | Duraci\u00f3n: ~1h45 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nEl VO2max es el techo de tu motor. Cada repetici\u00f3n de hoy sube ese techo 1mm. \nEn la QH, Marie-Blanque dura 26 minutos \u2014 exactamente cuando el VO2max decide si aguantas \no explotas. Hoy son 8 series de 3'. La clave: no empezar demasiado fuerte en las primeras 4. \nLas \u00faltimas 4 son las que construyen. El que controla el inicio, gana al final.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\n- Pre-entreno (90' antes): 2 tostadas con miel + pl\u00e1tano + caf\u00e9. ~70g CHO.\n- Durante: 1 gel antes del primer bloque + 1 bid\u00f3n con 30g CHO. No m\u00e1s. Sesi\u00f3n corta.\n- Post (dentro de 30'): batido proteico + pl\u00e1tano + 50g arroz o pan. Prioridad recuperaci\u00f3n.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\n- Objetivo potencia: 375\u2013410W (115\u2013126% FTP). FC llegar\u00e1 a 170\u2013177 bpm in las \u00faltimas series.\n- NO arranques a tope. Series 1\u20133: empieza en 375W y deja que suba. Series 5\u20138: puedes apretar.\n- Cadencia alta: 95\u2013100 rpm. El micro-formato 40/20 de la semana pasada era diferente \u2014 \n  aqu\u00ed los 3' continuos son m\u00e1s duros neurol\u00f3gicamente. Gestiona.\n- Recuperaci\u00f3n de 3' es suficiente si series 1\u20134 fueron controladas. \n  Si llegas al borde en la 5\u00aa \u2192 aumenta recuperaci\u00f3n a 4'.\n- Se\u00f1al de parada: si en alguna serie no llegas a 360W despu\u00e9s de 90s \u2192 para. \n  Hoy no es el d\u00eda para luchar.\n\n---\n\nWarmup\n- Activaci\u00f3n suave 10m ramp 50-65% 85rpm\n- Aceleraci\u00f3n progresiva 5m ramp 65-80% 90rpm\n\n- PREP ACTIVACI\u00d3N - Press Lap ahora 10s 0%\n\n3x\n- Activaci\u00f3n VO2 40s 110-115% 95-100rpm\n- Pausa activaci\u00f3n 20s 50%\n\nMain Set\n- Recuperaci\u00f3n completa 5m 55% 85rpm\n\n- PREP BLOQUE VO2MAX - Press Lap ahora 10s 0%\n\nMain Set 8x\n- VO2max QH 3m 115-126% 95-100rpm\n- Recuperaci\u00f3n VO2 3m 50-55% 80rpm\n\nCooldown\n- Vuelta a calma 15m ramp 65-50% 78rpm"
+      "description": "## QH Specificity W4 | VO2max Ladder 40/20 \u2014 8\u00d73 Bloques\n## TSS objetivo: ~130 | Duraci\u00f3n: ~2h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nBienvenido al bloque de especificidad. Mismo formato que en W2 pero con 3 bloques \nen lugar de 2. El tercer bloque es donde ocurre la magia: llegas con el sistema \ncardiorrespiratorio ya al l\u00edmite y tienes que producir la misma potencia. \nEso es exactamente lo que te pide el Portalet despu\u00e9s de 4 horas de carrera. \nEl formato 40/20 con 3 bloques ya lo entrenaste en W2. Hoy a\u00f1ades un piso m\u00e1s.\n\nRegla de hoy: los 3 bloques deben tener la misma potencia en los 40 segundos. \nSi el bloque 3 sale a 380W y el bloque 1 sali\u00f3 a 440W, tomaste mal las decisiones. \nEl autocontrol en el bloque 1 es la habilidad que est\u00e1s entrenando para Marie-Blanque.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre (90'): avena 80g + pl\u00e1tano + 2 huevos + caf\u00e9. 90g CHO. Semana dura, carga m\u00e1xima.\nDurante: 1 gel cafe\u00edna 20' antes del primer bloque + bid\u00f3n iso 500ml. \nSi la sesi\u00f3n supera 1h45, 1 gel adicional entre bloques 2 y 3.\nPost (dentro de 30'): 110g CHO + 40g PRO. Ventana anab\u00f3lica cr\u00edtica en W4.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nPotencia objetivo: 422\u2013435W (130\u2013134% FTP). Ligeramente m\u00e1s alta que W2 \npara reflejar la mejora de las \u00faltimas 2 semanas.\nDistribuye el esfuerzo: bloque 1 a 422W, bloque 2 a 428W, bloque 3 al m\u00e1ximo \nque puedas mantener las 8 series completas.\nCadencia: 95\u2013100 rpm. Misma mec\u00e1nica que en W2, ya la conoces.\nLos 5' de descanso entre bloques son innegociables. No los acortes \naunque te sientas bien al terminar el bloque anterior.\nFC al final del bloque 3: llegar\u00e1 a 173\u2013179 bpm. Si llegas al bloque 3 \ncon FC de reposo mayor de 145 bpm, a\u00f1ade 2' m\u00e1s de descanso.\n\n---\n\nWarmup\n- Calentamiento Z2 10m 67-77% 90rpm\n\n4x\n- Activaci\u00f3n 85% 1m 85% 95rpm\n- Recuperaci\u00f3n activaci\u00f3n 30s 55%\n\nMain Set\n- Recuperaci\u00f3n pre-bloque 5m 55%\n\n- PREP BLOQUE VO2MAX 1 - Press Lap ahora 10s 0%\n\nMain Set 8x\n- Sprint VO2 Ladder 40s 130-134% 95rpm\n- Recuperaci\u00f3n parcial 20s 55%\n\nMain Set\n- Descanso bloque 5m 55%\n\n- PREP BLOQUE VO2MAX 2 - Press Lap ahora 10s 0%\n\nMain Set 8x\n- Sprint VO2 Ladder 40s 130-134% 95rpm\n- Recuperaci\u00f3n parcial 20s 55%\n\nMain Set\n- Descanso bloque 5m 55%\n\n- PREP BLOQUE VO2MAX 3 - Press Lap ahora 10s 0%\n\nMain Set 8x\n- Sprint VO2 Ladder 40s 130-134% 95rpm\n- Recuperaci\u00f3n parcial 20s 55%\n\nCooldown\n- Vuelta a calma 10m ramp 65-50% 80rpm"
     },
     {
       "id": 108434816,
@@ -5921,32 +5921,32 @@
       "description_preview": null
     },
     {
-      "id": 108436502,
-      "date": "2026-05-26",
-      "name": "QH Specificity W4 | VO2max 6\u00d73' con Hard-Start",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 97,
-      "duration_hours": 1.32,
-      "duration_formatted": "1h19m20s",
-      "workout_summary": "12m @192W | 3m @246W | 10s @0W | 3\u00d720s @438W / 1m40s rec | 4m @169W | 10s @0W | 15m @186W",
-      "has_terrain": false
-    },
-    {
       "id": 108436511,
-      "date": "2026-05-27",
+      "date": "2026-05-25",
       "name": "QH Specificity W4 | Z2 + 3\u00d720' Portalet Power",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 172,
-      "duration_hours": 3.29,
-      "duration_formatted": "3h17m10s",
-      "workout_summary": "15m @188W | 45m @224W | 35m @227W | 3m @169W | 10s @0W | 3\u00d720m @272W / 8m rec | 15m @195W",
+      "planned_tss": 144,
+      "duration_hours": 2.7,
+      "duration_formatted": "2h42m10s",
+      "workout_summary": "15m @188W | 45m @224W | 3m @169W | 10s @0W | 3\u00d720m @272W / 8m rec | 15m @195W",
+      "has_terrain": false
+    },
+    {
+      "id": 108446343,
+      "date": "2026-05-26",
+      "name": "QH Specificity W4 | VO2max Ladder 40/20 \u2014 8\u00d73 Bloques",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 89,
+      "duration_hours": 1.09,
+      "duration_formatted": "1h5m30s",
+      "workout_summary": "10m @234W | 4\u00d71m @276W / 30s rec | 5m @178W | 10s @0W | 8\u00d740s @428W / 20s rec | 5m @178W | 10s @0W | 8\u00d740s @428W / 20s rec | 5m @178W | 10s @0W | 8\u00d740s @428W / 20s rec | 10m @186W",
       "has_terrain": false
     },
     {
       "id": 108436520,
-      "date": "2026-05-28",
+      "date": "2026-05-27",
       "name": "QH Specificity W4 | Recuperaci\u00f3n Z1",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -5982,17 +5982,16 @@
       "has_terrain": false
     },
     {
-      "id": 108436543,
+      "id": 108444683,
       "date": "2026-05-31",
-      "name": "QH Specificity W4 | Descanso Activo Z1",
+      "name": "QH Specificity W4 | Gran Fondo 5h + Esfuerzos Finales",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 26,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "## QH Specificity W4 | Descanso Activo Z1\n## TSS objetivo: ~30 | Duraci\u00f3n: 1h | FTP ref: 325W\n---"
+      "planned_tss": 215,
+      "duration_hours": 4.45,
+      "duration_formatted": "4h27m10s",
+      "workout_summary": "15m @186W | 55m @221W | 4m @162W | 55m @224W | 4m @162W | 50m @227W | 4m @169W | 10s @0W | 2\u00d720m @272W / 10m rec | 20m @192W",
+      "has_terrain": false
     },
     {
       "id": 97493494,
@@ -6034,15 +6033,15 @@
       "description_preview": "## QH Specificity W5 \u2014 Peak | 2\u20138 junio\n**CTL entrada estimada: ~88 | Objetivo cierre: CTL ~91\u201393**\n| D\u00eda | Sesi\u00f3n | Duraci\u00f3n | TSS |"
     },
     {
-      "id": 108439406,
+      "id": 108446350,
       "date": "2026-06-02",
-      "name": "QH Specificity W5 | VO2max 5\u00d74'",
+      "name": "QH Specificity W5 | VO2max Ladder 40/20 \u2014 10\u00d73 Bloques Peak",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 104,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h19m40s",
-      "workout_summary": "12m @194W | 3m @254W | 10s @0W | 2\u00d740s @374W / 2m rec | 4m @169W | 10s @0W | 5\u00d74m @394W / 4m rec | 15m @186W",
+      "planned_tss": 105,
+      "duration_hours": 1.19,
+      "duration_formatted": "1h11m30s",
+      "workout_summary": "10m @234W | 4\u00d71m @276W / 30s rec | 5m @178W | 10s @0W | 10\u00d740s @437W / 20s rec | 5m @178W | 10s @0W | 10\u00d740s @437W / 20s rec | 5m @178W | 10s @0W | 10\u00d740s @437W / 20s rec | 10m @186W",
       "has_terrain": false
     },
     {
@@ -6083,22 +6082,21 @@
       "has_terrain": false
     },
     {
-      "id": 108439421,
+      "id": 108445054,
       "date": "2026-06-07",
-      "name": "QH Specificity W5 | Z2 Opcional 1.5h",
+      "name": "QH Specificity W4 | Gran Fondo 5h + Esfuerzos Finales",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 50,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "## QH Specificity W5 | Z2 Opcional 1.5h\n## TSS objetivo: ~55 | Duraci\u00f3n: 1h30\n---"
+      "planned_tss": 215,
+      "duration_hours": 4.45,
+      "duration_formatted": "4h27m10s",
+      "workout_summary": "15m @186W | 55m @221W | 4m @162W | 55m @224W | 4m @162W | 50m @227W | 4m @169W | 10s @0W | 2\u00d720m @272W / 10m rec | 20m @192W",
+      "has_terrain": false
     },
     {
       "id": 97493505,
       "date": "2026-06-08",
-      "name": "S2 Build 3",
+      "name": "S2 Taper 3",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -6122,7 +6120,7 @@
       "description_preview": null
     },
     {
-      "id": 108439436,
+      "id": 108443351,
       "date": "2026-06-08",
       "name": "QH Pre-Taper W6 \u2014 9\u201315 junio (SUMMARY)",
       "type": "NOTE",
@@ -6132,57 +6130,83 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "## QH Pre-Taper W6 \u2014 9\u201315 junio\n**CTL entrada estimada: ~90\u201392 | TSB objetivo d\u00eda carrera: +8 a +15**\n| D\u00eda | Sesi\u00f3n | Duraci\u00f3n | TSS |"
+      "description_preview": "## QH Pre-Taper W6 \u2014 9\u201315 junio\n**CTL entrada estimada: ~90\u201392 | TSB objetivo cierre semana: \u22125/+5**\n| D\u00eda | Sesi\u00f3n | Duraci\u00f3n | TSS |"
     },
     {
-      "id": 108439509,
+      "id": 108446355,
       "date": "2026-06-09",
-      "name": "QH Pre-Taper W6 | VO2max 4\u00d73' Calidad Pura",
+      "name": "QH Pre-Taper W6 | VO2max Ladder 40/20 \u2014 8\u00d72 Taper Afilado",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 78,
-      "duration_hours": 1.14,
-      "duration_formatted": "1h8m20s",
-      "workout_summary": "12m @194W | 3m @255W | 10s @0W | 2\u00d735s @377W / 1m25s rec | 4m @169W | 10s @0W | 4\u00d73m @394W / 4m30s rec | 15m @186W",
+      "planned_tss": 70,
+      "duration_hours": 0.87,
+      "duration_formatted": "52m20s",
+      "workout_summary": "10m @234W | 4\u00d71m @276W / 30s rec | 5m @178W | 10s @0W | 8\u00d740s @442W / 20s rec | 5m @178W | 10s @0W | 8\u00d740s @442W / 20s rec | 10m @186W",
       "has_terrain": false
     },
     {
-      "id": 108439564,
+      "id": 108443357,
       "date": "2026-06-10",
       "name": "QH Pre-Taper W6 | Z2 + 1\u00d720' FTP",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 91,
-      "duration_hours": 1.62,
-      "duration_formatted": "1h37m10s",
+      "planned_tss": 93,
+      "duration_hours": 1.67,
+      "duration_formatted": "1h40m10s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "## QH Pre-Taper W6 | Z2 + 1\u00d720' FTP \u2014 Mantenimiento sin Carga\n## TSS objetivo: ~110 | Duraci\u00f3n: ~2h15 | FTP ref: 325W\n---"
+      "description_preview": "## QH Pre-Taper W6 | Z2 + 1\u00d720' FTP \u2014 Mantenimiento sin Acumulaci\u00f3n\n## TSS objetivo: ~110 | Duraci\u00f3n: ~2h15 | FTP ref: 325W\n---"
     },
     {
-      "id": 108439589,
-      "date": "2026-06-12",
-      "name": "QH Pre-Taper W6 | Openers Pre-Carrera",
+      "id": 108443360,
+      "date": "2026-06-11",
+      "name": "QH Pre-Taper W6 | Recuperaci\u00f3n Z1",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 41,
-      "duration_hours": 1.09,
-      "duration_formatted": "1h5m10s",
-      "workout_summary": "25m @192W | 10s @0W | 5\u00d720s @462W / 2m40s rec | 20m @185W | 5m @158W",
+      "planned_tss": 26,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "## QH Pre-Taper W6 | Recuperaci\u00f3n Z1 \u2014 Flush y Recarga\n## TSS objetivo: ~25 | Duraci\u00f3n: ~1h | FTP ref: 325W\n---"
+    },
+    {
+      "id": 108443364,
+      "date": "2026-06-12",
+      "name": "QH Pre-Taper W6 | Openers 3\u00d75' @90%FTP + Sprints",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 60,
+      "duration_hours": 1.32,
+      "duration_formatted": "1h19m20s",
+      "workout_summary": "15m @190W | 10s @0W | 3\u00d75m @292W / 3m rec | 5m @162W | 10s @0W | 6\u00d720s @390W / 2m40s rec | 12m @170W | 5m @150W",
       "has_terrain": false
     },
     {
-      "id": 108439734,
+      "id": 108443369,
       "date": "2026-06-13",
-      "name": "QH CARRERA 2026",
+      "name": "QH Pre-Taper W6 | Z1 Muy Suave",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 380,
-      "duration_hours": 5.58,
-      "duration_formatted": "5h35m",
+      "planned_tss": 24,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "## \ud83c\udfc1 QUEBRANTAHUESOS 2026 \u2014 D\u00cdA DE CARRERA\n**Objetivo: Sub-5h35 | FTP: 325W**\n---"
+      "description_preview": "## QH Pre-Taper W6 | Z1 Muy Suave \u2014 Activaci\u00f3n Pasiva\n## TSS objetivo: ~25 | Duraci\u00f3n: ~1h | FTP ref: 325W\n---"
+    },
+    {
+      "id": 108443372,
+      "date": "2026-06-14",
+      "name": "QH Pre-Taper W6 | Z2 Controlado",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 108,
+      "duration_hours": 2.45,
+      "duration_formatted": "2h27m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "## QH Pre-Taper W6 | Z2 Controlado \u2014 \u00daltimo Largo Pre-Race Week\n## TSS objetivo: ~110 | Duraci\u00f3n: \u22642h30 | FTP ref: 325W\n---"
     },
     {
       "id": 97493421,
@@ -6209,15 +6233,28 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 108443377,
+      "date": "2026-06-15",
+      "name": "QH Race Week \u2014 16\u201321 junio (SUMMARY)",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "## QH Race Week \u2014 16\u201321 junio\n**CTL entrada: ~87\u201389 | TSB objetivo d\u00eda carrera: +5 a +15**\n| D\u00eda | Sesi\u00f3n | Duraci\u00f3n | TSS |"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 31,
-    "success": 17,
-    "patternA": 17,
+    "attempted": 34,
+    "success": 19,
+    "patternA": 19,
     "patternB": 0,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 14
+    "bail_no_match": 15
   },
   "weekly_summary": {
     "total_training_hours": 11.0,
