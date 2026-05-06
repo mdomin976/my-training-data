@@ -1,7 +1,10 @@
 """READINESS_VISUALS_IMPL.py
-Executable implementation of MORNING_REPORT_VISUALS.md v2.2
+Executable implementation — ImReady4 v4.42
 Call render_readiness_visuals(latest, history) from any pre-workout or readiness report.
 Returns: (png_path, markdown_table_string)
+
+RHR SOURCE: always uses current_metrics.resting_hr (not resting_hr_snapshot)
+for both today's value and the 30-day baseline history.
 
 Dependencies: matplotlib, numpy (standard in Jupyter/Colab)
 """
@@ -82,17 +85,14 @@ def drawGrid(ax):
     for i in range(-3, 4):
         lw = 1.0 if i in (-3, 0, 3) else 0.75
         ls = '-'  if i in (-3, 0, 3) else '--'
-        # Radial line
         theta_i = i / 3 * ANG_LIMIT
         ax.plot([2.8 * math.sin(theta_i), 9.2 * math.sin(theta_i)],
                 [2.8 * math.cos(theta_i), 9.2 * math.cos(theta_i)],
                 color=gc, lw=lw, ls=ls, zorder=3)
-        # Arc: sHRV = i (constant), sRHR varies
         sRHR_arr = np.linspace(-3, 3, 300)
         xs = [to_xy(i, s)[0] for s in sRHR_arr]
         ys = [to_xy(i, s)[1] for s in sRHR_arr]
         ax.plot(xs, ys, color=gc, lw=lw, ls=ls, zorder=3)
-    # Numeric labels on outer arc (r=9.5) and inner (r=2.5)
     for i in range(-3, 4):
         theta_i = i / 3 * ANG_LIMIT
         ax.text(9.6*math.sin(theta_i), 9.6*math.cos(theta_i), str(i),
@@ -119,7 +119,6 @@ def drawTrailAndToday(ax, trail_scores, today_scores):
             ax.plot(x, y, 'o', markersize=ms,
                     color=(ic, ic, ic), markeredgecolor='k',
                     markeredgewidth=0.5, zorder=6)
-    # Today
     xx, yy = to_xy(*today_scores)
     ax.plot([0, xx], [0, yy], color='k', lw=0.5, zorder=7)
     ax.plot(xx, yy, 'o', markersize=14, color='blue',
@@ -146,20 +145,21 @@ def drawReady4(ax, label, code, detail, scoreHRV, scoreRHR, rmssd, rhr):
     sHRV_str = f"{scoreHRV:+.2f}" if scoreHRV is not None else "n/a"
     sRHR_str = f"{scoreRHR:+.2f}" if scoreRHR is not None else "n/a"
     ax.text(0, -6.4,
-            f"scoreHRV  {sHRV_str}   │   scoreRHR  {sRHR_str}",
+            f"scoreHRV  {sHRV_str}   |   scoreRHR  {sRHR_str}",
             ha='center', fontsize=9, family='monospace', zorder=13)
     rmssd_str = f"{rmssd:.0f}" if rmssd is not None else "n/a"
-    rhr_str   = f"{rhr}"   if rhr   is not None else "n/a"
+    rhr_str   = f"{rhr}"       if rhr   is not None else "n/a"
     ax.text(0, -7.2,
-            f"rMSSD: {rmssd_str} ms   │   RHR: {rhr_str} bpm",
+            f"rMSSD: {rmssd_str} ms   |   RHR: {rhr_str} bpm",
             ha='center', fontsize=8.5, family='monospace', zorder=13)
 
 # ─────────────────────────────────────────────
 # §2.2  Compute scores from history
 # ─────────────────────────────────────────────
 def compute_scores(rmssd_today, rhr_today, history_daily):
-    """history_daily: list of dicts with keys 'rmssd' and 'rhr', sorted oldest→newest,
-    covering the last ~30 days (today NOT included).
+    """history_daily: list of dicts with keys 'rmssd' and 'rhr' (resting_hr),
+    sorted oldest->newest, covering the last ~30 days (today NOT included).
+    RHR always uses resting_hr — no snapshot field.
     Returns (scoreHRV, scoreRHR)"""
     try:
         rmssd_log_today = 20 * math.log(rmssd_today) if rmssd_today and rmssd_today > 0 else None
@@ -208,39 +208,30 @@ def build_semaphore_table(signals_dict, date_str, p_section11, imready4_label, i
 
     rows = []
     s = signals_dict
-    # HRV
     if s.get('hrv') and s['hrv'].get('status'):
         h = s['hrv']
-        base = h.get('baseline_7d', '?')
         delta = h.get('delta_pct', 0)
-        rows.append(f"| HRV | {h.get('value','?')} | {_emoji(h['status'])} | vs base {base} ({delta:+.1f}%) |")
-    # RHR
+        rows.append(f"| HRV | {h.get('value','?')} | {_emoji(h['status'])} | vs base {h.get('baseline_7d','?')} ({delta:+.1f}%) |")
     if s.get('rhr') and s['rhr'].get('status'):
         h = s['rhr']
-        base = h.get('baseline_7d', '?')
         delta = h.get('delta_bpm', 0)
-        rows.append(f"| RHR | {h.get('value','?')} bpm | {_emoji(h['status'])} | vs base {base} ({delta:+.1f} bpm) |")
-    # Sleep
+        rows.append(f"| RHR | {h.get('value','?')} bpm | {_emoji(h['status'])} | vs base {h.get('baseline_7d','?')} ({delta:+.1f} bpm) |")
     if s.get('sleep') and s['sleep'].get('status'):
         h = s['sleep']
         quality_map = {1:'GREAT', 2:'OK', 3:'POOR', 4:'WORST'}
         quality_str = quality_map.get(h.get('quality'), '?')
-        rows.append(f"| Sleep | Score {h.get('hours','?')}h | {_emoji(h['status'])} | calidad {quality_str} |")
-    # ACWR
+        rows.append(f"| Sleep | {h.get('hours','?')}h | {_emoji(h['status'])} | calidad {quality_str} |")
     if s.get('acwr') and s['acwr'].get('status'):
         h = s['acwr']
         rows.append(f"| ACWR | {h.get('value','?')} | {_emoji(h['status'])} | — |")
-    # RI
     if s.get('ri') and s['ri'].get('status'):
         h = s['ri']
-        ayer = h.get('value_yesterday', '?')
-        rows.append(f"| RI | {h.get('value','?')} | {_emoji(h['status'])} | ayer {ayer} |")
-    # TSB
+        rows.append(f"| RI | {h.get('value','?')} | {_emoji(h['status'])} | ayer {h.get('value_yesterday','?')} |")
     if s.get('tsb') and s['tsb'].get('status'):
         h = s['tsb']
         rows.append(f"| TSB | {h.get('value','?')} | {_emoji(h['status'])} | — |")
 
-    table = f"""**SEMÁFORO READINESS · {date_str}**
+    table = f"""**SEMAFORO READINESS · {date_str}**
 
 | Señal | Valor | Estado | Nota |
 |-------|-------|--------|------|
@@ -257,34 +248,31 @@ def render_readiness_visuals(latest: dict, history: dict, out_dir: str = 'output
       1. Radar ImReady4 PNG  → saved to out_dir/imready4_radar.png
       2. Semaphore markdown table string
 
-    Args:
-        latest:  parsed latest.json dict
-        history: parsed history.json dict
-        out_dir: folder for output file
+    RHR SOURCE: always resting_hr (current_metrics.resting_hr).
+    Baseline history also uses resting_hr field — no snapshot mixing.
 
-    Returns:
-        (png_path: str, table_md: str)
+    Returns: (png_path: str, table_md: str)
     """
     os.makedirs(out_dir, exist_ok=True)
 
     # ── Extract today's values ────────────────
     cm   = latest.get('current_metrics', latest.get('current_status', {}).get('current_metrics', {}))
-    dm   = latest.get('derived_metrics', {})
     rd   = latest.get('readiness_decision', {})
     sigs = rd.get('signals', {})
 
     rmssd_today = cm.get('hrv_snapshot_rmssd') or cm.get('hrv')
-    rhr_today   = cm.get('resting_hr_snapshot') or cm.get('resting_hr')
+    # RHR: always use resting_hr — never resting_hr_snapshot
+    rhr_today   = cm.get('resting_hr')
 
     # ── Build 30-day history for z-score ──────
+    # RHR history: always resting_hr field — consistent with today's value
     daily_90d = history.get('daily_90d', []) if history else []
     hist_entries = []
     for d in daily_90d:
-        r = d.get('rmssd') or d.get('hrv')
-        rh = d.get('rhr') or d.get('resting_hr')
+        r  = d.get('rmssd') or d.get('hrv')
+        rh = d.get('resting_hr') or d.get('rhr')
         if r and rh:
             hist_entries.append({'rmssd': float(r), 'rhr': float(rh)})
-    # Sort oldest first
     hist_entries = hist_entries[:30]
 
     scoreHRV, scoreRHR = compute_scores(rmssd_today, rhr_today, hist_entries)
@@ -297,7 +285,6 @@ def render_readiness_visuals(latest: dict, history: dict, out_dir: str = 'output
         if sh is not None and sr is not None:
             trail_scores.append((sh, sr))
 
-    # If can't compute trail z-scores from sub-windows, fallback: use today's scores shifted
     label, detail, code = getScore(scoreHRV, scoreRHR)
 
     # ── FIGURE ───────────────────────────────
@@ -308,33 +295,27 @@ def render_readiness_visuals(latest: dict, history: dict, out_dir: str = 'output
     ax.set_ylim(-8.5, 10.8)
     ax.axis('off')
 
-    # Athlete name from latest
-    athlete_loc = latest.get('athlete_profile', {}).get('location', 'Athlete')
+    athlete_loc  = latest.get('athlete_profile', {}).get('location', 'Athlete')
     athlete_name = athlete_loc.split(',')[0] if athlete_loc else 'Athlete'
     fig.suptitle(f"{athlete_name}: advice", fontsize=12, y=0.98)
 
-    # §2.4 Zones (order: background first)
     zone_table = [
-        (-3, 3,  -3,  3,   (220/255, 220/255, 220/255)),  # Background
-        (1.7, 3, -3, -1,   (255/255,   0/255,   0/255)),  # REST!
-        (-2, 1.7,-3, -1,   (255/255, 165/255,   0/255)),  # LIT (bottom)
-        (-3, -2,  0,  3,   (255/255, 165/255,   0/255)),  # LIT (left)
-        (-2, 1.7,-1,  3,   (200/255, 255/255, 200/255)),  # Normal
-        (-1,  1,  1,  3,   (  0/255, 255/255,   0/255)),  # HIT
-        (-3, -2, -3, -1,   (160/255, 160/255, 160/255)),  # Rest
+        (-3, 3,  -3,  3,   (220/255, 220/255, 220/255)),
+        (1.7, 3, -3, -1,   (255/255,   0/255,   0/255)),
+        (-2, 1.7,-3, -1,   (255/255, 165/255,   0/255)),
+        (-3, -2,  0,  3,   (255/255, 165/255,   0/255)),
+        (-2, 1.7,-1,  3,   (200/255, 255/255, 200/255)),
+        (-1,  1,  1,  3,   (  0/255, 255/255,   0/255)),
+        (-3, -2, -3, -1,   (160/255, 160/255, 160/255)),
     ]
     for (xL, xR, yB, yU, col) in zone_table:
         drawZone(ax, xL, xR, yB, yU, col)
 
-    # §2.5 Grid
     drawGrid(ax)
 
-    # §2.6 Trail + today
     sh_today = scoreHRV if scoreHRV is not None else 0.0
     sr_today = scoreRHR if scoreRHR is not None else 0.0
     drawTrailAndToday(ax, trail_scores, (sh_today, sr_today))
-
-    # §2.7 Central label
     drawReady4(ax, label, code, detail, scoreHRV, scoreRHR, rmssd_today, rhr_today)
 
     png_path = os.path.join(out_dir, 'imready4_radar.png')
@@ -344,10 +325,6 @@ def render_readiness_visuals(latest: dict, history: dict, out_dir: str = 'output
 
     # ── §3 Semaphore table ───────────────────
     p_ladder_map = {'go': 3, 'modify': 2, 'reduce': 1, 'skip': 0}
-    priority_raw = rd.get('priority', 3)
-    p_section11  = 3 - (priority_raw - 3) if isinstance(priority_raw, int) else 3
-    # Map priority integer directly (P3=green, P2=modify, P1=reduce, P0=stop)
-    p_section11 = max(0, min(3, 6 - priority_raw)) if isinstance(priority_raw, int) else 3
     rec = rd.get('recommendation', 'go')
     p_section11 = p_ladder_map.get(rec, 3)
 
