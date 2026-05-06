@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-06T06:39:17.261035",
+    "last_updated": "2026-05-06T09:10:28.927653",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -649,7 +649,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-06T06:39:17.259778",
+    "calculation_timestamp": "2026-05-06T09:10:28.926311",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -5529,13 +5529,13 @@
       "name": "IntervalCoach - Threshold Endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 156,
+      "planned_tss": 155,
       "duration_hours": 2.87,
-      "duration_formatted": "2h52m",
+      "duration_formatted": "2h52m10s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey Marcos! Let's get this long sweet spot ride going. 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 59m 65-75% 85rpm\n- SS Low 15m 88% 88rpm\n- SS Mid 10m 91% 90rpm\n- Threshold 5m 95% 92rpm\n- Endurance 58m 65-75% 85rpm\n\nCooldown\n- Awesome work, Marcos! Enjoy the recovery spin. 10m ramp 65-45% 85rpm"
+      "description": "Warmup\n- Hey Marcos! Let's get this long sweet spot ride going. 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 59m 65-75% 85rpm\n- Press Lap 10s 0%\n- SS Low 15m 88% 88rpm\n- SS Mid 10m 91% 90rpm\n- Threshold 5m 95% 92rpm\n- Endurance 58m 65-75% 85rpm\n\nCooldown\n- Awesome work, Marcos! Enjoy the recovery spin. 10m ramp 65-45% 85rpm"
     },
     {
       "id": 108432054,
