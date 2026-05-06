@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-06T20:47:27.762643",
+    "last_updated": "2026-05-06T22:01:03.106884",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -652,10 +652,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.54,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.58,
+          "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 2,
-          "current_week_hard_days_total": 5,
+          "current_week_hard_days_total": 6,
           "race_proximity": 45,
           "next_week_load": 1.25,
           "plan_coverage_current_week": 1.0,
@@ -694,7 +694,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 69.0,
-    "calculation_timestamp": "2026-05-06T20:47:27.761413",
+    "calculation_timestamp": "2026-05-06T22:01:03.105512",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -5746,17 +5746,18 @@
       "description": "Warmup\n- Hey Marcos! Let's get this long sweet spot ride going. 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 59m 65-75% 85rpm\n- Press Lap 10s 0%\n- SS Low 15m 88% 88rpm\n- SS Mid 10m 91% 90rpm\n- Threshold 5m 95% 92rpm\n- Endurance 58m 65-75% 85rpm\n\nCooldown\n- Awesome work, Marcos! Enjoy the recovery spin. 10m ramp 65-45% 85rpm"
     },
     {
-      "id": 108432054,
+      "id": 108657686,
       "date": "2026-05-07",
-      "name": "QH Build W1 | Recuperaci\u00f3n Activa Z1",
+      "name": "IntervalCoach - Sweet Spot",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 38,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
+      "planned_tss": 54,
+      "duration_hours": 0.73,
+      "duration_formatted": "44m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "## QH Build W1 | Recuperaci\u00f3n Activa Z1\n## TSS objetivo: ~35 | Duraci\u00f3n: 1h30 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:** El cuerpo se adapta cuando descansa, no cuando entrena. El jueves es sagrado. Pedalear suave hoy es tan importante como los intervalos de ayer. Visualiza el Portalet: sales en cabeza de carrera, sin aglomeraciones, a tu ritmo, con piernas frescas. Ese es el plan.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\n- Pre-entreno: fruta + yogur. Ligero.\n- Durante: solo agua o bebida hipot\u00f3nica. No necesitas geles hoy.\n- Post: comida normal equilibrada. Buena hidrataci\u00f3n.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\n- REGLA DE ORO: si superas 135 bpm \u2192 reduce inmediatamente.\n- Pedaleo suave, cadencia libre (70\u201385 rpm), sin forzar absolutamente nada.\n- Si tienes agujetas o pesadez de piernas \u2192 es normal. Este rodaje las elimina.\n- Ruta plana preferible. Si hay subidas, baja marcha y mant\u00e9n potencia Z1.\n\n---\n\nWarmup\n- Activaci\u00f3n suave 10m 45-55%\n\nMain Set\n- Z1 recuperaci\u00f3n 1h 50-60% freeride\n\nCooldown\n- 10m 45-50%"
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Marcos! Steady state awaits. 7m ramp 45-75% 85rpm\n\nMain Set\n- Sustained SS 33m 88-94% 90rpm\n\nCooldown\n- Awesome work, Marcos. Spin easy now. 4m ramp 65-45% 85rpm"
     },
     {
       "id": 108432058,
