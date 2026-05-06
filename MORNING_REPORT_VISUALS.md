@@ -1,10 +1,10 @@
 # MORNING REPORT VISUALS — Rendering Spec
-> Version: 2.1 (2026-05-06)
+> Version: 2.2 (2026-05-06)
 
-El morning report genera **exactamente dos imágenes**, en este orden:
+El morning report genera **exactamente una imagen**, seguida de una tabla Markdown:
 
 1. **Imagen 1 — Radar ImReady4** (fiel al código MATLAB v4.42)
-2. **Imagen 2 — Semáforo P0–P3** (6 señales compuestas, Section 11)
+2. **Tabla — Semáforo P0–P3** (6 señales compuestas, Section 11, en Markdown)
 
 Nada más. No hay paneles auxiliares, no hay HR/Power de ayer, no hay métricas de carga en las imágenes. Esos datos van en el texto del report.
 
@@ -12,12 +12,12 @@ Nada más. No hay paneles auxiliares, no hay HR/Power de ayer, no hay métricas 
 
 ## 1. CUÁNDO RENDERIZAR
 
-Renderizar ambas imágenes siempre que el usuario pida:
+Renderizar la imagen + tabla siempre que el usuario pida:
 - "pre-workout report" / "informe de mañana" / "readiness de hoy"
 - "cómo estoy hoy" / "puedo entrenar" / "morning report"
 - cualquier consulta de estado antes de una sesión planificada
 
-Las imágenes van **antes** del texto de recomendación.
+La imagen y la tabla van **antes** del texto de recomendación.
 
 ---
 
@@ -214,7 +214,9 @@ def getScore(scoreHRV, scoreRHR):
 
 ---
 
-## 3. IMAGEN 2 — SEMÁFORO P0–P3
+## 3. TABLA — SEMÁFORO P0–P3 (Markdown)
+
+En lugar de una imagen, el semáforo se renderiza como una tabla Markdown inmediatamente después del radar.
 
 ### 3.1 Lógica de señales (6 señales)
 
@@ -263,37 +265,34 @@ else:
     final_level = p_section11
 ```
 
-### 3.5 Layout de la imagen
+### 3.5 Formato de la tabla Markdown
 
-Figura apaisada (~10×5 pulgadas), fondo oscuro `#1a1a2e`:
+Generar la tabla con emojis de color y el bloque de resultado al final:
 
-```
-┌────────────────────────────────────────────────────┐
-│  SEMÁFORO READINESS  ·  {fecha}                    │
-├──────────┬─────────────────────┬───────────────────┤
-│  ● HRV   │  {valor} ms         │  {nota vs base}   │
-│  ● RHR   │  {valor} bpm        │  {nota}           │
-│  ● Sueño │  Score {valor}      │  {horas}          │
-│  ● ACWR  │  {valor}            │  {interpretación} │
-│  ● RI    │  {valor}            │  {interpretación} │
-│  ● TSB   │  {valor}            │  {interpretación} │
-├──────────┴─────────────────────┴───────────────────┤
-│  SECTION 11: P{n}  ·  ImReady4: {label} (P{n})    │
-│  ┌─────────────────────────────────────────────┐   │
-│  │  P{final}  →  {ACCIÓN}                      │   │
-│  └─────────────────────────────────────────────┘   │
-└────────────────────────────────────────────────────┘
+```markdown
+**SEMÁFORO READINESS · {fecha}**
+
+| Señal | Valor | Estado | Nota |
+|-------|-------|--------|------|
+| HRV   | {val} ms | 🟢/🟡/🔴 | vs base {base} ms ({delta:+.0f}%) |
+| RHR   | {val} bpm | 🟢/🟡/🔴 | vs base {base} (+{delta} bpm) |
+| Sleep | Score {val} | 🟢/🟡/🔴 | {horas} |
+| ACWR  | {val} | 🟢/🟡/🔴 | {interpretación} |
+| RI    | {val} | 🟢/🟡/🔴 | {interpretación} |
+| TSB   | {val} | 🟢/🟡/🔴 | {interpretación} |
+
+**Section 11: P{n} · ImReady4: {label} (P{n}) → Nivel final: P{final} {ACCIÓN}**
 ```
 
-- Cada fila de señal: círculo coloreado (verde/ámbar/rojo) a la izquierda, nombre, valor y nota
-- Banner final: fondo del color del nivel P, texto grande `P{n} → {ACCIÓN}`
-- Fuente monoespaciada para valores
+- Usar emoji `🟢` `🟡` `🔴` para el estado de cada señal.
+- La fila de resultado final va en negrita fuera de la tabla.
+- Si una señal es `null`, omitir la fila.
 
 ---
 
 ## 4. FORMATO DE TEXTO COMPLEMENTARIO
 
-Después de las dos imágenes, el coach añade el bloque de texto:
+Después de la imagen y la tabla, el coach añade el bloque de texto:
 
 ```
 ═══════════════════════════════════════════
@@ -328,4 +327,4 @@ Nota del coach: {2–3 frases sobre compliance, carga, contexto}
 - Umbrales del semáforo (§3.1) se revisan al final de cada bloque de 4 semanas.
 - La lógica `getScore` de ImReady4 (§2.8) NO se modifica sin actualizar también la versión MATLAB.
 - La combinación ImReady4 ↔ Section 11 (§3.4) toma siempre el nivel más conservador.
-- Versión: `2.1 (2026-05-06)` — correcciones: drawZone con arcos curvos (n_arc=100), drawGrid con arcos via to_xy, fuente rMSSD → hrv_snapshot_rmssd, textos de score fuera del radar en y=−4.5/−6.4/−7.2.
+- Versión: `2.2 (2026-05-06)` — cambio: Imagen 2 semáforo eliminada; sustituida por tabla Markdown (§3.5).
