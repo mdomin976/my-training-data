@@ -98,6 +98,17 @@ When snapshot data is available, include this line in the readiness block:
 HRV Snapshot (ImReady4): <label> | rMSSD <val> ms | SDNN <val> ms | RHR <val> bpm | Source: snapshot/overnight
 ```
 
+### 6.5 Readiness Visuals — Obligatorio
+
+> **REGLA OBLIGATORIA**: Cualquier informe que incluya métricas de readiness — pre-workout report, morning report, "cómo estoy hoy", "puedo entrenar", consulta de estado o similar — **debe renderizar siempre**:
+>
+> 1. **Imagen — Radar ImReady4**: generar el gráfico radar según la especificación completa de `MORNING_REPORT_VISUALS.md` §2 (zonas de color, grid, trail 5 días, punto de hoy, círculo central con label).
+> 2. **Tabla Markdown — Semáforo P0–P3**: generar la tabla con las 6 señales (HRV, RHR, Sleep, ACWR, RI, TSB) con emojis 🟢🟡🔴 y el nivel final en negrita, según `MORNING_REPORT_VISUALS.md` §3.
+>
+> Ambos elementos van **antes** del texto de recomendación del coach.
+> No omitir ninguno de los dos aunque el usuario no los pida explícitamente.
+> Referencia de renderizado: `MORNING_REPORT_VISUALS.md` versión 2.2 o superior.
+
 ---
 
 <!--
