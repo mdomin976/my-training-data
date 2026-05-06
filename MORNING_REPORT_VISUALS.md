@@ -1,5 +1,5 @@
 # MORNING REPORT VISUALS — Rendering Spec
-> Version: 2.0 (2026-05-06)
+> Version: 2.1 (2026-05-06)
 
 El morning report genera **exactamente dos imágenes**, en este orden:
 
@@ -27,13 +27,18 @@ Las imágenes van **antes** del texto de recomendación.
 
 La implementación replica fielmente el código MATLAB ImReady4 v4.42 (`chartBackground`, `drawZone`, `drawGrid`, `drawReady4`, `getScore`). Python es el lenguaje de ejecución; la lógica es idéntica.
 
-### 2.2 Cálculo de scores (z-scores sobre ventana 30d)
+### 2.2 Fuente del rMSSD y cálculo de scores (z-scores sobre ventana 30d)
+
+> **CRÍTICO — fuente del rMSSD:**
+> Usar **`hrv_snapshot_rmssd`** de `latest.json` → `current_metrics.hrv_snapshot_rmssd` para el valor de hoy.
+> El campo `hrv` de `latest.json` es el HRV4Training score (0–100), **NO** el rMSSD en ms. No usarlo para el cálculo de scoreHRV.
+> Para el trail (días previos), usar `history.json` campo `rmssd` (en ms).
 
 ```python
 # Igual que MATLAB v4.42
-HRV_rMSSD = 20 * log(rMSSD)   # log natural
+HRV_rMSSD = 20 * log(rMSSD)   # log natural; rMSSD en ms
 
-# Para cada día i en los últimos 30:
+# Para cada día i en los últimos 30 (desde history.json):
 window = HRV_rMSSD[i : i+30]
 scoreHRV = (HRV_rMSSD[i] - mean(window)) / std(window)
 
@@ -51,11 +56,37 @@ r     = -scoreHRV + 6
 theta = scoreRHR / 3 * angLimit
 X = r * sin(theta)
 Y = r * cos(theta)
+
+# Función helper reutilizable:
+def to_xy(scoreHRV, scoreRHR):
+    r     = -scoreHRV + 6
+    theta = scoreRHR / 3 * angLimit
+    return r * sin(theta), r * cos(theta)
 ```
 
 ### 2.4 Zonas de color (drawZone en MATLAB)
 
-Las zonas se dibujan aplicando la misma transformación polar a los vértices rectangulares:
+> **CRÍTICO — bordes curvos:**
+> Las zonas NO se dibujan interpolando solo las 4 esquinas del rectángulo. Los bordes de arco (yB y yU constantes) deben generarse con **≥100 puntos interpolados** en la dirección de scoreRHR para producir los bordes curvos propios de la proyección polar. Los bordes radiales (xL y xR constantes) sí son líneas rectas en el espacio XY.
+
+```python
+def drawZone(ax, xL, xR, yB, yU, color, n_arc=100, zorder=1):
+    """
+    xL, xR = límites de scoreRHR (→ eje angular)
+    yB, yU = límites de scoreHRV  (→ radio)
+    Bordes de arco: interpolar n_arc puntos en scoreRHR con sHRV fijo.
+    Bordes radiales: dos puntos extremos (recta en XY).
+    """
+    sRHR_arc = linspace(xL, xR, n_arc)
+    # Arco inferior (sHRV = yB, de xL a xR)
+    bot = [to_xy(yB, s) for s in sRHR_arc]
+    # Arco superior (sHRV = yU, de xR a xL — cierre antihorario)
+    top = [to_xy(yU, s) for s in reversed(sRHR_arc)]
+    verts = bot + top + [bot[0]]
+    ax.fill([p[0] for p in verts], [p[1] for p in verts], color=color, zorder=zorder)
+```
+
+Tabla de zonas (orden de dibujado: primero el fondo, luego en orden):
 
 | Zona     | xL   | xR   | yB   | yU   | Color RGB        |
 |----------|------|------|------|------|-----------------|
@@ -67,54 +98,81 @@ Las zonas se dibujan aplicando la misma transformación polar a los vértices re
 | HIT      | −1   | +1   | +1   | +3   | 0, 255, 0       |
 | Rest     | −3   | −2   | −3   | −1   | 160, 160, 160   |
 
-> IMPORTANTE: en `drawZone`, el parámetro `yB` es el límite inferior y `yU` el superior. La zona se dibuja como polígono cerrado con los 4 lados transformados a coordenadas polares. Ver MATLAB para el orden exacto de vértices.
-
 ### 2.5 Grid (drawGrid en MATLAB)
 
-- **Líneas radiales**: para cada entero i de −3 a +3, dibujar línea desde r=2.8 hasta r=9.2 en ángulo `theta = i/3 * angLimit`
-- **Arcos concéntricos**: para cada entero r de −3 a +3, dibujar arco de radio `r+6` desde −angLimit a +angLimit
-- Líneas en 0 y ±3: `lw=1.0, ls='-'`
-- Líneas en ±1, ±2: `lw=0.75, ls='--'`
+> **CRÍTICO — arcos del grid:**
+> Los arcos concéntricos se generan pasando `sHRV = i` (constante) con `sRHR` variando de −3 a +3 a través de `to_xy`. **NO** son círculos simples de radio `r+6` centrados en el origen; eso produce arcos incorrectos. Usar ≥300 puntos.
+
+```python
+for i in range(-3, 4):
+    lw = 1.0 if i in (-3, 0, 3) else 0.75
+    ls = '-'  if i in (-3, 0, 3) else '--'
+
+    # Líneas radiales (sRHR = i, r varía de 2.8 a 9.2)
+    theta_i = i / 3 * angLimit
+    x0, y0 = 2.8 * sin(theta_i), 2.8 * cos(theta_i)
+    x1, y1 = 9.2 * sin(theta_i), 9.2 * cos(theta_i)
+    ax.plot([x0, x1], [y0, y1], color=grid_color, lw=lw, ls=ls)
+
+    # Arcos concéntricos: sHRV = i constante, sRHR varía de -3 a +3
+    sRHR_arr = linspace(-3, 3, 300)
+    xs = [to_xy(i, s)[0] for s in sRHR_arr]
+    ys = [to_xy(i, s)[1] for s in sRHR_arr]
+    ax.plot(xs, ys, color=grid_color, lw=lw, ls=ls)
+```
+
 - Color de grid: `[100, 100, 100] / 255`
-- Etiquetas numéricas en borde exterior (`r=9.2`) e interior (`r=2.8`)
+- Etiquetas numéricas en borde exterior (`r=9.2`, usar theta de cada i) e interior (`r=2.8`)
 
 ### 2.6 Elementos dinámicos
 
 ```
-TRAIL (últimos 5 días, excluyendo hoy):
+TRAIL (últimos 5 días, excluyendo hoy — desde history.json):
 - Línea discontinua negra conectando los puntos (k--)
-- Para cada punto i (i=2 es ayer, i=5 es hace 4 días):
-    ms   = 4 + (n/i) / 2          # tamaño marcador
-    ic   = 0.5 + (i/n) / 2        # intensidad gris
-    color = [ic, ic, ic]
-    marker: 'o', facecolor=color, edgecolor='k'
+- Para cada punto idx (0=más antiguo, n-1=ayer):
+    i_rank = idx + 2        # i=2 es ayer, i=n+1 es más antiguo
+    n      = n_trail + 1
+    ms     = 4 + (n / i_rank) / 2     # tamaño marcador
+    ic     = min(0.5 + (i_rank / n) / 2, 1.0)   # intensidad gris
+    color  = (ic, ic, ic)
+    marker: 'o', facecolor=color, edgecolor='k', edgewidth=0.5
 
-PUNTO DE HOY (i=1):
-- plot3([xx xx],[yy yy],[0 0], 'k-')   # línea vertical al centro
-- Círculo azul grande: 'o', facecolor='b', edgecolor='w', size=14
+PUNTO DE HOY:
+- Línea desde (0,0) hasta (xx, yy): color='k', lw=0.5
+- Círculo azul grande:  'o', facecolor='b', edgecolor='w', size=14, ew=1.5
 - Círculo blanco encima: 'o', facecolor='w', edgecolor='w', size=10
-- Estrella encima: '*', facecolor='b', edgecolor='b', size=16
+- Estrella encima:       '*', color='b', size=16
 ```
 
 ### 2.7 Círculo central con label (drawReady4)
 
 ```python
 # Polígono de 100 lados centrado en (0,0), radio=2
-circle = nsidedpoly(100, center=(0,0), radius=2)
-fill(circle, color=zone_color)
+theta_c = linspace(0, 2*pi, 100)
+cx = 2 * cos(theta_c)
+cy = 2 * sin(theta_c)
+ax.fill(cx, cy, color=zone_colors[code])
+ax.plot(cx, cy, color='gray', lw=0.6)
 
 # Texto grande: label (HIT / LIT / Normal / REST! / Rest / LIT!)
-text(0, 0, label, ha='center', va='middle', fontsize=14, fontweight='bold')
+ax.text(0, 0.3, label, ha='center', va='center', fontsize=15, fontweight='bold')
 
-# Texto pequeño debajo: descripción de 2 líneas
-text(0, -4.5, detail_line1 + '\n' + detail_line2, ha='center', va='middle', fontsize=12)
+# Texto pequeño con detalle: FUERA del radar, en y = -4.5
+ax.text(0, -4.5, detail_line1 + '\n' + detail_line2,
+        ha='center', va='center', fontsize=11, linespacing=1.5)
+
+# Scores en y = -6.4 y -7.2 (fuente monoespaciada)
+ax.text(0, -6.4, f"scoreHRV  {sHRV:+.2f}   │   scoreRHR  {sRHR:+.2f}",
+        ha='center', fontsize=9, fontfamily='monospace')
+ax.text(0, -7.2, f"rMSSD: {rmssd} ms   │   RHR: {rhr} bpm",
+        ha='center', fontsize=8.5, fontfamily='monospace')
 ```
 
 ### 2.8 Lógica getScore (MATLAB v4.42 — traducción exacta)
 
 ```python
 def getScore(scoreHRV, scoreRHR):
-    if isnan(scoreRHR) or isnan(scoreHRV):
+    if scoreRHR is None or scoreHRV is None or isnan(scoreRHR) or isnan(scoreHRV):
         return "...?", ["No HRV data Today", "Take a measurement."], 7
     elif scoreRHR <= 1 and scoreRHR > -1 and scoreHRV > 1:
         return "HIT",    ["Ready for", "Intensive Training"], 1
@@ -146,11 +204,13 @@ def getScore(scoreHRV, scoreRHR):
 | 6    | REST!  | 255, 120, 120        |
 | 7    | —      | 255, 255, 255        |
 
-### 2.10 Dimensiones y fondo
+### 2.10 Dimensiones, ejes y fondo
 
-- Figura cuadrada o ligeramente apaisada. Fondo: blanco o claro (fiel al MATLAB original)
-- El radar ocupa toda la figura — sin paneles auxiliares
-- Título: `"{nombre atleta}: advice"` (como en MATLAB `h.Name`)
+- Figura cuadrada (~7×7.5 pulgadas). Fondo: blanco (fiel al MATLAB original).
+- El radar ocupa toda la figura — sin paneles auxiliares.
+- `ax.set_xlim(-10.8, 10.8)` · `ax.set_ylim(-8.5, 10.8)` — dejar espacio inferior para textos de score.
+- `ax.axis('off')` — sin ejes cartesianos visibles.
+- Título: `"{nombre atleta}: advice"` (como en MATLAB `h.Name`).
 
 ---
 
@@ -254,8 +314,10 @@ Nota del coach: {2–3 frases sobre compliance, carga, contexto}
 
 ## 5. FUENTES DE DATOS
 
-- **scoreHRV / scoreRHR**: calcular desde `history.json` (rMSSD + RHR de los últimos 30 días) usando la fórmula §2.2
-- **Trail 5 días**: los 5 registros más recientes de `history.json`
+- **rMSSD de hoy**: `latest.json` → `current_metrics.hrv_snapshot_rmssd` (valor en ms)
+- **rMSSD trail + RHR trail**: `history.json` campos `rmssd` y `rhr` de los últimos 30 días
+- **scoreHRV / scoreRHR**: calcular con la fórmula §2.2 usando la ventana de history.json
+- **Trail 5 días**: los 5 registros con datos válidos más recientes de `history.json` (excluyendo hoy)
 - **Semáforo signals**: desde `latest.json` (campos `hrv`, `resting_hr`, `sleep_score`, `acwr`, `recovery_index`, `tsb`, baselines)
 - Si `history.json` no está disponible, usar los scores pre-computados de `latest.json` (`derived_metrics`)
 
@@ -266,4 +328,4 @@ Nota del coach: {2–3 frases sobre compliance, carga, contexto}
 - Umbrales del semáforo (§3.1) se revisan al final de cada bloque de 4 semanas.
 - La lógica `getScore` de ImReady4 (§2.8) NO se modifica sin actualizar también la versión MATLAB.
 - La combinación ImReady4 ↔ Section 11 (§3.4) toma siempre el nivel más conservador.
-- Versión: `2.0 (2026-05-06)`
+- Versión: `2.1 (2026-05-06)` — correcciones: drawZone con arcos curvos (n_arc=100), drawGrid con arcos via to_xy, fuente rMSSD → hrv_snapshot_rmssd, textos de score fuera del radar en y=−4.5/−6.4/−7.2.
