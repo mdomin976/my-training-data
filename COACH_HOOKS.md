@@ -1,5 +1,5 @@
 # COACH_HOOKS.md
-**Version:** 1.0  
+**Version:** 1.1  
 **Last updated:** 2026-05-06  
 **Priority:** HIGHEST — these rules override all other documents including SECTION_11 and DOSSIER for execution order.
 
@@ -13,59 +13,54 @@ This file defines **mandatory execution hooks** that the AI coach must run autom
 This hook fires on **ANY** of the following query types:
 - Pre-workout report
 - Morning report / readiness check
-- “cómo estoy hoy” / “how am I today”
-- “puedo entrenar” / “can I train”
+- "cómo estoy hoy" / "how am I today"
+- "puedo entrenar" / "can I train"
 - Any query asking about current readiness, state, or go/modify/skip decision
 - Any report that includes HRV, RHR, Sleep, ACWR, RI, or TSB metrics
 
 ### What to execute — mandatory, no exceptions
 
-**Step A — Radar ImReady4**  
-Execute `READINESS_VISUALS_IMPL.py::render_readiness_visuals(latest, history)` using the `execute_code` tool.  
-The function returns `(png_path, table_md)`.  
-Display the PNG inline before any coaching text using the image output from the code execution.
+**Step A — Fetch and run READINESS_VISUALS_IMPL.py**
+1. Fetch the file content from:
+   `https://raw.githubusercontent.com/mdomin976/my-training-data/main/READINESS_VISUALS_IMPL.py`
+2. Copy the **full source code** into an `execute_code` tool call.
+3. Append at the end of the code block:
+   ```python
+   render_readiness_visuals(latest, history)
+   ```
+   where `latest` and `history` are the parsed JSON objects from `latest.json` and `history.json`.
+4. The function returns `(png_path, table_md)`. Display the PNG inline.
 
-If code execution is unavailable in the current environment, generate the radar using the fallback procedure below.
-
-**Step B — Semaphore table**  
-Use the `table_md` string returned by `render_readiness_visuals()` verbatim.  
-If code execution failed, build the semaphore table manually from `readiness_decision.signals` in `latest.json` following MORNING_REPORT_VISUALS.md §3.
+**Step B — Semaphore table**
+Use the `table_md` string returned by `render_readiness_visuals()` verbatim as the semaphore table.
 
 ### Output order
 ```
-1. [Radar PNG image]
-2. [Semaphore table markdown]
+1. [Radar PNG image]          ← from Step A
+2. [Semaphore table markdown] ← from Step B (table_md)
 3. [Coach readiness text / recommendation]
 ```
 Do NOT reorder. Do NOT skip either visual even if the user did not explicitly request them.
 
-### Fallback — when execute_code is unavailable
-If the `execute_code` tool is not available or throws an error:
-1. **Radar:** Render a text-art approximation using the zone label from `getScore(scoreHRV, scoreRHR)` and display the zone code prominently (e.g. `⭐ ZONE: Normal — Go on! Train as planned.`)
-2. **Semaphore table:** Build manually from `readiness_decision.signals` using the 🟢🟡🔴 logic in MORNING_REPORT_VISUALS.md §3. This table is **never** optional — it must always be rendered.
+### Fallback — when execute_code or fetch fails
+If `READINESS_VISUALS_IMPL.py` cannot be fetched or `execute_code` throws an error:
 
-### How to compute scoreHRV and scoreRHR
-Use the 30-day rolling window from `history.json > daily_90d[]`:
-```
-scoreHRV = (ln(rMSSD_today) × 20 - mean_30d) / std_30d
-scoreRHR = (RHR_today - mean_30d_rhr) / std_30d_rhr
-```
-Source fields in `latest.json`:
-- `rMSSD_today` → `current_metrics.hrv_snapshot_rmssd`
-- `RHR_today`   → `current_metrics.resting_hr_snapshot`
+1. **Radar:** Generate the radar manually using `execute_code` with inline Matplotlib code.
+   Read all signal values from `readiness_decision.signals` in `latest.json` (fields: `hrv`, `rhr`, `sleep`, `acwr`, `ri`, `tsb` — each has `status`, `value`, and baseline fields).
+   Map status to score: `green = 1.0`, `amber = 0.5`, `red = 0.1`, `unavailable = 0`.
 
-If < 5 days of history exist, scoreHRV = scoreRHR = null → zone = `"...?"` per `getScore()` spec.
+2. **Semaphore table:** Build manually from `readiness_decision.signals` using 🟢🟡🔴⚪ for `green/amber/red/unavailable`.
+   This table is **never** optional — it must always be rendered.
 
-### Zone → Colour mapping
-| Code | Zone label | Colour       |
-|------|------------|--------------|
-| 1    | HIT        | 🟢 Green       |
-| 2    | LIT        | ⚪ Light grey  |
-| 3    | LIT!       | 🟡 Amber       |
-| 4    | Normal     | 🟢 Light green |
-| 5    | Rest       | ⚪ Grey        |
-| 6    | REST!      | 🔴 Red         |
-| 7    | ...?       | ⚪ White       |
+### Signal field reference (latest.json)
+| Signal | Path | Key sub-fields |
+|--------|------|----------------|
+| HRV | `readiness_decision.signals.hrv` | value, baseline_7d, delta_pct, status |
+| RHR | `readiness_decision.signals.rhr` | value, baseline_7d, delta_bpm, status |
+| Sleep | `readiness_decision.signals.sleep` | hours, quality, status |
+| ACWR | `readiness_decision.signals.acwr` | value, status |
+| RI | `readiness_decision.signals.ri` | value, value_yesterday, status |
+| TSB | `readiness_decision.signals.tsb` | value, status |
 
 ---
 
@@ -77,4 +72,4 @@ If < 5 days of history exist, scoreHRV = scoreRHR = null → zone = `"...?"` per
 When adding a new hook:
 1. Increment version in header
 2. Add HOOK-NN section with Trigger + What to execute + Output order + Fallback
-3. If a new `.py` implementation file is needed, commit it to this repo alongside this file
+3. Visual implementation lives in `READINESS_VISUALS_IMPL.py` — update that file if chart logic changes, not this one
