@@ -1,7 +1,7 @@
 """READINESS_VISUALS_IMPL.py
 Executable implementation — ImReady4 v4.42
 Call render_readiness_visuals(latest, history) from any pre-workout or readiness report.
-Returns: (png_path, markdown_table_string)
+Returns: png_path
 
 RHR SOURCE: always uses current_metrics.resting_hr (not resting_hr_snapshot)
 for both today's value and the 30-day baseline history.
@@ -191,74 +191,22 @@ def compute_scores(rmssd_today, rhr_today, history_daily):
         return None, None
 
 # ─────────────────────────────────────────────
-# §3  Semaphore table logic
-# ─────────────────────────────────────────────
-def _emoji(status):
-    return {'green': '🟢', 'amber': '🟡', 'red': '🔴'}.get(status, '⚪')
-
-def build_semaphore_table(signals_dict, date_str, p_section11, imready4_label, imready4_code):
-    """
-    signals_dict: from readiness_decision.signals in latest.json
-    Returns markdown string for the full semaphore table.
-    """
-    imready4_to_p = {1: 3, 4: 3, 2: 2, 3: 1, 5: 1, 6: 0, 7: None}
-    p_imready4 = imready4_to_p.get(imready4_code)
-    final_p = min(p_section11, p_imready4) if p_imready4 is not None else p_section11
-    p_labels = {0: 'STOP 🛑', 1: 'REDUCE ⚠️', 2: 'MODIFY 🟡', 3: 'GO 🟢'}
-
-    rows = []
-    s = signals_dict
-    if s.get('hrv') and s['hrv'].get('status'):
-        h = s['hrv']
-        delta = h.get('delta_pct', 0)
-        rows.append(f"| HRV | {h.get('value','?')} | {_emoji(h['status'])} | vs base {h.get('baseline_7d','?')} ({delta:+.1f}%) |")
-    if s.get('rhr') and s['rhr'].get('status'):
-        h = s['rhr']
-        delta = h.get('delta_bpm', 0)
-        rows.append(f"| RHR | {h.get('value','?')} bpm | {_emoji(h['status'])} | vs base {h.get('baseline_7d','?')} ({delta:+.1f} bpm) |")
-    if s.get('sleep') and s['sleep'].get('status'):
-        h = s['sleep']
-        quality_map = {1:'GREAT', 2:'OK', 3:'POOR', 4:'WORST'}
-        quality_str = quality_map.get(h.get('quality'), '?')
-        rows.append(f"| Sleep | {h.get('hours','?')}h | {_emoji(h['status'])} | calidad {quality_str} |")
-    if s.get('acwr') and s['acwr'].get('status'):
-        h = s['acwr']
-        rows.append(f"| ACWR | {h.get('value','?')} | {_emoji(h['status'])} | — |")
-    if s.get('ri') and s['ri'].get('status'):
-        h = s['ri']
-        rows.append(f"| RI | {h.get('value','?')} | {_emoji(h['status'])} | ayer {h.get('value_yesterday','?')} |")
-    if s.get('tsb') and s['tsb'].get('status'):
-        h = s['tsb']
-        rows.append(f"| TSB | {h.get('value','?')} | {_emoji(h['status'])} | — |")
-
-    table = f"""**SEMAFORO READINESS · {date_str}**
-
-| Señal | Valor | Estado | Nota |
-|-------|-------|--------|------|
-""" + "\n".join(rows) + "\n"
-    table += f"\n**Section 11: P{p_section11} · ImReady4: {imready4_label} (P{p_imready4 if p_imready4 is not None else '?'}) → Nivel final: P{final_p} {p_labels[final_p]}**\n"
-    return table
-
-# ─────────────────────────────────────────────
 # MAIN ENTRY POINT
 # ─────────────────────────────────────────────
-def render_readiness_visuals(latest: dict, history: dict, out_dir: str = 'output') -> tuple:
+def render_readiness_visuals(latest: dict, history: dict, out_dir: str = 'output') -> str:
     """
     Generates:
       1. Radar ImReady4 PNG  → saved to out_dir/imready4_radar.png
-      2. Semaphore markdown table string
 
     RHR SOURCE: always resting_hr (current_metrics.resting_hr).
     Baseline history also uses resting_hr field — no snapshot mixing.
 
-    Returns: (png_path: str, table_md: str)
+    Returns: png_path: str
     """
     os.makedirs(out_dir, exist_ok=True)
 
     # ── Extract today's values ────────────────
     cm   = latest.get('current_metrics', latest.get('current_status', {}).get('current_metrics', {}))
-    rd   = latest.get('readiness_decision', {})
-    sigs = rd.get('signals', {})
 
     rmssd_today = cm.get('hrv_snapshot_rmssd') or cm.get('hrv')
     # RHR: always use resting_hr — never resting_hr_snapshot
@@ -323,16 +271,7 @@ def render_readiness_visuals(latest: dict, history: dict, out_dir: str = 'output
     plt.savefig(png_path, dpi=150, bbox_inches='tight', facecolor='white')
     plt.close(fig)
 
-    # ── §3 Semaphore table ───────────────────
-    p_ladder_map = {'go': 3, 'modify': 2, 'reduce': 1, 'skip': 0}
-    rec = rd.get('recommendation', 'go')
-    p_section11 = p_ladder_map.get(rec, 3)
-
-    from datetime import date
-    date_str = date.today().isoformat()
-    table_md = build_semaphore_table(sigs, date_str, p_section11, label, code)
-
-    return png_path, table_md
+    return png_path
 
 
 # ─────────────────────────────────────────────
@@ -344,6 +283,5 @@ if __name__ == '__main__':
     history_path = sys.argv[2] if len(sys.argv) > 2 else 'history.json'
     with open(latest_path)  as f: latest  = json.load(f)
     with open(history_path) as f: history = json.load(f)
-    png, md = render_readiness_visuals(latest, history)
+    png = render_readiness_visuals(latest, history)
     print(f"Radar saved → {png}")
-    print(md)
