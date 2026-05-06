@@ -47,13 +47,23 @@ The readiness score is derived from two standardised z-scores computed against a
 ```
 HRV_rMSSD_log = 20 × ln(rMSSD)
 HRV_SDNN_log  = 20 × ln(SDNN)    [secondary, display only]
-RHR_raw       = resting_hr        [no transform]
+RHR_raw       = resting_hr_snapshot   [no transform — snapshot source]
 ```
 
-**Step 2 — Compute z-scores against 30-day rolling window:**
+> ⚠️ **Baseline consistency rule**: the RHR z-score baseline (mean_30d, std_30d) **must be computed from the same field used as today's value**.
+> - When source = **snapshot**: use the 30-day history of `resting_hr_snapshot` values to compute mean and std.
+> - When source = **overnight/fallback**: use the 30-day history of `resting_hr` values.
+> Mixing snapshot values against an overnight baseline (or vice versa) produces a systematic bias and must be avoided.
+
+**Step 2 — Compute z-scores against 30-day rolling window (same-source baseline):**
 ```
-scoreHRV = (HRV_rMSSD_log_today − mean_30d) / std_30d
-scoreRHR = (RHR_today − mean_30d) / std_30d
+# SNAPSHOT PATH
+scoreHRV = (20·ln(hrv_snapshot_rmssd_today) − mean_30d[hrv_snapshot_rmssd_log]) / std_30d[hrv_snapshot_rmssd_log]
+scoreRHR = (resting_hr_snapshot_today       − mean_30d[resting_hr_snapshot])     / std_30d[resting_hr_snapshot]
+
+# FALLBACK PATH
+scoreHRV = (20·ln(hrv_today)   − mean_30d[hrv_log])   / std_30d[hrv_log]
+scoreRHR = (resting_hr_today   − mean_30d[resting_hr]) / std_30d[resting_hr]
 ```
 Sign convention: a *higher* RHR than baseline yields a *positive* scoreRHR (stress signal).
 
@@ -98,4 +108,6 @@ HRV Snapshot (ImReady4): <label> | rMSSD <val> ms | SDNN <val> ms | RHR <val> bp
 - Focus: Monitor decoupling on the long Friday-Sunday blocks to track aerobic durability for the 200km target.
 
 No HRV snapshot methodology was defined. Readiness was calculated exclusively from overnight HRV (`hrv` field) and `resting_hr` in `current_metrics`, fed into the Section 11 P0–P3 ladder using 7-day baselines.
+
+v1 (2026-05-06 morning): RHR baseline for snapshot path incorrectly used `resting_hr` history instead of `resting_hr_snapshot` history. Fixed same day.
 -->
