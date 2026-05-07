@@ -40,6 +40,34 @@
 - Current risks: HRV bajo si regla de timing de entrenos intensos no se consolida. Monitorizar 7–14 días. Si persiste → analítica ferritina + vitamina D sérica (Tardyferon activo 95mg/día de hierro total).
 - Recommended focus next session: Leer history.json para revisar tendencia HRV 7d + cumplimiento nocturno + leer perfil HUMAN 3.0 + explorar dominios no evaluados (trabajo HoMU, pareja, foco/tiempo).
 
+## SMART Objectives — Night Protocol v1 (activos desde 07/05/2026)
+
+> Revisar en cada sesión de seguimiento. Fuente de datos: history.json (campos hrv, sleep_score, sleep_quality, timestamps de actividades).
+
+### SMART #1 — HRV media 7d
+- **Objetivo:** HRV media móvil 7d ≥ 74.2 ms (baseline 28d)
+- **Medición:** Campo `hrv` en history.json — calcular media 7d en cada sesión
+- **Estado inicial (07/05/2026):** 69.3 ms (7d) · 74.2 ms (28d) — por debajo del objetivo
+- **Revisión:** En cada sesión de seguimiento
+- **Criterio de cumplimiento:** Media 7d ≥ 74.2 ms sostenida ≥ 7 días consecutivos
+- **Alerta:** Si persiste < 74.2 ms tras 14 días de Night Protocol activo → revisar analítica ferritina + vitamina D sérica
+
+### SMART #2 — Calidad de sueño semanal
+- **Objetivo:** ≥ 5/7 noches con sleep_score ≥ 85 y sleep_quality ≤ 2 (nivel 1 o 2)
+- **Medición:** Campos `sleep_score` y `sleep_quality` en history.json — contar noches que cumplen ambas condiciones en ventana 7d
+- **Estado inicial (07/05/2026):** 2/7 noches con score ≥ 85 (media 7d score: 83) — por debajo del objetivo
+- **Revisión:** Cada sesión semanal (primera revisión: 14/05/2026)
+- **Criterio de cumplimiento:** ≥ 5/7 noches en dos semanas consecutivas
+- **Diagnóstico si no se cumple:** Identificar noche(s) fallida(s) y causa (entreno tardío, cena con alcohol, estrés laboral, pantallas)
+
+### SMART #3 — Timing entrenos intensos (regla estructural)
+- **Objetivo:** 0 sesiones >Z3 (TSS individual > 60) después de las 15:00h
+- **Medición:** Timestamps de actividades en history.json con `total_tss` > 60 — verificar hora de inicio
+- **Estado inicial (07/05/2026):** Incumplimiento identificado el 06/05 (18:52h, TSS 122) — punto de inflexión del deterioro HRV
+- **Revisión:** En cada sesión — es regla permanente, no temporal
+- **Criterio de cumplimiento:** 0 incumplimientos en la ventana revisada
+- **Registro de incumplimientos:** Fecha · hora · TSS · HRV del día siguiente (para correlación causal)
+
 ## Night Protocol (v1 — implementado 07/05/2026)
 
 ### Mecanismos objetivo
@@ -88,7 +116,7 @@
 - Key pattern detected: Sesiones de alta intensidad en franja tarde-noche (ej. threshold 18:52h del 06/05, TSS 122) → cortisol alto + temperatura core elevada al acostarse → sueño calidad nivel 2 y HRV deprimido al día siguiente. Punto de inflexión identificado: 06/05 tras sesión nocturna.
 - Science-based protocol applied: Huberman "Master Your Sleep" — ritmo circadiano como regulador primario. Temperatura core descendente (ducha tibia), luz matinal, bloqueo luz azul nocturna, shutdown cognitivo. Stack: Mg bisglicinato (GABA, parasimpático), Ashwagandha (eje HPA, cortisol), L-Theanine (transición simpático→parasimpático post-esfuerzo). Respiración 4-7-8 (nervio vago).
 - Supplement notes: Mg bisglicinato + Ashwagandha confirmados en timing correcto (noche). L-Theanine 200mg añadida. No se añadió ningún suplemento nuevo — el stack ya lo cubre.
-- Commitments made: Night Protocol v1 completo (9 pasos, 21:00–23:00) + regla estructural entrenos >Z3 antes de 15h.
+- Commitments made: Night Protocol v1 completo (9 pasos, 21:00–23:00) + regla estructural entrenos >Z3 antes de 15h + SMART objectives #1 #2 #3 definidos y guardados.
 - Follow-through from last session: primera sesión — sin compromisos previos.
 - Updated risks: HRV bajo si regla de timing de entrenos no se consolida. Monitorizar 7–14 días. Si persiste → analítica ferritina + vit D.
-- Next action: Próxima sesión — leer history.json para revisar tendencia HRV 7d + cumplimiento Night Protocol + leer perfil HUMAN 3.0 + explorar dominios no evaluados.
+- Next action: Próxima sesión — leer history.json para revisar tendencia HRV 7d + cumplimiento Night Protocol + evaluar SMART #1 #2 #3 + leer perfil HUMAN 3.0 + explorar dominios no evaluados.
