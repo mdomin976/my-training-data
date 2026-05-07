@@ -350,6 +350,7 @@ en este formato:
 • [Emoji área] Nombre del evento
 • 📅 Día y hora — Duración
 • Prioridad: P1–P5
+• Descripción: Añade aqui toda la información relevante a tener en cuenta
 ```
 
 Esperar confirmación de Marcos. Si dice "confirma" o "adelante",
