@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-07T10:01:20.553653",
+    "last_updated": "2026-05-07T12:12:33.224525",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -156,7 +156,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-05-06",
-    "age_days": 0,
+    "age_days": 1,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -185,8 +185,8 @@
       "ctl": 75.54,
       "atl": 80.72,
       "tsb": -5.18,
-      "ramp_rate": 2.37,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": 1.13,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 317.6,
@@ -617,17 +617,16 @@
         }
       }
     },
-    "consistency_index": 0.8,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 4,
       "completed_days": 5,
       "matched_days": 4,
       "planned_dates": [
         "2026-05-01",
         "2026-05-02",
         "2026-05-05",
-        "2026-05-06",
-        "2026-05-07"
+        "2026-05-06"
       ],
       "completed_dates": [
         "2026-05-01",
@@ -651,13 +650,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.52,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.37,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 2,
-          "current_week_hard_days_total": 5,
+          "current_week_hard_days_total": 4,
           "race_proximity": 44,
           "next_week_load": 1.25,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
@@ -693,13 +692,13 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-07T10:01:20.552492",
+    "calculation_timestamp": "2026-05-07T12:12:33.223253",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 5,
       "activities_28d": 20,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -5618,20 +5617,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 108657686,
-      "date": "2026-05-07",
-      "name": "IntervalCoach - Sweet Spot",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 54,
-      "duration_hours": 0.73,
-      "duration_formatted": "44m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey Marcos! Steady state awaits. 7m ramp 45-75% 85rpm\n\nMain Set\n- Sustained SS 33m 88-94% 90rpm\n\nCooldown\n- Awesome work, Marcos. Spin easy now. 4m ramp 65-45% 85rpm"
-    },
-    {
       "id": 108432058,
       "date": "2026-05-08",
       "name": "QH Build W1 | Endurance + Sweet Spot 2\u00d715'",
@@ -6256,12 +6241,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 33,
+    "attempted": 32,
     "success": 18,
     "patternA": 18,
     "patternB": 0,
     "bail_no_workout_doc": 6,
-    "bail_no_match": 15
+    "bail_no_match": 14
   },
   "weekly_summary": {
     "total_training_hours": 10.2,
