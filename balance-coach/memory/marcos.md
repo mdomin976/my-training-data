@@ -9,9 +9,28 @@
 ## Structural Context
 - Role: COO, HoMU Next (consultoría de sostenibilidad en real estate, Barcelona)
 - Core bottleneck: gestión del tiempo y foco; desequilibrio vida-trabajo
-- HUMAN 3.0 Metatype: pendiente de evaluación
-- HUMAN 3.0 Cuadrantes snapshot: pendiente de evaluación
-- Active Glitches HUMAN 3.0: pendiente de evaluación
+- HUMAN 3.0 Metatype: **El Ejecutor en Transición**
+- HUMAN 3.0 Lifestyle Archetype: **El Especialista bajo presión de conversión**
+- HUMAN 3.0 Cuadrantes snapshot:
+  - Mind: 2.2 (Incertidumbre)
+  - Body: 2.3 (entre Incertidumbre y Descubrimiento)
+  - Spirit: 2.1 (Disonancia)
+  - Vocation: 2.3 (Incertidumbre)
+- Problema central HUMAN 3.0: Ha escalado el rol antes de escalar la identidad. Brecha entre imagen interna (ejecutor individual) y rol actual (líder sistémico). Genera parálisis bajo presión, inseguridad y dependencia de ocupación constante para evitar la incomodidad.
+- Mecanismo central identificado: La ocupación como regulación emocional. La hiperactividad (trabajo, teléfono, entrenamiento) tapa discomfort emocional, no es productividad real.
+- Cuello de botella HUMAN 3.0: Mind
+- Cuadrante desbloqueador: Body (recuperación, NO más rendimiento)
+- Cadena de desbloqueo: Body recuperado → Mind estable → Vocation efectiva → Spirit reconectado
+- Active Glitches HUMAN 3.0: Nivel global ~2.2–2.3 — NO recomendado uso de Glitches. Riesgo específico de externalización cognitiva con IA.
+- Contexto emocional activo: Duelo reciente por fallecimiento del padre (hace pocos meses). Lo que aparece en el silencio: pena por pérdida del padre, sensación de no estar al nivel en el trabajo, miedo a comprometerse/ser padre. Hilo común: riesgo de no ser suficiente.
+- Plan de acción HUMAN 3.0 activo:
+  - 30 días: 15 min diarios de silencio sin dispositivos · reducir volumen entrenamiento 15–20% · tomar 1 decisión semanal con información incompleta
+  - 90 días: buscar mentor o peer group de COOs · definir métricas de impacto indirecto · recuperar actividad exploración sin métrica
+  - 6–12 meses: transición identidad en terapia · reconectar COO con propósito sostenibilidad · sistema recuperación proactivo
+- Advertencias HUMAN 3.0 activas:
+  - Riesgo burnout físico por deuda fisiológica acumulada
+  - Identidad vocacional sin propósito visible = inestabilidad latente
+  - Duelo no procesado con potencial de factura diferida
 
 ## Biometrics Baseline
 > Baselines calculados desde history.json. Actualizar en cada sesión con media móvil 7d y 28d.
@@ -25,17 +44,17 @@
 - Typical TSB range: -5 a -15 en fase Build
 
 ## Active Summary
-- Current trajectory: HRV en descenso sostenido (74.2 → 62 ms en ~7 días, -16.4% desde baseline 28d). Night Protocol v1 activo desde 07/05. Primera noche: costó dormir → señal de hiperactivación simpática crónica no resuelta solo con protocolo nocturno. Presencia emocional 4/10. 0 bloques profundos en la semana. Parálisis difusa en trabajo (ni Q1 ni Q2).
-- Current top problem: Hiperactivación crónica del SNA con tres manifestaciones simultáneas: dificultad para dormir, incapacidad de bajar de la mente (presencia 4/10), y parálisis difusa en foco laboral (0 bloques profundos).
+- Current trajectory: HRV en descenso sostenido (74.2 → 62 ms en ~7 días, -16.4% desde baseline 28d). Night Protocol v1 activo desde 07/05. Primera noche: costó dormir → señal de hiperactivación simpática crónica no resuelta solo con protocolo nocturno. Presencia emocional 4/10. 0 bloques profundos en la semana. Parálisis difusa en trabajo (ni Q1 ni Q2). Metatype confirma: la parálisis no es de productividad, es de identidad — brecha ejecutor individual vs. líder sistémico.
+- Current top problem: Hiperactivación crónica del SNA (mecanismo fisiológico) + ocupación como regulación emocional (mecanismo psicológico HUMAN 3.0). Mismo origen, tres manifestaciones: dificultad para dormir, incapacidad de bajar de la mente, parálisis difusa en foco laboral.
 - Current commitments:
   ### Night Protocol v1 (activo desde 07/05/2026)
   1. [21:00] Última tarea cognitiva HoMU + brain dump 5 min (papel)
   2. [21:00] Luz baja cálida en casa (< 3000K, bajo nivel ojos)
-  3. [21:00] Caminar 10 min a baja intensidad (añadido Sesión 2)
+  3. [21:00] Caminar 10 min a baja intensidad
   4. [21:30] Última comida si cena tardía: CH simples; sin alcohol
   5. [22:30] Ducha tibia 37–39°C, 10 min
   6. [22:40] Respiración 4-7-8, 3–5 min
-  7. [22:45] Mg bisglicinato + Ashwagandha + L-Theanine 200mg (añadida aunque no entreno >Z3 si hay activación cognitiva alta)
+  7. [22:45] Mg bisglicinato + Ashwagandha + L-Theanine 200mg (también si activación cognitiva alta sin entreno)
   8. [22:50] Sin pantallas / lectura en papel con luz cálida
   9. [23:00] Habitación 18–20°C + oscuridad total + silencio/ruido rosa
   ### Protocolo Fisiológico Diurno (activo desde 08/05/2026)
@@ -45,25 +64,32 @@
   - Al cerrar trabajo: brain dump 3 min en papel + frase de cierre
   - Antes de tiempo con pareja: 2 min respiración 4in·6out + abrazo ≥20 seg
   - Sin teléfono en la misma habitación durante tiempo personal
+  - [22:50] 15 min de silencio sin dispositivos — práctica diaria HUMAN 3.0 (integrada en Night Protocol, antes de dormir)
   ### Protocolo Mental — Bloques Profundos (activo desde 11/05/2026)
   - Protocolo de arranque: 1 tarea en papel → sin notificaciones → temporizador 25 min → máximo 90 min → pausa 10 min
+  - Nota: el bloqueo en el arranque tiene causa identitaria (brecha ejecutor/líder), no solo de foco. Nombrarla reduce su poder.
   - Bloques agendados L–V 9:30–11:00/11:30
+  ### Compromisos HUMAN 3.0 activos
+  - 1 decisión semanal tomada con información incompleta (práctica de tolerancia a la ambigüedad)
+  - Llevar a próxima sesión de terapia: pena por padre, sensación de no estar al nivel, miedo a comprometerse
   ### Regla estructural (NO NEGOCIABLE)
   - Sesiones >Z3 (TSS individual >60) únicamente antes de las 15:00h
 - Current risks:
   - HRV bajo si Night Protocol no consolida la descarga somática diurna
-  - Presencia emocional 4/10 → riesgo de desgaste en relación de pareja si no mejora en 2 semanas
-  - 0 bloques profundos → rendimiento en HoMU degradándose; si persiste → colapso sistémico
-  - Si HRV < 74.2 ms tras 14 días de protocolo → analítica ferritina + vitamina D sérica
-- Recommended focus next session: Revisar history.json tendencia HRV 7d post-Night Protocol · evaluar SMART #1 #2 #3 #4 #5 · check cumplimiento bloques profundos · check presencia emocional · leer perfil HUMAN 3.0
+  - Presencia emocional 4/10 → riesgo desgaste relación pareja si no mejora en 2 semanas
+  - 0 bloques profundos → rendimiento HoMU degradándose
+  - Si HRV < 74.2 ms tras 14 días → analítica ferritina + vitamina D sérica
+  - Duelo no procesado → factura diferida (monitorizar en sesiones)
+  - Identidad vocacional sin propósito visible → inestabilidad latente en rol COO
+- Recommended focus next session: Revisar history.json tendencia HRV 7d · SMART #1–#6 · cumplimiento bloques profundos · presencia emocional · cumplimiento 15 min silencio · evaluar decisión semanal con info incompleta · seguimiento duelo (¿fue a terapia?)
 
 ## SMART Objectives activos
 
 ### SMART #1 — HRV media 7d
 - **Objetivo:** HRV media móvil 7d ≥ 74.2 ms (baseline 28d)
-- **Estado inicial (07/05/2026):** 69.3 ms — por debajo del objetivo
+- **Estado inicial (07/05/2026):** 69.3 ms
 - **Criterio de cumplimiento:** Media 7d ≥ 74.2 ms sostenida ≥ 7 días consecutivos
-- **Alerta:** Si persiste < 74.2 ms tras 14 días de Night Protocol → analítica ferritina + vit D
+- **Alerta:** Si persiste < 74.2 ms tras 14 días → analítica ferritina + vit D
 
 ### SMART #2 — Calidad de sueño semanal
 - **Objetivo:** ≥ 5/7 noches con sleep_score ≥ 85 y sleep_quality nivel 1 o 2
@@ -72,31 +98,38 @@
 
 ### SMART #3 — Timing entrenos intensos
 - **Objetivo:** 0 sesiones >Z3 (TSS >60) después de las 15:00h
-- **Estado inicial:** Incumplimiento 06/05 (18:52h, TSS 122) — punto de inflexión HRV
-- **Revisión:** En cada sesión — regla permanente
+- **Estado inicial:** Incumplimiento 06/05 (18:52h, TSS 122)
+- **Revisión:** Permanente en cada sesión
 
-### SMART #4 — Presencia emocional (nuevo — Sesión 2)
+### SMART #4 — Presencia emocional
 - **Objetivo:** Presencia subjetiva con pareja ≥ 6/10 sostenida ≥ 5 días/semana
-- **Medición:** Autoevaluación diaria (1 número en papel o journal)
 - **Estado inicial (07/05/2026):** 4/10
 - **Primera revisión:** Próxima sesión
 
-### SMART #5 — Bloques profundos (nuevo — Sesión 2)
+### SMART #5 — Bloques profundos
 - **Objetivo:** ≥ 3 bloques profundos/semana completados (≥ 60 min sin interrupción)
 - **Estado inicial (07/05/2026):** 0/semana
 - **Primera revisión:** Próxima sesión
 
-## Night Protocol (v1 — implementado 07/05/2026, ajustado Sesión 2)
+### SMART #6 — Silencio diario sin dispositivos (HUMAN 3.0)
+- **Objetivo:** 15 min diarios de silencio sin dispositivos completados ≥ 5/7 días/semana
+- **Estado inicial (07/05/2026):** No iniciado
+- **Timing:** 22:50, integrado en Night Protocol antes de dormir
+- **Primera revisión:** Próxima sesión
+- **Propósito:** Crear tolerancia al discomfort sin ocupación → desactivar mecanismo de regulación emocional por hiperactividad
+
+## Night Protocol (v1 — implementado 07/05/2026, ajustado Sesiones 2+3)
 
 ### Mecanismos objetivo
 1. **Descenso de temperatura core** — caminar, ducha tibia, habitación 18–20°C
 2. **Inhibición del eje simpático** — brain dump, shutdown cognitivo, respiración 4-7-8, L-Theanine
 3. **Señalización circadiana** — luz cálida baja desde 21h, bloqueo pantallas, Mg + Ashwagandha
-4. **Descarga somática diurna** (añadido Sesión 2) — NSDR pre-entreno, respiración post-entreno
+4. **Descarga somática diurna** — NSDR pre-entreno, respiración post-entreno
+5. **Tolerancia al silencio** (HUMAN 3.0) — 15 min sin dispositivos ni input
 
 ### Secuencia operativa
 | Hora | Acción | Mecanismo |
-|------|--------|-----------| 
+|------|--------|----------|
 | 13:45 | NSDR / Yoga Nidra 10–15 min | Reset SNA antes de activación física |
 | Post-entreno | Respiración fisiológica × 5 ciclos | Activar parasimpático tras pico simpático |
 | 21:00 | Última tarea cognitiva + brain dump 5 min + caminar 10 min | Vaciar RAM mental + disipación térmica |
@@ -105,8 +138,9 @@
 | 22:30 | Ducha tibia 37–39°C, 10 min | Señal descenso temperatura core |
 | 22:40 | Respiración 4-7-8, 3–5 min | Nervio vago, reducir norepinefrina |
 | 22:45 | Mg bisglicinato + Ashwagandha + L-Theanine 200mg | GABA, eje HPA, glutamato |
-| 22:50 | Sin pantallas / lectura en papel con luz cálida | Bloquear activación amígdala |
-| 23:00 | Habitación 18–20°C + oscuridad total + silencio/ruido rosa | Condiciones N3 y REM |
+| 22:50 | 🔇 15 min silencio sin dispositivos (HUMAN 3.0) | Tolerancia al discomfort · desactivar regulación emocional por ocupación |
+| 23:05 | Lectura en papel con luz cálida | Bloquear activación amígdala |
+| 23:30 | Habitación 18–20°C + oscuridad total + silencio/ruido rosa | Condiciones N3 y REM |
 
 ## Fuente de datos preferida
 > **Regla activa desde 07/05/2026:** Leer siempre `history.json` como fuente primaria.
@@ -121,24 +155,25 @@
 - Personal/Pareja: sin datos
 - Mind/Foco: sin datos
 - Spirit: sin datos
-- Key pattern detected: Sesiones >Z3 tarde-noche → cortisol alto + temperatura core elevada → sueño nivel 2 + HRV deprimido. Punto de inflexión: 06/05 threshold 18:52h TSS 122.
-- Science-based protocol applied: Huberman "Master Your Sleep" — ritmo circadiano, temperatura core, luz, shutdown cognitivo. Stack: Mg bisglicinato, Ashwagandha, L-Theanine. Respiración 4-7-8.
+- Key pattern detected: Sesiones >Z3 tarde-noche → cortisol alto + temperatura core elevada → sueño nivel 2 + HRV deprimido.
+- Science-based protocol applied: Huberman "Master Your Sleep". Stack: Mg bisglicinato, Ashwagandha, L-Theanine. Respiración 4-7-8.
 - Commitments made: Night Protocol v1 + regla entrenos >Z3 antes 15h + SMART #1 #2 #3.
 - Follow-through: primera sesión.
-- Updated risks: HRV bajo si regla timing no se consolida. Monitorizar 7–14d.
 - Next action: revisar tendencia HRV + cumplimiento protocolo nocturno.
 
 ### 2026-05-07 — Sesión 2: protocolos fisiológico, emocional y psicológico
-- Session type: Protocolo focalizado — demandas sistémicas (fisiológico + emocional + mental)
-- Physical state: Night Protocol primera noche — costó dormir → señal hiperactivación simpática crónica no resuelta
-- Vocation: 0 bloques profundos en la semana · ni Q1 ni Q2 · parálisis difusa · dificultad para enfocar y trabajar
-- Personal/Pareja: presencia 4/10 · incapacidad de bajar de la mente · enredo en tareas poco fructíferas
-- Mind/Foco: 0 bloques >90 min · no hay trabajo estratégico ni operacional eficiente
-- Spirit: sin datos
-- Key pattern detected: Hiperactivación crónica del SNA con tres manifestaciones simultáneas: insomnio relativo, presencia 4/10, parálisis difusa en foco. Causa raíz: el cuerpo se descarga con el ciclismo pero la mente no tiene mecanismo de descarga durante el día. El arousal acumula y ningún dominio funciona bien.
-- Science-based protocol applied: Huberman NSDR/Yoga Nidra — recuperación deliberada infradiana. Huberman Focus & Concentration — acetilcolina, protocolo de arranque de bloque profundo. L-Theanine extendida a activación cognitiva alta (no solo post-entreno).
-- Supplement notes: L-Theanine 200mg ampliada a cualquier noche con alta activación cognitiva.
-- Commitments made: Protocolo Fisiológico Diurno (NSDR 13:45, respiración post-entreno, caminar 21h) + Protocolo Emocional (brain dump cierre laboral, ritual transición con pareja, teléfono fuera) + Protocolo Mental (bloques profundos L–V 9:30–11:00, protocolo arranque 25 min) + SMART #4 presencia ≥6/10 + SMART #5 ≥3 bloques/semana. 9 eventos creados en Google Calendar.
-- Follow-through from last session: Night Protocol iniciado — primera noche con dificultad para dormir → ajuste L-Theanine ampliado.
-- Updated risks: Presencia 4/10 → desgaste relación pareja si no mejora en 2 semanas. 0 bloques profundos → rendimiento HoMU en deterioro. HRV < 74.2 ms tras 14d → analítica.
-- Next action: Próxima sesión — revisar history.json (HRV 7d post-protocolo) + SMART #1–#5 + cumplimiento bloques profundos + presencia emocional + leer perfil HUMAN 3.0.
+- Session type: Protocolo focalizado — demandas sistémicas
+- Physical state: primera noche Night Protocol — costó dormir → hiperactivación simpática crónica
+- Vocation: 0 bloques profundos · parálisis difusa · ni Q1 ni Q2
+- Personal/Pareja: presencia 4/10 · incapacidad de bajar de la mente
+- Mind/Foco: 0 bloques >90 min
+- Key pattern detected: SNA hiperactivado sin descarga mental diurna. Causa raíz confirmada por HUMAN 3.0: ocupación como regulación emocional.
+- Science-based protocol applied: Huberman NSDR · Focus & Concentration · L-Theanine ampliada.
+- Commitments made: Protocolo Fisiológico Diurno + Protocolo Emocional + Protocolo Mental (bloques profundos) + SMART #4 #5. 9 eventos en Google Calendar.
+- Next action: revisar history.json HRV 7d + SMART #1–#5 + leer HUMAN 3.0.
+
+### 2026-05-07 — Sesión 3: integración perfil HUMAN 3.0
+- Session type: Integración de contexto — perfil HUMAN 3.0 completo
+- Key update: Perfil HUMAN 3.0 leído e integrado. Metatype: El Ejecutor en Transición. Mecanismo central confirmado: ocupación como regulación emocional. Cadena de desbloqueo: Body → Mind → Vocation → Spirit. Duelo por padre activo (hace pocos meses). Advertencias: burnout físico, identidad vocacional sin propósito visible, duelo con factura diferida.
+- Commitments made: SMART #6 (15 min silencio diario ≥ 5/7 días) · evento calendario creado 22:50 diario · Night Protocol ajustado con silencio como paso explícito.
+- Next action: Próxima sesión — SMART #1–#6 · cumplimiento silencio · ¿fue a terapia con los 3 temas? · decisión semanal con info incompleta.
