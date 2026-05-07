@@ -7,11 +7,11 @@
 - Language: es
 
 ## Structural Context
-- Role: COO, HoMU Next (consultoría de sostenibilidad en real estate, Valladolid)
+- Role: COO, HoMU Next (consultoría de sostenibilidad en real estate, Barcelona)
 - Core bottleneck: gestión del tiempo y foco; desequilibrio vida-trabajo
-- HUMAN 3.0 Metatype: pendiente de lectura
-- HUMAN 3.0 Cuadrantes snapshot: pendiente de lectura
-- Active Glitches HUMAN 3.0: pendiente de lectura
+- HUMAN 3.0 Metatype: pendiente de evaluación
+- HUMAN 3.0 Cuadrantes snapshot: pendiente de evaluación
+- Active Glitches HUMAN 3.0: pendiente de evaluación
 
 ## Biometrics Baseline
 > Baselines calculados desde history.json. Actualizar en cada sesión con media móvil 7d y 28d.
@@ -25,98 +25,120 @@
 - Typical TSB range: -5 a -15 en fase Build
 
 ## Active Summary
-- Current trajectory: Primera semana de fase Build post-deload. Carga alta (576 TSS en 7d), ACWR 0.9, TSB -5.2. HRV en descenso sostenido (74.2 → 62 ms en ~7 días, -16.4% desde baseline 28d) → SNA con deuda acumulada. Patrón iniciado tras sesión threshold 06/05 (18:52h, TSS 122).
-- Current top problem: Calidad de sueño (nivel 2 "OK") + HRV en descenso, causado por sesiones intensas en franja tarde-noche y activación simpática residual post-esfuerzo.
+- Current trajectory: HRV en descenso sostenido (74.2 → 62 ms en ~7 días, -16.4% desde baseline 28d). Night Protocol v1 activo desde 07/05. Primera noche: costó dormir → señal de hiperactivación simpática crónica no resuelta solo con protocolo nocturno. Presencia emocional 4/10. 0 bloques profundos en la semana. Parálisis difusa en trabajo (ni Q1 ni Q2).
+- Current top problem: Hiperactivación crónica del SNA con tres manifestaciones simultáneas: dificultad para dormir, incapacidad de bajar de la mente (presencia 4/10), y parálisis difusa en foco laboral (0 bloques profundos).
 - Current commitments:
-  1. [21:00] Última tarea cognitiva de HoMU + brain dump en papel (5 min)
-  2. [21:00] Luz baja y cálida en casa (< 3000K, por debajo de la altura de los ojos)
-  3. [21:30–22:00] Última comida si cena tardía: CH simples (arroz, patata); sin alcohol
-  4. [22:30] Ducha tibia 37–39°C durante 10 min
-  5. [22:40] Respiración 4-7-8 durante 3–5 min
-  6. [22:45] Mg bisglicinato + Ashwagandha [+ L-Theanine 200mg si entreno >Z3 tarde]
-  7. [22:50] Sin pantallas; lectura en papel con luz cálida
-  8. [23:00] Habitación 18–20°C + oscuridad total + silencio o ruido rosa
-  9. Sesiones >Z3 únicamente antes de las 15h (regla estructural — no negociable)
-- Current risks: HRV bajo si regla de timing de entrenos intensos no se consolida. Monitorizar 7–14 días. Si persiste → analítica ferritina + vitamina D sérica (Tardyferon activo 95mg/día de hierro total).
-- Recommended focus next session: Leer history.json para revisar tendencia HRV 7d + cumplimiento nocturno + leer perfil HUMAN 3.0 + explorar dominios no evaluados (trabajo HoMU, pareja, foco/tiempo).
+  ### Night Protocol v1 (activo desde 07/05/2026)
+  1. [21:00] Última tarea cognitiva HoMU + brain dump 5 min (papel)
+  2. [21:00] Luz baja cálida en casa (< 3000K, bajo nivel ojos)
+  3. [21:00] Caminar 10 min a baja intensidad (añadido Sesión 2)
+  4. [21:30] Última comida si cena tardía: CH simples; sin alcohol
+  5. [22:30] Ducha tibia 37–39°C, 10 min
+  6. [22:40] Respiración 4-7-8, 3–5 min
+  7. [22:45] Mg bisglicinato + Ashwagandha + L-Theanine 200mg (añadida aunque no entreno >Z3 si hay activación cognitiva alta)
+  8. [22:50] Sin pantallas / lectura en papel con luz cálida
+  9. [23:00] Habitación 18–20°C + oscuridad total + silencio/ruido rosa
+  ### Protocolo Fisiológico Diurno (activo desde 08/05/2026)
+  - [13:45] NSDR / Yoga Nidra 10–15 min antes del entreno
+  - [Post-entreno] Respiración fisiológica: 2 inhala · 1 exhala larga × 5 ciclos
+  ### Protocolo Emocional (activo desde 08/05/2026)
+  - Al cerrar trabajo: brain dump 3 min en papel + frase de cierre
+  - Antes de tiempo con pareja: 2 min respiración 4in·6out + abrazo ≥20 seg
+  - Sin teléfono en la misma habitación durante tiempo personal
+  ### Protocolo Mental — Bloques Profundos (activo desde 11/05/2026)
+  - Protocolo de arranque: 1 tarea en papel → sin notificaciones → temporizador 25 min → máximo 90 min → pausa 10 min
+  - Bloques agendados L–V 9:30–11:00/11:30
+  ### Regla estructural (NO NEGOCIABLE)
+  - Sesiones >Z3 (TSS individual >60) únicamente antes de las 15:00h
+- Current risks:
+  - HRV bajo si Night Protocol no consolida la descarga somática diurna
+  - Presencia emocional 4/10 → riesgo de desgaste en relación de pareja si no mejora en 2 semanas
+  - 0 bloques profundos → rendimiento en HoMU degradándose; si persiste → colapso sistémico
+  - Si HRV < 74.2 ms tras 14 días de protocolo → analítica ferritina + vitamina D sérica
+- Recommended focus next session: Revisar history.json tendencia HRV 7d post-Night Protocol · evaluar SMART #1 #2 #3 #4 #5 · check cumplimiento bloques profundos · check presencia emocional · leer perfil HUMAN 3.0
 
-## SMART Objectives — Night Protocol v1 (activos desde 07/05/2026)
-
-> Revisar en cada sesión de seguimiento. Fuente de datos: history.json (campos hrv, sleep_score, sleep_quality, timestamps de actividades).
+## SMART Objectives activos
 
 ### SMART #1 — HRV media 7d
 - **Objetivo:** HRV media móvil 7d ≥ 74.2 ms (baseline 28d)
-- **Medición:** Campo `hrv` en history.json — calcular media 7d en cada sesión
-- **Estado inicial (07/05/2026):** 69.3 ms (7d) · 74.2 ms (28d) — por debajo del objetivo
-- **Revisión:** En cada sesión de seguimiento
+- **Estado inicial (07/05/2026):** 69.3 ms — por debajo del objetivo
 - **Criterio de cumplimiento:** Media 7d ≥ 74.2 ms sostenida ≥ 7 días consecutivos
-- **Alerta:** Si persiste < 74.2 ms tras 14 días de Night Protocol activo → revisar analítica ferritina + vitamina D sérica
+- **Alerta:** Si persiste < 74.2 ms tras 14 días de Night Protocol → analítica ferritina + vit D
 
 ### SMART #2 — Calidad de sueño semanal
-- **Objetivo:** ≥ 5/7 noches con sleep_score ≥ 85 y sleep_quality ≤ 2 (nivel 1 o 2)
-- **Medición:** Campos `sleep_score` y `sleep_quality` en history.json — contar noches que cumplen ambas condiciones en ventana 7d
-- **Estado inicial (07/05/2026):** 2/7 noches con score ≥ 85 (media 7d score: 83) — por debajo del objetivo
-- **Revisión:** Cada sesión semanal (primera revisión: 14/05/2026)
-- **Criterio de cumplimiento:** ≥ 5/7 noches en dos semanas consecutivas
-- **Diagnóstico si no se cumple:** Identificar noche(s) fallida(s) y causa (entreno tardío, cena con alcohol, estrés laboral, pantallas)
+- **Objetivo:** ≥ 5/7 noches con sleep_score ≥ 85 y sleep_quality nivel 1 o 2
+- **Estado inicial (07/05/2026):** 2/7 noches con score ≥ 85
+- **Primera revisión:** 14/05/2026
 
-### SMART #3 — Timing entrenos intensos (regla estructural)
-- **Objetivo:** 0 sesiones >Z3 (TSS individual > 60) después de las 15:00h
-- **Medición:** Timestamps de actividades en history.json con `total_tss` > 60 — verificar hora de inicio
-- **Estado inicial (07/05/2026):** Incumplimiento identificado el 06/05 (18:52h, TSS 122) — punto de inflexión del deterioro HRV
-- **Revisión:** En cada sesión — es regla permanente, no temporal
-- **Criterio de cumplimiento:** 0 incumplimientos en la ventana revisada
-- **Registro de incumplimientos:** Fecha · hora · TSS · HRV del día siguiente (para correlación causal)
+### SMART #3 — Timing entrenos intensos
+- **Objetivo:** 0 sesiones >Z3 (TSS >60) después de las 15:00h
+- **Estado inicial:** Incumplimiento 06/05 (18:52h, TSS 122) — punto de inflexión HRV
+- **Revisión:** En cada sesión — regla permanente
 
-## Night Protocol (v1 — implementado 07/05/2026)
+### SMART #4 — Presencia emocional (nuevo — Sesión 2)
+- **Objetivo:** Presencia subjetiva con pareja ≥ 6/10 sostenida ≥ 5 días/semana
+- **Medición:** Autoevaluación diaria (1 número en papel o journal)
+- **Estado inicial (07/05/2026):** 4/10
+- **Primera revisión:** Próxima sesión
+
+### SMART #5 — Bloques profundos (nuevo — Sesión 2)
+- **Objetivo:** ≥ 3 bloques profundos/semana completados (≥ 60 min sin interrupción)
+- **Estado inicial (07/05/2026):** 0/semana
+- **Primera revisión:** Próxima sesión
+
+## Night Protocol (v1 — implementado 07/05/2026, ajustado Sesión 2)
 
 ### Mecanismos objetivo
-1. **Descenso de temperatura core** — ducha tibia, habitación 18–20°C, oscuridad
+1. **Descenso de temperatura core** — caminar, ducha tibia, habitación 18–20°C
 2. **Inhibición del eje simpático** — brain dump, shutdown cognitivo, respiración 4-7-8, L-Theanine
 3. **Señalización circadiana** — luz cálida baja desde 21h, bloqueo pantallas, Mg + Ashwagandha
+4. **Descarga somática diurna** (añadido Sesión 2) — NSDR pre-entreno, respiración post-entreno
 
 ### Secuencia operativa
 | Hora | Acción | Mecanismo |
-|------|--------|-----------|
-| 21:00 | Última tarea cognitiva HoMU + brain dump 5 min (papel) | Vaciar RAM mental, bajar cortisol |
-| 21:00 | Luz baja cálida en casa (< 3000K, bajo nivel ojos) | Bloquear supresión melatonina |
-| 21:30 | Última comida si cena tardía (CH simples, sin alcohol) | Temperatura core + triptófano |
+|------|--------|-----------| 
+| 13:45 | NSDR / Yoga Nidra 10–15 min | Reset SNA antes de activación física |
+| Post-entreno | Respiración fisiológica × 5 ciclos | Activar parasimpático tras pico simpático |
+| 21:00 | Última tarea cognitiva + brain dump 5 min + caminar 10 min | Vaciar RAM mental + disipación térmica |
+| 21:00 | Luz baja cálida (< 3000K, bajo nivel ojos) | Bloquear supresión melatonina |
+| 21:30 | Última comida si tardía (CH simples, sin alcohol) | Temperatura core + triptófano |
 | 22:30 | Ducha tibia 37–39°C, 10 min | Señal descenso temperatura core |
 | 22:40 | Respiración 4-7-8, 3–5 min | Nervio vago, reducir norepinefrina |
-| 22:45 | Mg bisglicinato + Ashwagandha [+ L-Theanine 200mg si entreno >Z3 tarde] | GABA, eje HPA, glutamato |
+| 22:45 | Mg bisglicinato + Ashwagandha + L-Theanine 200mg | GABA, eje HPA, glutamato |
 | 22:50 | Sin pantallas / lectura en papel con luz cálida | Bloquear activación amígdala |
 | 23:00 | Habitación 18–20°C + oscuridad total + silencio/ruido rosa | Condiciones N3 y REM |
 
-### Variables de entorno
-- Temperatura habitación: 18–20°C (prioritario en verano)
-- Oscuridad: total — antifaz si necesario
-- Ruido: silencio o ruido rosa (< 50 Hz) si hay ruido externo
-- Hack verano: calcetines calientes en pies → vasodilatación periférica → disipación calor core
-
-### Indicadores de éxito (revisión en sesión siguiente)
-- HRV: tendencia ascendente hacia baseline 7d (objetivo: > 69.3 ms)
-- Sueño: calidad nivel 3 o superior (score > 85)
-- Subjetivo: latencia de sueño < 15 min
-
 ## Fuente de datos preferida
-> **Regla activa desde 07/05/2026:** Leer siempre `history.json` como fuente primaria
-> de métricas. Usar `latest.json` / `current_metrics` solo como fallback si `history.json`
-> no está disponible. Los baselines de HRV, RHR, sueño, peso y carga ciclismo se calculan
-> como media móvil 7d y 28d desde la serie histórica completa, no desde valores puntuales.
+> **Regla activa desde 07/05/2026:** Leer siempre `history.json` como fuente primaria.
+> Usar `latest.json` / `current_metrics` solo como fallback.
 
 ## Session Log
 
-### 2026-05-07 — Sesión 1: protocolo focalizado (sueño) + deep dive protocolo nocturno
+### 2026-05-07 — Sesión 1: protocolo focalizado (sueño)
 - Session type: Protocolo focalizado — calidad de sueño
-- Physical state: HRV 62ms (tendencia descendente 7d: 74→62ms, -16.4%) · RHR 45 bpm · Sueño 7h57m score 83 calidad nivel 2 · TSB -5.2 · CTL 75.54 · ATL 80.72 · ACWR 0.9 · Peso 70.7kg · W/kg 4.6
-- Vocation: sin datos esta sesión
-- Personal/Pareja: sin datos esta sesión
-- Mind/Foco: sin datos esta sesión
-- Spirit: sin datos esta sesión
-- Key pattern detected: Sesiones de alta intensidad en franja tarde-noche (ej. threshold 18:52h del 06/05, TSS 122) → cortisol alto + temperatura core elevada al acostarse → sueño calidad nivel 2 y HRV deprimido al día siguiente. Punto de inflexión identificado: 06/05 tras sesión nocturna.
-- Science-based protocol applied: Huberman "Master Your Sleep" — ritmo circadiano como regulador primario. Temperatura core descendente (ducha tibia), luz matinal, bloqueo luz azul nocturna, shutdown cognitivo. Stack: Mg bisglicinato (GABA, parasimpático), Ashwagandha (eje HPA, cortisol), L-Theanine (transición simpático→parasimpático post-esfuerzo). Respiración 4-7-8 (nervio vago).
-- Supplement notes: Mg bisglicinato + Ashwagandha confirmados en timing correcto (noche). L-Theanine 200mg añadida. No se añadió ningún suplemento nuevo — el stack ya lo cubre.
-- Commitments made: Night Protocol v1 completo (9 pasos, 21:00–23:00) + regla estructural entrenos >Z3 antes de 15h + SMART objectives #1 #2 #3 definidos y guardados.
-- Follow-through from last session: primera sesión — sin compromisos previos.
-- Updated risks: HRV bajo si regla de timing de entrenos no se consolida. Monitorizar 7–14 días. Si persiste → analítica ferritina + vit D.
-- Next action: Próxima sesión — leer history.json para revisar tendencia HRV 7d + cumplimiento Night Protocol + evaluar SMART #1 #2 #3 + leer perfil HUMAN 3.0 + explorar dominios no evaluados.
+- Physical state: HRV 62ms (↓16.4% en 7d) · RHR 45 bpm · Sueño 7h57m score 83 nivel 2 · TSB -5.2 · CTL 75.54 · ATL 80.72 · ACWR 0.9 · Peso 70.7kg · W/kg 4.6
+- Vocation: sin datos
+- Personal/Pareja: sin datos
+- Mind/Foco: sin datos
+- Spirit: sin datos
+- Key pattern detected: Sesiones >Z3 tarde-noche → cortisol alto + temperatura core elevada → sueño nivel 2 + HRV deprimido. Punto de inflexión: 06/05 threshold 18:52h TSS 122.
+- Science-based protocol applied: Huberman "Master Your Sleep" — ritmo circadiano, temperatura core, luz, shutdown cognitivo. Stack: Mg bisglicinato, Ashwagandha, L-Theanine. Respiración 4-7-8.
+- Commitments made: Night Protocol v1 + regla entrenos >Z3 antes 15h + SMART #1 #2 #3.
+- Follow-through: primera sesión.
+- Updated risks: HRV bajo si regla timing no se consolida. Monitorizar 7–14d.
+- Next action: revisar tendencia HRV + cumplimiento protocolo nocturno.
+
+### 2026-05-07 — Sesión 2: protocolos fisiológico, emocional y psicológico
+- Session type: Protocolo focalizado — demandas sistémicas (fisiológico + emocional + mental)
+- Physical state: Night Protocol primera noche — costó dormir → señal hiperactivación simpática crónica no resuelta
+- Vocation: 0 bloques profundos en la semana · ni Q1 ni Q2 · parálisis difusa · dificultad para enfocar y trabajar
+- Personal/Pareja: presencia 4/10 · incapacidad de bajar de la mente · enredo en tareas poco fructíferas
+- Mind/Foco: 0 bloques >90 min · no hay trabajo estratégico ni operacional eficiente
+- Spirit: sin datos
+- Key pattern detected: Hiperactivación crónica del SNA con tres manifestaciones simultáneas: insomnio relativo, presencia 4/10, parálisis difusa en foco. Causa raíz: el cuerpo se descarga con el ciclismo pero la mente no tiene mecanismo de descarga durante el día. El arousal acumula y ningún dominio funciona bien.
+- Science-based protocol applied: Huberman NSDR/Yoga Nidra — recuperación deliberada infradiana. Huberman Focus & Concentration — acetilcolina, protocolo de arranque de bloque profundo. L-Theanine extendida a activación cognitiva alta (no solo post-entreno).
+- Supplement notes: L-Theanine 200mg ampliada a cualquier noche con alta activación cognitiva.
+- Commitments made: Protocolo Fisiológico Diurno (NSDR 13:45, respiración post-entreno, caminar 21h) + Protocolo Emocional (brain dump cierre laboral, ritual transición con pareja, teléfono fuera) + Protocolo Mental (bloques profundos L–V 9:30–11:00, protocolo arranque 25 min) + SMART #4 presencia ≥6/10 + SMART #5 ≥3 bloques/semana. 9 eventos creados en Google Calendar.
+- Follow-through from last session: Night Protocol iniciado — primera noche con dificultad para dormir → ajuste L-Theanine ampliado.
+- Updated risks: Presencia 4/10 → desgaste relación pareja si no mejora en 2 semanas. 0 bloques profundos → rendimiento HoMU en deterioro. HRV < 74.2 ms tras 14d → analítica.
+- Next action: Próxima sesión — revisar history.json (HRV 7d post-protocolo) + SMART #1–#5 + cumplimiento bloques profundos + presencia emocional + leer perfil HUMAN 3.0.
