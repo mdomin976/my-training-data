@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T17:52:54.638221",
+  "generated_at": "2026-05-08T19:26:09.181146",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -2116,6 +2116,66 @@
           "sufficient": false
         }
       }
+    },
+    {
+      "activity_id": "i146566666",
+      "date": "2026-05-08",
+      "type": "Ride",
+      "name": "QH Build W1 | Endurance + Sweet Spot 2\u00d715'",
+      "interval_summary": [
+        "1x 15m1s 142w",
+        "1x 30m 169w",
+        "1x 3h7m 102w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "901s@142w48rpm",
+          "duration_secs": 901,
+          "avg_power": 142,
+          "max_power": 348,
+          "avg_hr": 111,
+          "max_hr": 139,
+          "avg_cadence": 48.074364,
+          "zone": 1,
+          "training_load": 8.289512,
+          "decoupling": -0.06634607
+        },
+        {
+          "type": "WORK",
+          "label": "1800s@169w51rpm",
+          "duration_secs": 1800,
+          "avg_power": 169,
+          "max_power": 322,
+          "avg_hr": 116,
+          "max_hr": 146,
+          "avg_cadence": 50.851112,
+          "zone": 1,
+          "training_load": 22.243856,
+          "decoupling": -22.5468
+        },
+        {
+          "type": "WORK",
+          "label": "11240s@102w37rpm",
+          "duration_secs": 11240,
+          "avg_power": 102,
+          "max_power": 388,
+          "avg_hr": 95,
+          "max_hr": 147,
+          "avg_cadence": 37.004948,
+          "zone": 1,
+          "training_load": 81.1986,
+          "decoupling": -22.388145
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 63,
+          "max_hr": 63,
+          "zone": 1,
+          "training_load": 4.207758e-06
+        }
+      ]
     }
   ]
 }
