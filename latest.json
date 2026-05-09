@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-09T14:56:39.171657",
+    "last_updated": "2026-05-09T15:59:40.832346",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -650,7 +650,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.04,
+          "planned_tss_delta": 1.44,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 4,
@@ -692,7 +692,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-09T14:56:39.170379",
+    "calculation_timestamp": "2026-05-09T15:59:40.831082",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1082,7 +1082,7 @@
         }
       },
       "weather_status": "unavailable",
-      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 9/10\nTSS: 113\nTraining stimulus: sweetSpot\nEst. recovery: 48h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-UXQPHK"
+      "description": "CoachWatts Workout Analysis\n\nEste entrenamiento demuestra una excelente adherencia a la duraci\u00f3n y estructura del plan, aunque la intensidad fue significativamente menor a lo planificado, especialmente en los bloques Sweet Spot. Se observa un perfil de cadencia baja y un alto \u00edndice de variabilidad de potencia, lo que sugiere un enfoque en fuerza o un terreno exigente, a pesar de los objetivos de cadencia alta.\n\n\ud83d\udd17 https://CoachWatts.com - AI Endurance Coaching\n\n\ud83d\udcca IntervalCoach Analysis\nWorkout score: 9/10\nTSS: 113\nTraining stimulus: sweetSpot\nEst. recovery: 48h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-UXQPHK"
     },
     {
       "id": "i146199923",
@@ -1256,7 +1256,7 @@
         }
       },
       "weather_status": "unavailable",
-      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 6/10\nTSS: 32\nTraining stimulus: endurance\nEst. recovery: 24h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-UXQPHK"
+      "description": "CoachWatts Workout Analysis\n\nEste entrenamiento en bicicleta de carretera en Barcelona muestra una buena consistencia en la repetici\u00f3n de los esfuerzos, lo cual es positivo para sesiones de tipo interv\u00e1lico. Sin embargo, se observan \u00e1reas de mejora significativas en la eficiencia del pedaleo y la intensidad general para una sesi\u00f3n con el arquetipo VO2.\n\n\ud83d\udd17 https://CoachWatts.com - AI Endurance Coaching\n\n\ud83d\udcca IntervalCoach Analysis\nWorkout score: 6/10\nTSS: 32\nTraining stimulus: endurance\nEst. recovery: 24h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-UXQPHK"
     },
     {
       "id": "i146026419",
@@ -1419,7 +1419,7 @@
         }
       },
       "weather_status": "unavailable",
-      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 9/10\nTSS: 122\nTraining stimulus: threshold\nEst. recovery: 48h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-UXQPHK"
+      "description": "CoachWatts Workout Analysis\n\nEste entrenamiento demostr\u00f3 una ejecuci\u00f3n mixta, con algunos intervalos de alta intensidad bien logrados, pero una adhesi\u00f3n general significativamente baja al plan. La duraci\u00f3n del entrenamiento fue acortada y hubo un considerable subrendimiento en varios segmentos clave, especialmente en la fase de calentamiento y en el segundo bloque activo, lo que impact\u00f3 la carga de entrenamiento global.\n\n\ud83d\udd17 https://CoachWatts.com - AI Endurance Coaching\n\n\ud83d\udcca IntervalCoach Analysis\nWorkout score: 9/10\nTSS: 122\nTraining stimulus: threshold\nEst. recovery: 48h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-UXQPHK"
     },
     {
       "id": "i145631454",
@@ -5339,12 +5339,12 @@
       "name": "FAT MAX aerobic endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 145,
-      "duration_hours": 3.08,
-      "duration_formatted": "3h5m",
+      "planned_tss": 42,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 180m 200-237w. Aim for 224w\n\n- 5m 55%"
+      "description": "- 50m 200-237w. Aim for 224w\n\n- 5m 55%"
     },
     {
       "id": 108432062,
