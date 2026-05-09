@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T17:06:46.091173",
+  "generated_at": "2026-05-09T18:06:12.246969",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -2176,6 +2176,48 @@
           "training_load": 4.207758e-06
         }
       ]
+    },
+    {
+      "activity_id": "i146805061",
+      "date": "2026-05-09",
+      "type": "VirtualRide",
+      "name": "Recovery ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1289,
+          "avg_power": 176,
+          "max_power": 219,
+          "avg_hr": 104,
+          "max_hr": 118,
+          "avg_cadence": 79.22731,
+          "zone": 1,
+          "training_load": 10.500477,
+          "decoupling": 3.894104,
+          "avg_dfa_a1": 0.9306536
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 1044,
+          "total_secs": 1289,
+          "valid_pct": 81.0,
+          "artifact_rate_avg": 4.36,
+          "sufficient": false
+        }
+      }
     }
   ]
 }
