@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-10T19:46:53.306548",
+    "last_updated": "2026-05-10T20:54:42.955941",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -669,7 +669,7 @@
           "current_week_hard_days_completed": 4,
           "current_week_hard_days_total": 5,
           "race_proximity": 41,
-          "next_week_load": 1.25,
+          "next_week_load": 1.14,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.6
         },
@@ -706,7 +706,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 69.0,
-    "calculation_timestamp": "2026-05-10T19:46:53.305258",
+    "calculation_timestamp": "2026-05-10T20:54:42.954755",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5559,6 +5559,19 @@
       "description": ""
     },
     {
+      "id": 109309458,
+      "date": "2026-05-11",
+      "name": "Recovery ride",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 36,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "E3: Easy/recovery ride\n1-2 hours in zone 1\n\u2022 This is any ride that isn\u2019t interval work or a long endurance ride.\n\u2022 It should feel very easy.\n\u2022 Great opportunity to do neuromuscular work.\n- 60m Z1"
+    },
+    {
       "id": 108446653,
       "date": "2026-05-12",
       "name": "QH Specificity W4 | VO2max Ladder 40/20 \u2014 8\u00d73 Bloques",
@@ -5570,19 +5583,6 @@
       "workout_summary": "10m @234W | 4\u00d71m @276W / 30s rec | 5m @178W | 10s @0W | 8\u00d740s @428W / 20s rec | 5m @178W | 10s @0W | 8\u00d740s @428W / 20s rec | 5m @178W | 10s @0W | 8\u00d740s @428W / 20s rec | 10m @186W",
       "has_terrain": false,
       "description": "## QH Specificity W4 | VO2max Ladder 40/20 \u2014 8\u00d73 Bloques\n## TSS objetivo: ~130 | Duraci\u00f3n: ~2h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nBienvenido al bloque de especificidad. Mismo formato que en W2 pero con 3 bloques \nen lugar de 2. El tercer bloque es donde ocurre la magia: llegas con el sistema \ncardiorrespiratorio ya al l\u00edmite y tienes que producir la misma potencia. \nEso es exactamente lo que te pide el Portalet despu\u00e9s de 4 horas de carrera. \nEl formato 40/20 con 3 bloques ya lo entrenaste en W2. Hoy a\u00f1ades un piso m\u00e1s.\n\nRegla de hoy: los 3 bloques deben tener la misma potencia en los 40 segundos. \nSi el bloque 3 sale a 380W y el bloque 1 sali\u00f3 a 440W, tomaste mal las decisiones. \nEl autocontrol en el bloque 1 es la habilidad que est\u00e1s entrenando para Marie-Blanque.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre (90'): avena 80g + pl\u00e1tano + 2 huevos + caf\u00e9. 90g CHO. Semana dura, carga m\u00e1xima.\nDurante: 1 gel cafe\u00edna 20' antes del primer bloque + bid\u00f3n iso 500ml. \nSi la sesi\u00f3n supera 1h45, 1 gel adicional entre bloques 2 y 3.\nPost (dentro de 30'): 110g CHO + 40g PRO. Ventana anab\u00f3lica cr\u00edtica en W4.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nPotencia objetivo: 422\u2013435W (130\u2013134% FTP). Ligeramente m\u00e1s alta que W2 \npara reflejar la mejora de las \u00faltimas 2 semanas.\nDistribuye el esfuerzo: bloque 1 a 422W, bloque 2 a 428W, bloque 3 al m\u00e1ximo \nque puedas mantener las 8 series completas.\nCadencia: 95\u2013100 rpm. Misma mec\u00e1nica que en W2, ya la conoces.\nLos 5' de descanso entre bloques son innegociables. No los acortes \naunque te sientas bien al terminar el bloque anterior.\nFC al final del bloque 3: llegar\u00e1 a 173\u2013179 bpm. Si llegas al bloque 3 \ncon FC de reposo mayor de 145 bpm, a\u00f1ade 2' m\u00e1s de descanso.\n\n---\n\nWarmup\n- Calentamiento Z2 10m 67-77% 90rpm\n\n4x\n- Activaci\u00f3n 85% 1m 85% 95rpm\n- Recuperaci\u00f3n activaci\u00f3n 30s 55%\n\nMain Set\n- Recuperaci\u00f3n pre-bloque 5m 55%\n\n- PREP BLOQUE VO2MAX 1 - Press Lap ahora 10s 0%\n\nMain Set 8x\n- Sprint VO2 Ladder 40s 130-134% 95rpm\n- Recuperaci\u00f3n parcial 20s 55%\n\nMain Set\n- Descanso bloque 5m 55%\n\n- PREP BLOQUE VO2MAX 2 - Press Lap ahora 10s 0%\n\nMain Set 8x\n- Sprint VO2 Ladder 40s 130-134% 95rpm\n- Recuperaci\u00f3n parcial 20s 55%\n\nMain Set\n- Descanso bloque 5m 55%\n\n- PREP BLOQUE VO2MAX 3 - Press Lap ahora 10s 0%\n\nMain Set 8x\n- Sprint VO2 Ladder 40s 130-134% 95rpm\n- Recuperaci\u00f3n parcial 20s 55%\n\nCooldown\n- Vuelta a calma 10m ramp 65-50% 80rpm"
-    },
-    {
-      "id": 108434816,
-      "date": "2026-05-13",
-      "name": "QH Build W2 | Endurance Z2 Largo \u2014 Base Metab\u00f3lica QH",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 106,
-      "duration_hours": 2.33,
-      "duration_formatted": "2h20m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "## QH Build W2 | Endurance Z2 Largo \u2014 Base Metab\u00f3lica QH\n## TSS objetivo: ~140 | Duraci\u00f3n: ~3h30 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nEste es el rodaje que m\u00e1s se parece a la QH en t\u00e9rminos de duraci\u00f3n de esfuerzo aer\u00f3bico. \n3.5 horas en Z2 entrenando el sistema que usar\u00e1s el 70% de la carrera: los valles entre \npuertos, las bajadas, el valle de Tena. Si en alg\u00fan momento piensas \"esto es aburrido\" \u2192 \nperfecto, eso significa que vas demasiado suave para que duela y suficiente para que adapte. \nEse es el objetivo. Hoy construyes el cimiento del Portalet.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n (sesi\u00f3n de entrenamiento graso-aer\u00f3bico):**\n- Pre-entreno (60' antes): porridge avena + frutos secos + caf\u00e9. No cargues en exceso.\n- Durante \u2014 practica protocolo QH exacto:\n  * 0\u201360': 1 bid\u00f3n iso 500ml. 60g CHO.\n  * 60\u2013120': 1 gel + 1 barrita + bid\u00f3n agua. 70\u201380g CHO.\n  * 120\u2013180': 2 geles + bid\u00f3n iso. 80\u201390g CHO.\n  * 180\u2013210': 1 gel + agua. 60g CHO.\n- Post: comida completa en 30'. Arroz + pollo + verdura + aceite oliva.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\n- Rango de potencia: 211\u2013243W (65\u201375% FTP). FC objetivo 128\u2013148 bpm.\n- NORMA: si la FC supera 150 bpm m\u00e1s de 5 minutos seguidos \u2192 reduce 10W.\n- Cadencia c\u00f3moda: 88\u201392 rpm. No fuerces.\n- Si hay viento en contra o subida \u2192 reduce potencia, mant\u00e9n FC.\n- Ideal: ruta con terreno variado tipo QH. Collserola, Garraf, o hacia el interior.\n- Lleva comida f\u00edsica (barritas, geles reales). Hoy entrenas tambi\u00e9n el est\u00f3mago.\n\n---\n\nWarmup\n- Activaci\u00f3n suave 15m ramp 50-65% 84rpm\n\nMain Set\n- Z2 bloque 2 50m 66-73% 88-92rpm\n\n- PAUSA NUTRICI\u00d3N - Come y bebe ahora 5m 50%\n\nMain Set\n- Z2 bloque 3 50m 67-75% 88-92rpm\n\n\nCooldown\n- Cierre suave 20m ramp 68-52% 82rpm"
     },
     {
       "id": 108434829,
