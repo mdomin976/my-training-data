@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-11T08:02:04.408680",
+    "last_updated": "2026-05-11T11:37:22.082553",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -156,7 +156,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-05-06",
-    "age_days": 4,
+    "age_days": 5,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -703,7 +703,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-11T08:02:04.407409",
+    "calculation_timestamp": "2026-05-11T11:37:22.081265",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5610,12 +5610,12 @@
       "name": "QH Build W2 | Gran Fondo Z2 Pura \u2014 Durabilidad y Volumen",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 234,
-      "duration_hours": 5.02,
-      "duration_formatted": "5h1m",
+      "planned_tss": 233,
+      "duration_hours": 4.98,
+      "duration_formatted": "4h59m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "## QH Build W2 | Gran Fondo Z2 Pura \u2014 Durabilidad y Volumen\n## TSS objetivo: ~220 | Duraci\u00f3n: 4\u20134.5h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nLa QH dura 5h35 en tu objetivo. Hoy haces 4\u20134.5h. No es casualidad: tu cuerpo necesita \nsaber qu\u00e9 se siente estar 4 horas pedaleando antes de que llegue el d\u00eda. La comodidad en \nla bicicleta durante horas es una habilidad que se entrena. El aburrimiento de la hora 3 \nen Z2 es exactamente lo que te va a dar serenidad mental en la hora 3 de la QH, cuando \ntodav\u00eda tienes el Portalet por delante y debes mantener la calma.\n\nMentalidad de hoy: explorador, no corredor. No hay ritmo que batir, hay tiempo que acumular.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n (simulacro completo de carrera):**\nDesayuno 2h antes: 150g CHO. Desayuno QH completo. Practica el timing.\nh1: 60g CHO/h \u2014 bid\u00f3n iso\nh2: 80g CHO/h \u2014 gel + barrita + bid\u00f3n iso\nh3: 80\u201390g CHO/h \u2014 2 geles + bid\u00f3n\nh4\u2013h4.5: 70g CHO/h \u2014 gel + agua\n**Total objetivo: 290\u2013340g CHO ex\u00f3genos** \u2014 entrena el intestino.\n- Post: dentro de 20'. Prioridad m\u00e1xima. Arroz + prote\u00edna + fruta + sal.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\n- FC techo absoluto hoy: 148 bpm. Sin excepciones. Es Z2 pura.\n- Potencia rango: 195\u2013240W (60\u201374% FTP).\n- Cada hora: 2' de pausa para comer s\u00f3lido si es posible (simula avituallamientos QH).\n- Si ves que la FC sube con la misma potencia en la hora 3 \u2192 es decoupling normal. \n  Reduce 5W y mant\u00e9n. No fuerces.\n- Ruta ideal: salida larga con terreno variado. Cuantos m\u00e1s km de carretera abierta, mejor.\n- Lleva efectivo y saber d\u00f3nde hay tiendas. Larga distancia = autonom\u00eda.\n\n---\n\nWarmup\n- Activaci\u00f3n suave 15m ramp 50-65%\n\nMain Set\n- Z2 bloque 1 \u2014 km 0-60 55m 65-72% 88-90rpm\n\n- PAUSA AVITUALLAMIENTO 1 - Come, bebe, 3 min 3m 50%\n\nMain Set\n- Z2 bloque 2 \u2014 km 60-120 55m 67-74% 88-90rpm\n\n- PAUSA AVITUALLAMIENTO 2 - Come, bebe, 3 min 3m 50%\n\nMain Set\n- Z2 bloque 3 \u2014 km 120-170 50m 67-74% 88rpm\n\n- PAUSA AVITUALLAMIENTO 3 - Come, bebe, 3 min 3m 50%\n\nMain Set\n- Z2 bloque final \u2014 aguanta hasta casa 45m 65-72% 86rpm\n\nMain Set\n- Z2 bloque 2 \u2014 km 60-120 55m 67-74% 88-90rpm\n\nCooldown\n- Cierre suave 15m ramp 68-50% 80rpm"
+      "description": "## QH Build W2 | Gran Fondo Z2 Pura \u2014 Durabilidad y Volumen\n## TSS objetivo: ~220 | Duraci\u00f3n: 4\u20134.5h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nLa QH dura 5h35 en tu objetivo. Hoy haces 4\u20134.5h. No es casualidad: tu cuerpo necesita \nsaber qu\u00e9 se siente estar 4 horas pedaleando antes de que llegue el d\u00eda. La comodidad en \nla bicicleta durante horas es una habilidad que se entrena. El aburrimiento de la hora 3 \nen Z2 es exactamente lo que te va a dar serenidad mental en la hora 3 de la QH, cuando \ntodav\u00eda tienes el Portalet por delante y debes mantener la calma.\n\nMentalidad de hoy: explorador, no corredor. No hay ritmo que batir, hay tiempo que acumular.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n (simulacro completo de carrera):**\nDesayuno 2h antes: 150g CHO. Desayuno QH completo. Practica el timing.\nh1: 60g CHO/h \u2014 bid\u00f3n iso\nh2: 80g CHO/h \u2014 gel + barrita + bid\u00f3n iso\nh3: 80\u201390g CHO/h \u2014 2 geles + bid\u00f3n\nh4\u2013h4.5: 70g CHO/h \u2014 gel + agua\n**Total objetivo: 290\u2013340g CHO ex\u00f3genos** \u2014 entrena el intestino.\n- Post: dentro de 20'. Prioridad m\u00e1xima. Arroz + prote\u00edna + fruta + sal.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nFC techo absoluto hoy: 148 bpm. Sin excepciones. Es Z2 pura.\nPotencia rango: 195\u2013240W (60\u201374% FTP).\nCada hora: 2' de pausa para comer s\u00f3lido si es posible (simula avituallamientos QH).\nSi ves que la FC sube con la misma potencia en la hora 3 \u2192 es decoupling normal. \n  Reduce 5W y mant\u00e9n. No fuerces.\nRuta ideal: salida larga con terreno variado. Cuantos m\u00e1s km de carretera abierta, mejor.\nLleva efectivo y saber d\u00f3nde hay tiendas. Larga distancia = autonom\u00eda.\n\n---\n\nWarmup\n- Activaci\u00f3n suave 15m ramp 50-65%\n\nMain Set\n- Z2 bloque 1 \u2014 km 0-60 55m 65-72% 88-90rpm\n\n- PAUSA AVITUALLAMIENTO 1 - Come, bebe, 3 min 3m 50%\n\nMain Set\n- Z2 bloque 2 \u2014 km 60-120 55m 67-74% 88-90rpm\n\n- PAUSA AVITUALLAMIENTO 2 - Come, bebe, 3 min 3m 50%\n\nMain Set\n- Z2 bloque 3 \u2014 km 120-170 50m 67-74% 88rpm\n\n- PAUSA AVITUALLAMIENTO 3 - Come, bebe, 3 min 3m 50%\n\nMain Set\n- Z2 bloque final \u2014 aguanta hasta casa 45m 65-72% 86rpm\n\nMain Set\n- Z2 bloque 2 \u2014 km 60-120 55m 67-74% 88-90rpm\n\nCooldown\n- Cierre suave 15m ramp 68-50% 80rpm"
     },
     {
       "id": 88407066,
