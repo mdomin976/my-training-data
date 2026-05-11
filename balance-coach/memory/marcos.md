@@ -47,6 +47,51 @@
 - Current trajectory: HRV en descenso sostenido (74.2 → 62 ms en ~7 días, -16.4% desde baseline 28d). Night Protocol v1 activo desde 07/05. Primera noche: costó dormir → señal de hiperactivación simpática crónica no resuelta solo con protocolo nocturno. Presencia emocional 4/10. 0 bloques profundos en la semana. Parálisis difusa en trabajo (ni Q1 ni Q2). Metatype confirma: la parálisis no es de productividad, es de identidad — brecha ejecutor individual vs. líder sistémico.
 - Current top problem: Hiperactivación crónica del SNA (mecanismo fisiológico) + ocupación como regulación emocional (mecanismo psicológico HUMAN 3.0). Mismo origen, tres manifestaciones: dificultad para dormir, incapacidad de bajar de la mente, parálisis difusa en foco laboral.
 - Current commitments:
+  ### Morning Protocol v1 (activo desde 11/05/2026)
+  > Calendario: ⚪ Protocolos · L–V · 7:40–9:00h · 80 min totales
+  > Fuente de verdad: Google Calendar ⚪ Protocolos (5 eventos recurrentes)
+
+  | Bloque | Hora | Título | Duración |
+  |--------|------|--------|----------|
+  | 1 | 7:40–7:55 | 🌅 Anclaje Circadiano | 15 min |
+  | 2 | 7:55–8:10 | 🧠 Silencio + Brain Dump | 15 min |
+  | 3 | 8:10–8:20 | ☕ Café + Stack de Foco | 10 min |
+  | 4 | 8:20–8:35 | 🍳 Desayuno Funcional + Suplementos | 15 min |
+  | 5 | 8:35–9:00 | 🚴 Bici al Trabajo | 25 min |
+
+  #### BLOQUE 1 — Anclaje Circadiano · 7:40h
+  - Salir al balcón/ventana · cara a luz natural 2–3 min (incluso nublado)
+  - Tardyferon 80mg en ayunas + 500ml agua fría
+  - Sin móvil · sin pantallas · sin noticias · vestirse en silencio
+  - ⚠️ Regla NO negociable: **Sin móvil hasta las 8:35h**
+  - Mecanismo: luz solar fija SCN + dispara pico cortisol fisiológico matutino. Input alta valencia bloquea ventana de neuroplasticidad.
+
+  #### BLOQUE 2 — Default Mode Network · 7:55h
+  - Silencio activo 10 min — papel en blanco al lado, sin música ni podcast, ojos abiertos o cerrados
+  - Brain dump 5 min en papel — vaciar todo lo que ocupa la mente
+  - Escribir UNA SOLA FRASE: "La única cosa que tiene que pasar hoy es ______."
+  - Mecanismo: DMN integra, conecta y genera insight creativo. Es la primera que destruyes si abres el móvil.
+
+  #### BLOQUE 3 — Activación Dopaminérgica · 8:10h
+  - Café (90 min post-despertar — timing óptimo adenosina)
+  - Rhodiola Rosea 400mg + L-Theanine 200mg
+  - Sin pantallas mientras tomas el café. Música instrumental sin letra si quieres.
+  - Mecanismo: adenosina procesada antes del café evita crash 11h. Ratio L-Theanine/cafeína = protocolo foco cognitivo Huberman. Rhodiola por la mañana maximiza efecto estimulante y adaptogénico.
+
+  #### BLOQUE 4 — Desayuno Funcional · 8:20h
+  - Suplementos con grasa alimentaria: Evovits 1 cáps · Omega-3 3 perlas · Delitus D3 5 gotas · Creatina 5g
+  - **Opción A** (entreno intenso o TSB < -15): 2 huevos + aguacate ½ + pan centeno
+  - **Opción B** (día laboral normal — la más habitual): Greek yogurt 200g + nueces 30g + miel + kiwi/plátano
+  - **Opción C** (post-rodada dura / TSB < -20): Porridge avena 60g + 2 huevos o proteína + frutos rojos
+  - Mecanismo: D3 y Omega-3 necesitan grasa para absorción óptima. Vitamina C (kiwi/plátano) potencia absorción del Tardyferon tomado 40 min antes en ayunas.
+
+  #### BLOQUE 5 — Transición Activa · 8:35h
+  - 8:35 — Primera vez que tocas el móvil. Máximo 5 min. Solo lo imprescindible. **NO email · NO Slack · NO noticias**
+  - 8:40 — Bici al trabajo **SIN AURICULARES**
+  - 9:00 — Llegas. Tarea del día ya escrita. Arranca bloque profundo directo.
+  - Sin reuniones antes de las 10:30 si puedes evitarlo
+  - Mecanismo: Sin auriculares = transición consciente. Dopamina + norepinefrina del movimiento preparan el córtex prefrontal. Llegar con la tarea ya definida elimina la decisión de por dónde empezar.
+
   ### Night Protocol v1 (activo desde 07/05/2026)
   1. [21:00] Última tarea cognitiva HoMU + brain dump 5 min (papel)
   2. [21:00] Luz baja cálida en casa (< 3000K, bajo nivel ojos)
@@ -115,7 +160,7 @@
   - Si HRV < 74.2 ms tras 14 días → analítica ferritina + vitamina D sérica
   - Duelo no procesado → factura diferida (monitorizar en sesiones)
   - Identidad vocacional sin propósito visible → inestabilidad latente en rol COO
-- Recommended focus next session: Revisar history.json tendencia HRV 7d · SMART #1–#6 · cumplimiento bloques profundos · presencia emocional · cumplimiento 15 min silencio · evaluar decisión semanal con info incompleta · seguimiento duelo (¿fue a terapia?) · cumplimiento Protocolo Post-Carga Alta
+- Recommended focus next session: Revisar history.json tendencia HRV 7d · SMART #1–#6 · cumplimiento bloques profundos · presencia emocional · cumplimiento 15 min silencio · evaluar decisión semanal con info incompleta · seguimiento duelo (¿fue a terapia?) · cumplimiento Protocolo Post-Carga Alta · cumplimiento Morning Protocol (especialmente Bloque 1 sin móvil y Bloque 2 silencio)
 
 ## SMART Objectives activos
 
@@ -151,6 +196,48 @@
 - **Timing:** 22:50, integrado en Night Protocol antes de dormir
 - **Primera revisión:** Próxima sesión
 - **Propósito:** Crear tolerancia al discomfort sin ocupación → desactivar mecanismo de regulación emocional por hiperactividad
+
+## Morning Protocol (v1 — compilado 11/05/2026 desde Google Calendar ⚪ Protocolos)
+
+### Resumen
+> 80 minutos · L–V · 7:40–9:00h · Fuente de verdad: Google Calendar ⚪ Protocolos
+
+| Bloque | Hora | Título | Duración |
+|--------|------|--------|----------|
+| 1 | 7:40–7:55 | 🌅 Anclaje Circadiano | 15 min |
+| 2 | 7:55–8:10 | 🧠 Silencio + Brain Dump | 15 min |
+| 3 | 8:10–8:20 | ☕ Café + Stack de Foco | 10 min |
+| 4 | 8:20–8:35 | 🍳 Desayuno Funcional + Suplementos | 15 min |
+| 5 | 8:35–9:00 | 🚴 Bici al Trabajo (Transición Activa) | 25 min |
+
+### Mecanismos objetivo
+1. **Anclaje circadiano** — luz solar matutina fija SCN + pico cortisol fisiológico
+2. **Protección de la DMN** — silencio y brain dump antes de cualquier input externo
+3. **Activación dopaminérgica controlada** — cafeína en timing correcto + Rhodiola + L-Theanine
+4. **Absorción óptima de suplementos liposolubles** — D3, Omega-3 con grasa alimentaria
+5. **Preparación del córtex prefrontal** — movimiento físico + llegada con tarea ya definida
+
+### Regla maestra del protocolo
+⚠️ **Sin móvil hasta las 8:35h.** Cualquier input de alta valencia (WhatsApp, email, noticias) antes de ese momento destruye la ventana de neuroplasticidad matutina y bloquea la DMN.
+
+### Secuencia operativa completa
+
+| Hora | Bloque | Acción | Mecanismo |
+|------|--------|--------|-----------|
+| 7:40 | B1 | Salir a luz natural 2–3 min | Fijar SCN, pico cortisol fisiológico |
+| 7:40 | B1 | Tardyferon 80mg + 500ml agua fría en ayunas | Absorción hierro en ayunas |
+| 7:40 | B1 | Sin móvil · sin pantallas · vestirse en silencio | Proteger ventana neuroplasticidad |
+| 7:55 | B2 | Silencio activo 10 min (papel en blanco al lado) | Activar Default Mode Network |
+| 8:05 | B2 | Brain dump 5 min en papel | Reducir carga cognitiva prefrontal |
+| 8:05 | B2 | Escribir: "La única cosa que tiene que pasar hoy es ______." | Dar dirección antes del ruido |
+| 8:10 | B3 | Café (90 min post-despertar) | Timing óptimo adenosina, evitar crash 11h |
+| 8:10 | B3 | Rhodiola Rosea 400mg + L-Theanine 200mg | Foco cognitivo sin ansiedad |
+| 8:10 | B3 | Sin pantallas. Música instrumental si quieres. | No romper estado de foco entrante |
+| 8:20 | B4 | Evovits 1 cáps · Omega-3 3 perlas · D3 5 gotas · Creatina 5g | Absorción liposoluble con grasa |
+| 8:20 | B4 | Desayuno según el día (A/B/C según TSB y carga) | Ver opciones arriba |
+| 8:35 | B5 | Primera vez que tocas el móvil — máximo 5 min, solo lo imprescindible | No email, no Slack, no noticias |
+| 8:40 | B5 | 🚴 Bici al trabajo SIN AURICULARES | Dopamina + norepinefrina prefrontal |
+| 9:00 | — | Llegas. Tarea del día ya escrita. Arranca bloque profundo directo. | Eliminar decisión de arranque |
 
 ## Night Protocol (v1 — implementado 07/05/2026, ajustado Sesiones 2+3)
 
@@ -221,3 +308,10 @@
 - Commitments made: Protocolo de Recuperación Post-Carga Alta (ver sección Current Commitments).
 - Includes: nutrición ventana post-entreno · EMS/TENS recuperación · estiramientos ciclismo (6 grupos) · suplementación nocturna con timing · estiramientos pre-sueño · nutrición día siguiente.
 - Next action: Revisar en próxima sesión si se ha aplicado en días de alta carga (TSS >100).
+
+### 2026-05-11 — Sesión 5: compilación Morning Protocol
+- Session type: Compilación y registro — Morning Protocol v1
+- Context: Marcos preguntó si tenía guardado el protocolo de mañana. Se detectó que estaba completo en Google Calendar ⚪ Protocolos (5 bloques recurrentes L–V) pero no estaba registrado en la memoria de GitHub.
+- Key update: Morning Protocol v1 compilado desde Google Calendar y añadido a la memoria. 5 bloques · 80 min · 7:40–9:00h. Regla maestra: sin móvil hasta las 8:35h.
+- Commitments made: Morning Protocol v1 guardado en memoria para trabajar sobre él en sesiones futuras.
+- Next action: Revisar cumplimiento del Morning Protocol en próxima sesión (especialmente Bloque 1 sin móvil y Bloque 2 silencio). Posible trabajo de ajuste/optimización según experiencia real.
