@@ -3,7 +3,7 @@
 ## Profile
 - Identifier: marcos
 - First session date: 2026-05-07
-- Last updated: 2026-05-07
+- Last updated: 2026-05-11
 - Language: es
 
 ## Structural Context
@@ -69,6 +69,40 @@
   - Protocolo de arranque: 1 tarea en papel → sin notificaciones → temporizador 25 min → máximo 90 min → pausa 10 min
   - Nota: el bloqueo en el arranque tiene causa identitaria (brecha ejecutor/líder), no solo de foco. Nombrarla reduce su poder.
   - Bloques agendados L–V 9:30–11:00/11:30
+  ### Protocolo de Recuperación Post-Carga Alta (activo desde 11/05/2026)
+  > Aplicar los días con TSS >100 / CTL >75 / TSB negativo
+  #### Ventana 0–45 min post-entreno
+  - Proteína 30–40g + CH 60–80g en los primeros 45 min
+  - Creatina 5g con carbohidrato (captación máxima con insulina elevada)
+  - Omega-3 (3 perlas) con comida si lleva grasa
+  - Hidratación: 500–750ml con electrolitos (sodio + potasio)
+  - EMS/TENS en modo recuperación (4–8 Hz, baja intensidad) 15–20 min en cuádriceps y glúteos si disponible. NO modo tonificación.
+  #### Tarde (1–3h post-entreno)
+  - Comida completa: CH complejos + proteína + verdura + grasa saludable
+  - Beta-alanina 4g (si no se tomó pre-entreno)
+  - Sin alcohol (interfiere síntesis proteica y suprime GH nocturna hasta 70%)
+  - Movilidad post-ciclismo (estiramientos estáticos >60s, solo post-entreno):
+    - Psoas/hip flexor: 90s cada lado (postura caballero con inclinación posterior)
+    - Isquiotibiales: 60s cada lado (tumbado, pierna elevada)
+    - Cuádriceps: 60s cada lado
+    - Glúteo/piriforme: 90s cada lado (figura 4)
+    - Lumbar/columna: 2 min (cat-cow + rotación torácica)
+    - Pectoral/hombros: 60s (apertura en marco de puerta — corrige postura manillar)
+  #### Noche (2h antes de dormir)
+  - Mg bisglicinato + Ashwagandha + L-Theanine 200mg (timing nocturno — ya en Night Protocol)
+  - NO Rhodiola por la noche (efecto estimulante — solo mañana)
+  - NO revisar métricas antes de dormir (crea loop de ansiedad anticipatoria)
+  - Estiramientos pre-sueño 5–8 min:
+    - Respiración diafragmática 4-8s × 5 ciclos (supino)
+    - Child's pose: 2 min
+    - Rotación columna en suelo: 60s cada lado
+    - Piernas en pared (Viparita Karani): 3–5 min (drena retorno venoso + reduce FC)
+  #### Día siguiente (recuperación activa)
+  - Sin déficit calórico aunque no haya entreno (reparación muscular activa 24–48h)
+  - Proteína mínima 2g/kg = 150g/día distribuida en 4 tomas
+  - Vitamina D + Omega-3 con la comida principal
+  #### Regla maestra del protocolo
+  El SNA no distingue entre estrés de entrenamiento y estrés laboral. Si no hay ventana activa de descarga entre sesión y sueño (cortisol → pantallas → sin ritual de cierre), el protocolo físico no funciona.
   ### Compromisos HUMAN 3.0 activos
   - 1 decisión semanal tomada con información incompleta (práctica de tolerancia a la ambigüedad)
   - Llevar a próxima sesión de terapia: pena por padre, sensación de no estar al nivel, miedo a comprometerse
@@ -81,7 +115,7 @@
   - Si HRV < 74.2 ms tras 14 días → analítica ferritina + vitamina D sérica
   - Duelo no procesado → factura diferida (monitorizar en sesiones)
   - Identidad vocacional sin propósito visible → inestabilidad latente en rol COO
-- Recommended focus next session: Revisar history.json tendencia HRV 7d · SMART #1–#6 · cumplimiento bloques profundos · presencia emocional · cumplimiento 15 min silencio · evaluar decisión semanal con info incompleta · seguimiento duelo (¿fue a terapia?)
+- Recommended focus next session: Revisar history.json tendencia HRV 7d · SMART #1–#6 · cumplimiento bloques profundos · presencia emocional · cumplimiento 15 min silencio · evaluar decisión semanal con info incompleta · seguimiento duelo (¿fue a terapia?) · cumplimiento Protocolo Post-Carga Alta
 
 ## SMART Objectives activos
 
@@ -177,3 +211,13 @@
 - Key update: Perfil HUMAN 3.0 leído e integrado. Metatype: El Ejecutor en Transición. Mecanismo central confirmado: ocupación como regulación emocional. Cadena de desbloqueo: Body → Mind → Vocation → Spirit. Duelo por padre activo (hace pocos meses). Advertencias: burnout físico, identidad vocacional sin propósito visible, duelo con factura diferida.
 - Commitments made: SMART #6 (15 min silencio diario ≥ 5/7 días) · evento calendario creado 22:50 diario · Night Protocol ajustado con silencio como paso explícito.
 - Next action: Próxima sesión — SMART #1–#6 · cumplimiento silencio · ¿fue a terapia con los 3 temas? · decisión semanal con info incompleta.
+
+### 2026-05-11 — Sesión 4: protocolo de recuperación post-carga alta
+- Session type: Protocolo focalizado — recuperación fisiológica
+- Context: Trabajo de extracción science-based (Dr. Duncan French / Huberman ep. 86 + supplement stack). TSB negativo crónico + HRV en descenso como motivación principal.
+- Key pattern detected: El SNA no recibe ninguna señal de descarga entre sesión de entrenamiento y sueño. Estrés laboral + entrenamiento + pantallas + sin ritual de cierre = HRV deprimido crónico aunque el volumen sea correcto.
+- Key insight (French): La capacidad de reproducir calidad día tras día ES la conversación de recuperación. Con FTP 4.6 W/kg, el cuello de botella no es el entreno — es la recuperación insuficiente.
+- Science-based protocol applied: Huberman ep. 86 (Dr. Duncan French) — periodización del frío, calor, carga fisiológica. Supplement stack cruzado (suplementos nocturnos, timing nutrición, Omega-3 anti-inflamatorio).
+- Commitments made: Protocolo de Recuperación Post-Carga Alta (ver sección Current Commitments).
+- Includes: nutrición ventana post-entreno · EMS/TENS recuperación · estiramientos ciclismo (6 grupos) · suplementación nocturna con timing · estiramientos pre-sueño · nutrición día siguiente.
+- Next action: Revisar en próxima sesión si se ha aplicado en días de alta carga (TSS >100).
