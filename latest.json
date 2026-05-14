@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-14T14:42:43.809919",
+    "last_updated": "2026-05-14T16:52:08.874093",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -676,7 +676,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.5,
+          "planned_tss_delta": 1.64,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 2,
@@ -716,7 +716,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-14T14:42:43.808994",
+    "calculation_timestamp": "2026-05-14T16:52:08.872837",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5449,8 +5449,21 @@
   ],
   "planned_workouts": [
     {
-      "id": 108434829,
+      "id": 110137549,
       "date": "2026-05-14",
+      "name": "QH Recovery W3 | Z2 Moderado",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 84,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "## QH Recovery W3 | Z2 Moderado \u2014 Recuperaci\u00f3n Activa con Est\u00edmulo\n## TSS objetivo: ~75 | Duraci\u00f3n: ~2h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nDos horas suaves. El sistema aer\u00f3bico se consolida, las fibras musculares reparan, \nla mente se calma. Usa este rodaje para hacer un check mental de la QH: visualiza \nla salida en Sabi\u00f1\u00e1nigo, el pelot\u00f3n, la sensaci\u00f3n de salir en cabeza de carrera sin \nel caos del a\u00f1o pasado. Visualiza los primeros 38 km planos a 240W \u2014 tranquilo, \ncontrolado, exactamente como entrenaste.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\n- Pre: desayuno normal. Sin sobrecarga.\n- Durante: 1 bid\u00f3n iso 500ml + 1 gel si dura m\u00e1s de 90'. \n- Post: comida completa. Foco en sue\u00f1o y recuperaci\u00f3n esta semana.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\n- FC techo: 145 bpm. Esta semana m\u00e1s conservador que W1/W2.\n- Potencia: 195\u2013232W (60\u201371% FTP). Sin urgencia.\n- Si el tiempo es bueno y las piernas van solas \u2192 no aceleres. Disciplina de zona.\n- Ideal: ruta conocida y c\u00f3moda. Sin explorar ni esforzarse en terreno duro.\n\n---\n\nWarmup\n- Activaci\u00f3n suave 10m ramp 48-62%\n\nMain Set\n- Z2 moderado 1h40m 62-71% 86-92rpm\n\nCooldown\n- Cierre tranquilo 10m ramp 65-50%"
+    },
+    {
+      "id": 108434829,
+      "date": "2026-05-15",
       "name": "QH Build W2 | Umbral 3\u00d715' \u2014 Potencia Sostenida QH",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -5460,19 +5473,6 @@
       "workout_summary": "15m @194W | 10s @0W | 2\u00d72m @292W / 2m rec | 3m @169W | 10s @0W | 3\u00d715m @308W / 5m rec | 15m @194W",
       "has_terrain": false,
       "description": "## QH Build W2 | Umbral 3\u00d715' \u2014 Potencia Sostenida QH\n## TSS objetivo: ~130 | Duraci\u00f3n: ~2h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\n15 minutos al FTP. El Somport dura 31 minutos. Marie-Blanque dura 23\u201326 minutos. \nAmbos puertos los har\u00e1s entre 85\u201386% FTP. Hoy entrenas exactamente eso, ligeramente m\u00e1s \nalto para crear margen de adaptaci\u00f3n. Cuando el 3er bloque se ponga duro \u2014 y se pondr\u00e1 \u2014 \nrecuerda: en la QH llegar\u00e1s a esos puertos con 3 horas de Z2 en las piernas. Hoy \nllegas fresco. Si aguantas hoy fresco, aguantar\u00e1s all\u00ed cansado.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre-entreno (90' antes): pasta o arroz + salsa tomate + prote\u00edna ligera. 80g CHO.\nDurante: 1 gel antes del primer bloque (10' antes). 1 bid\u00f3n iso 500ml durante la sesi\u00f3n.\nPost (cr\u00edtico semana de pico): dentro de 20' \u2014 100g CHO + 35g PRO. \n  Arroz con huevos o batido + fruta grande.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nPotencia objetivo: 293\u2013325W (90\u2013100% FTP). Empieza en 295W, no en 325W.\nFC esperada: 162\u2013173 bpm. Si superas 175 bpm antes del minuto 10 \u2192 reduce 10W.\nCadencia: 88\u201392 rpm. Fuerza un ritmo de pedaleo activo desde el inicio.\nRecuperaci\u00f3n de 5' entre bloques: debe bajarte a menos de 130 bpm antes del siguiente.\nSi el 3er bloque no es posible completo \u2192 haz 12' en lugar de rendirte a los 7'. \n  La consistencia importa m\u00e1s que el hero\u00edsmo.\nTerreno: plano o subida larga suave (3\u20134% m\u00e1x). Evita t\u00e9cnica de descenso.\n\n---\n\nWarmup\n- Calentamiento base 15m ramp 50-70% 85rpm\n\n- PREP ACTIVACI\u00d3N UMBRAL - Press Lap ahora 10s 0%\n\n2x\n- Activaci\u00f3n umbral 2m 88-92% 90rpm\n- Recuperaci\u00f3n activaci\u00f3n 2m 55%\n\nMain Set\n- Recuperaci\u00f3n pre-bloque 3m 52%\n\n- PREP BLOQUE UMBRAL - Press Lap ahora 10s 0%\n\nMain Set 3x\n- FTP sostenido QH 15m 90-100% 88-92rpm\n- Recuperaci\u00f3n umbral 5m 52-55% 82rpm\n\nCooldown\n- Vuelta a calma 15m ramp 70-50% 80rpm"
-    },
-    {
-      "id": 108434832,
-      "date": "2026-05-15",
-      "name": "QH Build W2 | Recuperaci\u00f3n Activa Z1 \u2014 Flush Day",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 34,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "## QH Build W2 | Recuperaci\u00f3n Activa Z1 \u2014 Flush Day\n## TSS objetivo: ~30 | Duraci\u00f3n: 1h15 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nLlevas 3 d\u00edas duros. El viernes es el d\u00eda que el cuerpo procesa y consolida todo lo que \nhas construido. No lo sabotees. Si sientes que \"deber\u00edas entrenar m\u00e1s\" \u2192 esa sensaci\u00f3n \nes exactamente la se\u00f1al de que el sistema est\u00e1 funcionando. El cuerpo pide reposo para \ncrecer. La semana que viene tienes el simulacro m\u00e1s importante: Marie-Blanque a potencia \nreal. Llega fresco.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre: fruta + caf\u00e9. Ligero.\nDurante: solo agua o bebida hipot\u00f3nica. Sin geles.\nPost: comida normal. Foco en hidrataci\u00f3n y dormir bien esta noche.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nL\u00edmite absoluto: 135 bpm. Si lo superas \u2192 para y ajusta.\nPotencia: 130\u2013195W (40\u201360% FTP). No mires la potencia, mira la FC.\nRuta plana preferible. Evita puertos hoy aunque sea viernes.\nDuraci\u00f3n flexible: si a los 50' te sientes bien, para igualmente. \n\n---\n\nWarmup\n- Arranque suave 5m 40-50%\n\nMain Set\n- Recuperaci\u00f3n Z1 pura 1h 50-60% freeride\n\nCooldown\n- 5m 40-48%"
     },
     {
       "id": 108434839,
