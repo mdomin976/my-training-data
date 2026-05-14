@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T18:56:41.202566",
+  "generated_at": "2026-05-14T20:40:47.257765",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -3697,6 +3697,48 @@
           "valid_pct": 70.4,
           "artifact_rate_avg": 4.25,
           "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i148279878",
+      "date": "2026-05-14",
+      "type": "Ride",
+      "name": "QH Recovery W3 | Z2 Moderado",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5960,
+          "avg_power": 147,
+          "max_power": 369,
+          "avg_hr": 107,
+          "max_hr": 138,
+          "avg_cadence": 54.557083,
+          "zone": 1,
+          "training_load": 51.654774,
+          "decoupling": -5.3040776,
+          "avg_dfa_a1": 1.0807487
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 3287,
+          "total_secs": 5746,
+          "valid_pct": 57.2,
+          "artifact_rate_avg": 5.55,
+          "sufficient": false
         }
       }
     }
