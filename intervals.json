@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T23:01:02.323447",
+  "generated_at": "2026-05-15T00:10:48.543820",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -1825,44 +1825,6 @@
           "avg_cadence": 46.708736,
           "zone": 1,
           "training_load": 17.612938
-        }
-      ]
-    },
-    {
-      "activity_id": "i144377673",
-      "date": "2026-04-30",
-      "type": "Ride",
-      "name": "Torredembarra - VO2max Intervals: 4x4m (Extended",
-      "interval_summary": [
-        "1x 43s 36w",
-        "1x 1h9m 188w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "43s@36w46rpm",
-          "duration_secs": 43,
-          "avg_power": 36,
-          "max_power": 156,
-          "avg_hr": 73,
-          "max_hr": 79,
-          "avg_cadence": 46.023254,
-          "zone": 1,
-          "training_load": 0.011742012,
-          "decoupling": -243.80644
-        },
-        {
-          "type": "WORK",
-          "label": "4185s@188w80rpm",
-          "duration_secs": 4185,
-          "avg_power": 188,
-          "max_power": 979,
-          "avg_hr": 130,
-          "max_hr": 167,
-          "avg_cadence": 79.660286,
-          "zone": 1,
-          "training_load": 53.019638,
-          "decoupling": 8.373511
         }
       ]
     },
