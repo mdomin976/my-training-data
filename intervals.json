@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T14:39:43.411367",
+  "generated_at": "2026-05-15T16:28:31.370961",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -3700,6 +3700,76 @@
           "total_secs": 5746,
           "valid_pct": 57.2,
           "artifact_rate_avg": 5.55,
+          "sufficient": false
+        }
+      }
+    },
+    {
+      "activity_id": "i148529115",
+      "date": "2026-05-15",
+      "type": "Ride",
+      "name": "QH Build W2 | Umbral 3\u00d715' \u2014 Potencia Sostenida QH",
+      "interval_summary": [
+        "1x 48m3s 133w",
+        "1x 2h10m 184w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2883s@133w59rpm",
+          "duration_secs": 2883,
+          "avg_power": 133,
+          "max_power": 604,
+          "avg_hr": 106,
+          "max_hr": 143,
+          "avg_cadence": 59.488815,
+          "zone": 1,
+          "training_load": 11.592861,
+          "decoupling": 12.625834,
+          "avg_dfa_a1": 1.2700307
+        },
+        {
+          "type": "WORK",
+          "label": "7816s@184w67rpm",
+          "duration_secs": 7816,
+          "avg_power": 184,
+          "max_power": 711,
+          "avg_hr": 131,
+          "max_hr": 179,
+          "avg_cadence": 66.667694,
+          "zone": 1,
+          "training_load": 124.2357,
+          "decoupling": -2.8224127,
+          "avg_dfa_a1": 1.1358172
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_hr": 74,
+          "max_hr": 76,
+          "zone": 1,
+          "training_load": 0.00064431294,
+          "decoupling": "NaN",
+          "avg_dfa_a1": 1.497263
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 5112,
+          "total_secs": 8931,
+          "valid_pct": 57.2,
+          "artifact_rate_avg": 6.19,
           "sufficient": false
         }
       }
