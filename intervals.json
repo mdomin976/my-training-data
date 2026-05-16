@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T12:38:15.863740",
+  "generated_at": "2026-05-16T14:10:33.404706",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -3753,6 +3753,121 @@
           "valid_pct": 57.2,
           "artifact_rate_avg": 6.19,
           "sufficient": false
+        }
+      }
+    },
+    {
+      "activity_id": "i148795127",
+      "date": "2026-05-16",
+      "type": "Ride",
+      "name": "Barcelona Road Cycling",
+      "interval_summary": [
+        "1x 5h41m 221w",
+        "1x 28m13s 315w",
+        "1x 47m28s 210w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "20465s@221w80rpm",
+          "duration_secs": 20465,
+          "avg_power": 221,
+          "max_power": 605,
+          "avg_hr": 134,
+          "max_hr": 164,
+          "avg_cadence": 79.73062,
+          "zone": 2,
+          "training_load": 272.96414,
+          "decoupling": 4.788621,
+          "avg_dfa_a1": 0.9476028
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_hr": 135,
+          "max_hr": 136,
+          "zone": 1,
+          "training_load": 0.018228007,
+          "decoupling": "NaN",
+          "avg_dfa_a1": 0.82057
+        },
+        {
+          "type": "WORK",
+          "label": "1693s@315w90rpm",
+          "duration_secs": 1693,
+          "avg_power": 315,
+          "max_power": 417,
+          "avg_hr": 159,
+          "max_hr": 165,
+          "avg_cadence": 89.953926,
+          "zone": 4,
+          "training_load": 45.02378,
+          "decoupling": 1.1858445,
+          "avg_dfa_a1": 0.5403801
+        },
+        {
+          "type": "WORK",
+          "label": "2848s@210w82rpm",
+          "duration_secs": 2848,
+          "avg_power": 210,
+          "max_power": 442,
+          "avg_cadence": 82.09276,
+          "zone": 1,
+          "training_load": 42.753117,
+          "avg_dfa_a1": 0.25935543
+        }
+      ],
+      "dfa": {
+        "avg": 0.769,
+        "p25": 0.551,
+        "p50": 0.746,
+        "p75": 1.02,
+        "tiz_below_lt1": {
+          "secs": 5076,
+          "pct": 26.6,
+          "avg_hr": 132,
+          "avg_watts": 216
+        },
+        "tiz_lt1_transition": {
+          "secs": 4400,
+          "pct": 23.1,
+          "avg_hr": 139,
+          "avg_watts": 233
+        },
+        "tiz_transition_lt2": {
+          "secs": 5379,
+          "pct": 28.2,
+          "avg_hr": 144,
+          "avg_watts": 249
+        },
+        "tiz_above_lt2": {
+          "secs": 4224,
+          "pct": 22.1,
+          "avg_hr": 46,
+          "avg_watts": 235
+        },
+        "drift": {
+          "first_third_avg": 0.914,
+          "last_third_avg": 0.503,
+          "delta": -0.411,
+          "interpretable": false
+        },
+        "lt1_crossing": {
+          "secs_in_band": 1712,
+          "avg_hr": 136,
+          "avg_watts": 226
+        },
+        "lt2_crossing": {
+          "secs_in_band": 1025,
+          "avg_hr": 149,
+          "avg_watts": 266
+        },
+        "quality": {
+          "valid_secs": 19079,
+          "total_secs": 21531,
+          "valid_pct": 88.6,
+          "artifact_rate_avg": 1.67,
+          "sufficient": true
         }
       }
     }
