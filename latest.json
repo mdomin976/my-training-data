@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-16T19:49:43.339979",
+    "last_updated": "2026-05-16T20:55:13.629500",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -197,10 +197,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 90.52,
-      "atl": 150.86,
-      "tsb": -60.34,
-      "ramp_rate": 14.92,
+      "ctl": 86.21,
+      "atl": 126.5,
+      "tsb": -40.29,
+      "ramp_rate": 10.61,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -648,16 +648,15 @@
     },
     "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 6,
-      "matched_days": 6,
+      "matched_days": 5,
       "planned_dates": [
         "2026-05-10",
         "2026-05-11",
         "2026-05-12",
         "2026-05-14",
-        "2026-05-15",
-        "2026-05-16"
+        "2026-05-15"
       ],
       "completed_dates": [
         "2026-05-10",
@@ -680,13 +679,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.23,
+          "planned_tss_delta": 0.58,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 3,
           "race_proximity": 35,
           "next_week_load": 0.81,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -720,13 +719,13 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 71.0,
-    "calculation_timestamp": "2026-05-16T19:49:43.338743",
+    "calculation_timestamp": "2026-05-16T20:55:13.628314",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 22,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -6050,30 +6049,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 108434839,
-      "date": "2026-05-16",
-      "name": "QH Build W2 | Simulacro Marie-Blanque \u2014 23' a Potencia Real QH",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 183,
-      "duration_hours": 3.72,
-      "duration_formatted": "3h43m10s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "## QH Build W2 | Simulacro Marie-Blanque \u2014 23' a Potencia Real QH\n## TSS objetivo: ~200 | Duraci\u00f3n: ~3h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nHoy es el d\u00eda m\u00e1s importante de W2. Marie-Blanque es el puerto que destruy\u00f3 tu QH 2025. \nSubiste a 272W (85% FTP) pero con picos de hasta 380W que vaciaron las reservas antes \ndel Portalet. Hoy haces el protocolo correcto: 23\u201326 minutos a 279W CONSTANTE, sin spikes, \nsin ego. El VI objetivo es <1.05. Un n\u00famero que mide la disciplina.\n\nEl protocolo: 1h30\u20132h de Z2 para llegar con fatiga real, luego el simulacro. \nCuando empiece el bloque y duela \u2014 y doler\u00e1 a partir del minuto 15 \u2014 recuerda: \nest\u00e1s entrenando exactamente el momento que en 2025 te cost\u00f3 14 minutos en el Portalet. \nHoy lo cambias.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n (protocolo pre-carrera):**\nDesayuno 2h antes: 120g CHO. Avena + pl\u00e1tano + tostada + caf\u00e9. Nada experimental.\nDurante Z2 previo (90'): 60\u201370g CHO/h. Gel + bid\u00f3n iso.\n20' antes del simulacro: 1 gel de cafe\u00edna (100mg). Timing exacto.\nPost-simulacro (inmediato): 1 gel o pl\u00e1tano mientras sigues rodando suave.\nPost-ride 30': 120g CHO + 35g PRO. M\u00e1xima ventana anab\u00f3lica.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nZ2 previo: respeta 65\u201374% FTP. Llegar con acumulaci\u00f3n de fatiga real es el objetivo.\nSimulacro Marie-Blanque: 279W = 86% FTP exacto. FC esperada 166\u2013172 bpm.\nREGLA: si en alg\u00fan momento subes a 300W+ \u2192 has roto el protocolo. Ese es el error de 2025.\nCadencia: 78\u201383 rpm (simula gradiente real de Marie-Blanque ~7.5%).\nSi usas un puerto real: perfecto. Si no, elige subida de 8\u201312% y gestiona la potencia.\nLos \u00faltimos 5 minutos del simulacro ser\u00e1n duros. Frase de anclaje: \"Portalet empieza aqu\u00ed.\"\n\n---\n\nWarmup\n- Activaci\u00f3n ligera 15m ramp 50-65% 84rpm\n\nMain Set\n- Z2 pre-fatiga bloque 1 65m 65-73% 88-92rpm\n- Z2 pre-fatiga bloque 2 75m 67-74% 88rpm\n\n- PROTOCOLO NUTRICI\u00d3N - Toma gel cafe\u00edna AHORA 3m 52%\n\n- PREP SIMULACRO MARIE-BLANQUE - Press Lap ahora 10s 0%\n\nMain Set\n- Simulacro Marie-Blanque 23m 84-87% 78-83rpm\n\n- Recuperaci\u00f3n post-simulacro activa 10m 52-56% 82rpm\n\nMain Set\n- Z2 vuelta a casa 20m 65-72% 86rpm\n\nCooldown\n- Cierre suave 12m ramp 68-50% 80rpm"
-    },
-    {
       "id": 108434842,
       "date": "2026-05-17",
       "name": "QH Build W2 | Gran Fondo Z2 Pura \u2014 Durabilidad y Volumen",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 233,
-      "duration_hours": 4.98,
-      "duration_formatted": "4h59m",
+      "planned_tss": 109,
+      "duration_hours": 2.43,
+      "duration_formatted": "2h26m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "## QH Build W2 | Gran Fondo Z2 Pura \u2014 Durabilidad y Volumen\n## TSS objetivo: ~220 | Duraci\u00f3n: 4\u20134.5h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nLa QH dura 5h35 en tu objetivo. Hoy haces 4\u20134.5h. No es casualidad: tu cuerpo necesita \nsaber qu\u00e9 se siente estar 4 horas pedaleando antes de que llegue el d\u00eda. La comodidad en \nla bicicleta durante horas es una habilidad que se entrena. El aburrimiento de la hora 3 \nen Z2 es exactamente lo que te va a dar serenidad mental en la hora 3 de la QH, cuando \ntodav\u00eda tienes el Portalet por delante y debes mantener la calma.\n\nMentalidad de hoy: explorador, no corredor. No hay ritmo que batir, hay tiempo que acumular.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n (simulacro completo de carrera):**\nDesayuno 2h antes: 150g CHO. Desayuno QH completo. Practica el timing.\nh1: 60g CHO/h \u2014 bid\u00f3n iso\nh2: 80g CHO/h \u2014 gel + barrita + bid\u00f3n iso\nh3: 80\u201390g CHO/h \u2014 2 geles + bid\u00f3n\nh4\u2013h4.5: 70g CHO/h \u2014 gel + agua\n**Total objetivo: 290\u2013340g CHO ex\u00f3genos** \u2014 entrena el intestino.\n- Post: dentro de 20'. Prioridad m\u00e1xima. Arroz + prote\u00edna + fruta + sal.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nFC techo absoluto hoy: 148 bpm. Sin excepciones. Es Z2 pura.\nPotencia rango: 195\u2013240W (60\u201374% FTP).\nCada hora: 2' de pausa para comer s\u00f3lido si es posible (simula avituallamientos QH).\nSi ves que la FC sube con la misma potencia en la hora 3 \u2192 es decoupling normal. \n  Reduce 5W y mant\u00e9n. No fuerces.\nRuta ideal: salida larga con terreno variado. Cuantos m\u00e1s km de carretera abierta, mejor.\nLleva efectivo y saber d\u00f3nde hay tiendas. Larga distancia = autonom\u00eda.\n\n---\n\nWarmup\n- Activaci\u00f3n suave 15m ramp 50-65%\n\nMain Set\n- Z2 bloque 1 \u2014 km 0-60 55m 65-72% 88-90rpm\n\n- PAUSA AVITUALLAMIENTO 1 - Come, bebe, 3 min 3m 50%\n\nMain Set\n- Z2 bloque 2 \u2014 km 60-120 55m 67-74% 88-90rpm\n\n- PAUSA AVITUALLAMIENTO 2 - Come, bebe, 3 min 3m 50%\n\nMain Set\n- Z2 bloque 3 \u2014 km 120-170 50m 67-74% 88rpm\n\n- PAUSA AVITUALLAMIENTO 3 - Come, bebe, 3 min 3m 50%\n\nMain Set\n- Z2 bloque final \u2014 aguanta hasta casa 45m 65-72% 86rpm\n\nMain Set\n- Z2 bloque 2 \u2014 km 60-120 55m 67-74% 88-90rpm\n\nCooldown\n- Cierre suave 15m ramp 68-50% 80rpm"
+      "description": "## QH Build W2 | Gran Fondo Z2 Pura \u2014 Durabilidad y Volumen\n## TSS objetivo: ~220 | Duraci\u00f3n: 4\u20134.5h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nLa QH dura 5h35 en tu objetivo. Hoy haces 4\u20134.5h. No es casualidad: tu cuerpo necesita \nsaber qu\u00e9 se siente estar 4 horas pedaleando antes de que llegue el d\u00eda. La comodidad en \nla bicicleta durante horas es una habilidad que se entrena. El aburrimiento de la hora 3 \nen Z2 es exactamente lo que te va a dar serenidad mental en la hora 3 de la QH, cuando \ntodav\u00eda tienes el Portalet por delante y debes mantener la calma.\n\nMentalidad de hoy: explorador, no corredor. No hay ritmo que batir, hay tiempo que acumular.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n (simulacro completo de carrera):**\nDesayuno 2h antes: 150g CHO. Desayuno QH completo. Practica el timing.\nh1: 60g CHO/h \u2014 bid\u00f3n iso\nh2: 80g CHO/h \u2014 gel + barrita + bid\u00f3n iso\nh3: 80\u201390g CHO/h \u2014 2 geles + bid\u00f3n\nh4\u2013h4.5: 70g CHO/h \u2014 gel + agua\n**Total objetivo: 290\u2013340g CHO ex\u00f3genos** \u2014 entrena el intestino.\n- Post: dentro de 20'. Prioridad m\u00e1xima. Arroz + prote\u00edna + fruta + sal.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nFC techo absoluto hoy: 148 bpm. Sin excepciones. Es Z2 pura.\nPotencia rango: 195\u2013240W (60\u201374% FTP).\nCada hora: 2' de pausa para comer s\u00f3lido si es posible (simula avituallamientos QH).\nSi ves que la FC sube con la misma potencia en la hora 3 \u2192 es decoupling normal. \n  Reduce 5W y mant\u00e9n. No fuerces.\nRuta ideal: salida larga con terreno variado. Cuantos m\u00e1s km de carretera abierta, mejor.\nLleva efectivo y saber d\u00f3nde hay tiendas. Larga distancia = autonom\u00eda.\n\n---\n\nWarmup\n- Activaci\u00f3n suave 15m ramp 50-65%\n\nMain Set\n- Z2 bloque 1 \u2014 km 0-60 55m 65-72% 88-90rpm\n\n- PAUSA AVITUALLAMIENTO 1 - Come, bebe, 3 min 3m 50%\n\nMain Set\n- Z2 bloque 2 \u2014 km 60-120 55m 67-74% 88-90rpm\n\n- PAUSA AVITUALLAMIENTO 2 - Come, bebe, 3 min 3m 50%\n\n\nCooldown\n- Cierre suave 15m ramp 68-50% 80rpm"
     },
     {
       "id": 88407066,
@@ -6650,12 +6636,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 28,
+    "attempted": 27,
     "success": 16,
     "patternA": 16,
     "patternB": 0,
     "bail_no_workout_doc": 5,
-    "bail_no_match": 12
+    "bail_no_match": 11
   },
   "weekly_summary": {
     "total_training_hours": 17.04,
