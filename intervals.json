@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T09:19:52.431493",
+  "generated_at": "2026-05-17T10:52:00.476323",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -3709,6 +3709,129 @@
           "total_secs": 21531,
           "valid_pct": 88.6,
           "artifact_rate_avg": 1.67,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i149014952",
+      "date": "2026-05-17",
+      "type": "Ride",
+      "name": "QH Build W2 | Gran Fondo Z2 Pura \u2014 Durabilidad y Volumen",
+      "interval_summary": [
+        "1x 15m1s 116w",
+        "1x 55m1s 220w",
+        "1x 3m 168w",
+        "1x 48m27s 146w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "901s@116w66rpm",
+          "duration_secs": 901,
+          "avg_power": 116,
+          "max_power": 335,
+          "avg_hr": 94,
+          "max_hr": 117,
+          "avg_cadence": 65.64778,
+          "zone": 1,
+          "training_load": 4.497439,
+          "decoupling": 15.485069,
+          "avg_dfa_a1": 1.2124765
+        },
+        {
+          "type": "WORK",
+          "label": "3301s@220w88rpm",
+          "duration_secs": 3301,
+          "avg_power": 220,
+          "max_power": 423,
+          "avg_hr": 126,
+          "max_hr": 145,
+          "avg_cadence": 87.9691,
+          "zone": 2,
+          "training_load": 48.48852,
+          "decoupling": 0.47676837,
+          "avg_dfa_a1": 0.99140495
+        },
+        {
+          "type": "WORK",
+          "label": "180s@168w74rpm",
+          "duration_secs": 180,
+          "avg_power": 168,
+          "max_power": 345,
+          "avg_hr": 117,
+          "max_hr": 132,
+          "avg_cadence": 73.505554,
+          "zone": 1,
+          "training_load": 1.8371124,
+          "decoupling": 25.761448,
+          "avg_dfa_a1": 1.3731126
+        },
+        {
+          "type": "WORK",
+          "label": "2907s@146w64rpm",
+          "duration_secs": 2907,
+          "avg_power": 146,
+          "max_power": 372,
+          "avg_hr": 105,
+          "max_hr": 136,
+          "avg_cadence": 63.8968,
+          "zone": 1,
+          "training_load": 27.603365,
+          "decoupling": 14.218272,
+          "avg_dfa_a1": 1.221497
+        }
+      ],
+      "dfa": {
+        "avg": 1.071,
+        "p25": 0.708,
+        "p50": 1.124,
+        "p75": 1.39,
+        "tiz_below_lt1": {
+          "secs": 2901,
+          "pct": 55.8,
+          "avg_hr": 110,
+          "avg_watts": 164
+        },
+        "tiz_lt1_transition": {
+          "secs": 775,
+          "pct": 14.9,
+          "avg_hr": 130,
+          "avg_watts": 231
+        },
+        "tiz_transition_lt2": {
+          "secs": 1428,
+          "pct": 27.5,
+          "avg_hr": 134,
+          "avg_watts": 239
+        },
+        "tiz_above_lt2": {
+          "secs": 96,
+          "pct": 1.8,
+          "avg_hr": 133,
+          "avg_watts": 221
+        },
+        "drift": {
+          "first_third_avg": 1.117,
+          "last_third_avg": 1.168,
+          "delta": 0.051,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 255,
+          "avg_hr": 124,
+          "avg_watts": 215
+        },
+        "lt2_crossing": {
+          "secs_in_band": 287,
+          "avg_hr": 133,
+          "avg_watts": 234
+        },
+        "quality": {
+          "valid_secs": 5200,
+          "total_secs": 7288,
+          "valid_pct": 71.4,
+          "artifact_rate_avg": 4.04,
           "sufficient": true
         }
       }
