@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-17T15:08:47.569489",
+    "last_updated": "2026-05-17T16:12:46.258954",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -700,7 +700,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 71.0,
-    "calculation_timestamp": "2026-05-17T15:08:47.568222",
+    "calculation_timestamp": "2026-05-17T16:12:46.257651",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5958,12 +5958,12 @@
       "name": "QH Recovery W3 | VO2max Corto 4\u00d73'",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 77,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m20s",
-      "workout_summary": "4m | 12m @192W | 3m @240W | 10s @0W | 2\u00d730s @365W / 1m30s rec | 4m @169W | 10s @0W | 4\u00d73m @391W / 4m rec | 15m @186W",
+      "planned_tss": 75,
+      "duration_hours": 1.11,
+      "duration_formatted": "1h6m20s",
+      "workout_summary": "12m @192W | 3m @240W | 10s @0W | 2\u00d730s @365W / 1m30s rec | 4m @169W | 10s @0W | 4\u00d73m @391W / 4m rec | 15m @186W",
       "has_terrain": false,
-      "description": "## QH Recovery W3 | VO2max Corto 4\u00d73' \u2014 Est\u00edmulo sin Fatiga\n## TSS objetivo: ~75 | Duraci\u00f3n: ~1h15 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nSemana de recuperaci\u00f3n no significa semana de descanso mental. Significa semana donde \nel cuerpo absorbe todo lo que has construido en W1 y W2. Solo 4 series hoy \u2014 pero \ncada una con intenci\u00f3n m\u00e1xima. La calidad reemplaza al volumen. Visualiza: dentro de \n3 semanas estar\u00e1s en los Pirineos. Esta semana te deja fresco para atacar W4, que es \ndonde se gana o se pierde la QH.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\n- Pre (75' antes): tostadas con miel + pl\u00e1tano + caf\u00e9. ~60g CHO.\n- Durante: 1 gel antes del bloque principal + agua. Sesi\u00f3n corta, no necesitas m\u00e1s.\n- Post (30'): batido proteico + pl\u00e1tano. Recuperaci\u00f3n ligera pero completa.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\n- Solo 4 series: cada una al m\u00e1ximo que puedas mantener los 3 minutos enteros.\n- Objetivo potencia: 375\u2013410W (115\u2013126% FTP). FC: 168\u2013177 bpm al final de cada serie.\n- Recuperaci\u00f3n de 4' esta semana (vs 3' en W2) \u2014 semana de recovery, m\u00e1s margen.\n- Si en la serie 3 o 4 no llegas a 360W \u2192 para ah\u00ed. Hoy el objetivo es calidad, no cantidad.\n- Cadencia: 95\u2013100 rpm. Pedaleada ligera, no fuerza.\n\n---\n\nWarmup\n- Calentamiento suave 12m ramp 50-68% 85rpm\n- Activaci\u00f3n progresiva 3m ramp 68-80% 90rpm\n\n- PREP ACTIVACI\u00d3N VO2 - Press Lap ahora 10s 0%\n\n2x\n- Activaci\u00f3n VO2 30s 110-115% 95rpm\n- Pausa activaci\u00f3n 90s 50%\n\nMain Set\n- Recuperaci\u00f3n pre-bloque 4m 52%\n\n- PREP BLOQUE VO2MAX - Press Lap ahora 10s 0%\n\nMain Set 4x\n- VO2max QH 3m 115-126% 95-100rpm\n- Recuperaci\u00f3n completa 4m 50-52% 80rpm\n\nCooldown\n- Vuelta a calma 15m ramp 65-50% 78rpm"
+      "description": "## QH Recovery W3 | VO2max Corto 4\u00d73' \u2014 Est\u00edmulo sin Fatiga\n## TSS objetivo: ~75 | Duraci\u00f3n: ~1h15 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nSemana de recuperaci\u00f3n no significa semana de descanso mental. Significa semana donde \nel cuerpo absorbe todo lo que has construido en W1 y W2. Solo 4 series hoy \u2014 pero \ncada una con intenci\u00f3n m\u00e1xima. La calidad reemplaza al volumen. Visualiza: dentro de \n3 semanas estar\u00e1s en los Pirineos. Esta semana te deja fresco para atacar W4, que es \ndonde se gana o se pierde la QH.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre (75' antes): tostadas con miel + pl\u00e1tano + caf\u00e9. ~60g CHO.\nDurante: 1 gel antes del bloque principal + agua. Sesi\u00f3n corta, no necesitas m\u00e1s.\nPost (30'): batido proteico + pl\u00e1tano. Recuperaci\u00f3n ligera pero completa.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nSolo 4 series: cada una al m\u00e1ximo que puedas mantener los 3 minutos enteros.\nObjetivo potencia: 375\u2013410W (115\u2013126% FTP). FC: 168\u2013177 bpm al final de cada serie.\nRecuperaci\u00f3n de 4' esta semana (vs 3' en W2) \u2014 semana de recovery, m\u00e1s margen.\nSi en la serie 3 o 4 no llegas a 360W \u2192 para ah\u00ed. Hoy el objetivo es calidad, no cantidad.\nCadencia: 95\u2013100 rpm. Pedaleada ligera, no fuerza.\n\n---\n\nWarmup\n- Calentamiento suave 12m ramp 50-68% 85rpm\n- Activaci\u00f3n progresiva 3m ramp 68-80% 90rpm\n\n- PREP ACTIVACI\u00d3N VO2 - Press Lap ahora 10s 0%\n\n2x\n- Activaci\u00f3n VO2 30s 110-115% 95rpm\n- Pausa activaci\u00f3n 90s 50%\n\nMain Set\n- Recuperaci\u00f3n pre-bloque 4m 52%\n\n- PREP BLOQUE VO2MAX - Press Lap ahora 10s 0%\n\nMain Set 4x\n- VO2max QH 3m 115-126% 95-100rpm\n- Recuperaci\u00f3n completa 4m 50-52% 80rpm\n\nCooldown\n- Vuelta a calma 15m ramp 65-50% 78rpm"
     },
     {
       "id": 108436480,
@@ -5998,12 +5998,12 @@
       "name": "QH Recovery W3 | Sweet Spot 2\u00d712'",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 74,
-      "duration_hours": 1.37,
-      "duration_formatted": "1h22m10s",
-      "workout_summary": "6m | 12m @192W | 10s @0W | 2\u00d712m @294W / 6m rec | 18m @226W | 10m @192W",
+      "planned_tss": 71,
+      "duration_hours": 1.27,
+      "duration_formatted": "1h16m10s",
+      "workout_summary": "12m @192W | 10s @0W | 2\u00d712m @294W / 6m rec | 18m @226W | 10m @192W",
       "has_terrain": false,
-      "description": "## QH Recovery W3 | Sweet Spot 2\u00d712' \u2014 Mantenimiento de Intensidad\n## TSS objetivo: ~80 | Duraci\u00f3n: ~1h30 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nDos bloques de 12'. M\u00e1s cortos que en W1 y W2 \u2014 pero igual de importantes. \nLa semana de recovery no borra la intensidad, solo reduce el volumen. \nAl terminar el segundo bloque, habr\u00e1s mantenido la chispa sin acumular fatiga. \nEl domingo que viene haces otra salida larga. Hoy es el puente entre descanso y acumulaci\u00f3n.\n\nFrase de hoy: \"Constancia sobre intensidad. Intensidad sobre volumen.\"\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\n- Pre (60'): 2 tostadas + mermelada + caf\u00e9. ~50g CHO.\n- Durante: 1 gel antes del primer bloque + bid\u00f3n iso 400ml.\n- Post: comida normal. Esta semana no necesitas recarga agresiva.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\n- Sweet Spot: 286\u2013302W (88\u201393% FTP). FC esperada 155\u2013167 bpm.\n- 12 minutos es manejable. Si en el minuto 8 est\u00e1s al l\u00edmite \u2192 est\u00e1s demasiado fuerte.\n- Recuperaci\u00f3n de 6' (m\u00e1s que W1) porque estamos en semana recovery.\n- Cadencia: 90\u201395 rpm. Suave y redondo.\n- Si cualquier se\u00f1al biom\u00e9trica est\u00e1 en rojo (HRV baja, sue\u00f1o malo, piernas muertas) \n  \u2192 convierte esta sesi\u00f3n en Z1 sin culpa.\n\n---\n\nWarmup\n- Calentamiento 12m ramp 50-68% 85rpm\n\n- PREP SWEET SPOT - Press Lap ahora 10s 0%\n\nMain Set 2x\n- Sweet Spot QH 12m 88-93% 90-95rpm\n- Recuperaci\u00f3n activa 6m 55% 84rpm\n\nMain Set\n- Z2 vuelta a calma 18m 66-73% 88rpm\n\nCooldown\n- 10m ramp 68-50% 80rpm"
+      "description": "## QH Recovery W3 | Sweet Spot 2\u00d712' \u2014 Mantenimiento de Intensidad\n## TSS objetivo: ~80 | Duraci\u00f3n: ~1h30 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nDos bloques de 12'. M\u00e1s cortos que en W1 y W2 \u2014 pero igual de importantes. \nLa semana de recovery no borra la intensidad, solo reduce el volumen. \nAl terminar el segundo bloque, habr\u00e1s mantenido la chispa sin acumular fatiga. \nEl domingo que viene haces otra salida larga. Hoy es el puente entre descanso y acumulaci\u00f3n.\n\nFrase de hoy: \"Constancia sobre intensidad. Intensidad sobre volumen.\"\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre (60'): 2 tostadas + mermelada + caf\u00e9. ~50g CHO.\nDurante: 1 gel antes del primer bloque + bid\u00f3n iso 400ml.\nPost: comida normal. Esta semana no necesitas recarga agresiva.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nSweet Spot: 286\u2013302W (88\u201393% FTP). FC esperada 155\u2013167 bpm.\n12 minutos es manejable. Si en el minuto 8 est\u00e1s al l\u00edmite \u2192 est\u00e1s demasiado fuerte.\nRecuperaci\u00f3n de 6' (m\u00e1s que W1) porque estamos en semana recovery.\nCadencia: 90\u201395 rpm. Suave y redondo.\nSi cualquier se\u00f1al biom\u00e9trica est\u00e1 en rojo (HRV baja, sue\u00f1o malo, piernas muertas) \n  \u2192 convierte esta sesi\u00f3n en Z1 sin culpa.\n\n---\n\nWarmup\n- Calentamiento 12m ramp 50-68% 85rpm\n\n- PREP SWEET SPOT - Press Lap ahora 10s 0%\n\nMain Set 2x\n- Sweet Spot QH 12m 88-93% 90-95rpm\n- Recuperaci\u00f3n activa 6m 55% 84rpm\n\nMain Set\n- Z2 vuelta a calma 18m 66-73% 88rpm\n\nCooldown\n- 10m ramp 68-50% 80rpm"
     },
     {
       "id": 108436488,
