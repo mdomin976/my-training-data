@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-20T21:25:35.913755",
+    "last_updated": "2026-05-20T22:54:09.336031",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -655,9 +655,9 @@
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 3,
           "race_proximity": 31,
-          "next_week_load": 1.2,
+          "next_week_load": 1.25,
           "plan_coverage_current_week": 0.83,
-          "plan_coverage_next_week": 1.5
+          "plan_coverage_next_week": 1.67
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -690,7 +690,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-20T21:25:35.912526",
+    "calculation_timestamp": "2026-05-20T22:54:09.334796",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5888,6 +5888,20 @@
       "description": "## QH Specificity W4 | Recuperaci\u00f3n Z1 \u2014 Flush post-Portalet\n## TSS objetivo: ~30 | Duraci\u00f3n: 1h15 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nAyer fue duro. Hoy debes pedalear suave para limpiar el lactato residual \ny preparar el sistema para el viernes. Si ayer los 3 bloques salieron bien, \nhoy celebras con calma. Si no salieron perfectos, hoy procesas y ajustas \nla estrategia. En cualquier caso, el resultado de ma\u00f1ana depende de respetar hoy.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre: ligero. Fruta + caf\u00e9.\nDurante: agua o bebida hipot\u00f3nica. Sin geles.\nHoy: buena hidrataci\u00f3n, sue\u00f1o prioritario, quiz\u00e1s masaje o rodillo de espuma.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nL\u00edmite: 135 bpm. Sin excepciones.\n1h15 m\u00e1ximo. Si a los 50' ya has cumplido \u2192 para.\nCadencia libre y c\u00f3moda.\n\n---\n\nWarmup\n- Arranque suave 5m 40-50%\n\nMain Set\n- Recuperaci\u00f3n Z1 pura 1h 48-58% freeride\n\nCooldown\n- 5m 42-50%"
     },
     {
+      "id": 111427193,
+      "date": "2026-05-28",
+      "name": "IntervalCoach - Endurance Ride",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 31,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey Marcos, let's get rolling! 6m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 108436528,
       "date": "2026-05-29",
       "name": "QH Specificity W4 | Sweet Spot 2\u00d720'",
@@ -6307,12 +6321,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 25,
+    "attempted": 26,
     "success": 15,
     "patternA": 15,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 10
+    "bail_no_match": 11
   },
   "weekly_summary": {
     "total_training_hours": 13.42,
