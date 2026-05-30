@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T09:31:11.283945",
+  "generated_at": "2026-05-30T11:06:04.953044",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -1249,6 +1249,54 @@
           "avg_cadence": 25.0,
           "zone": 1,
           "training_load": 0.0024744247
+        }
+      ]
+    },
+    {
+      "activity_id": "i152674507",
+      "date": "2026-05-30",
+      "type": "Ride",
+      "name": "Zaragoza Road Cycling",
+      "interval_summary": [
+        "1x 3m1s 253w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3572,
+          "avg_power": 201,
+          "max_power": 378,
+          "avg_hr": 139,
+          "max_hr": 161,
+          "avg_cadence": 87.55851,
+          "zone": 1,
+          "training_load": 45.0537,
+          "decoupling": -15.041724
+        },
+        {
+          "type": "WORK",
+          "label": "181s@253w95rpm",
+          "duration_secs": 181,
+          "avg_power": 253,
+          "max_power": 330,
+          "avg_hr": 156,
+          "max_hr": 163,
+          "avg_cadence": 95.14917,
+          "zone": 3,
+          "training_load": 3.2924626,
+          "decoupling": 0.028262794
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 632,
+          "avg_power": 186,
+          "max_power": 442,
+          "avg_hr": 139,
+          "max_hr": 158,
+          "avg_cadence": 76.79588,
+          "zone": 1,
+          "training_load": 8.564452,
+          "decoupling": 29.683496
         }
       ]
     }
