@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T17:46:28.991539",
+  "generated_at": "2026-06-02T20:55:02.668479",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -1544,6 +1544,132 @@
           "decoupling": -9.1837015
         }
       ]
+    },
+    {
+      "activity_id": "i153677376",
+      "date": "2026-06-02",
+      "type": "Ride",
+      "name": "QH Specificity W5 | VO2max Ladder 40/20 \u2014 10\u00d73 Bloques Peak",
+      "interval_summary": [
+        "1x 2m32s 406w",
+        "1x 92s 307w",
+        "1x 4m44s 271w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1772,
+          "avg_power": 152,
+          "max_power": 340,
+          "avg_hr": 107,
+          "max_hr": 138,
+          "avg_cadence": 53.549114,
+          "zone": 1,
+          "training_load": 15.330509,
+          "decoupling": 3.6828594,
+          "avg_dfa_a1": 1.2134602
+        },
+        {
+          "type": "WORK",
+          "label": "152s@406w83rpm",
+          "duration_secs": 152,
+          "avg_power": 406,
+          "max_power": 531,
+          "avg_hr": 153,
+          "max_hr": 168,
+          "avg_cadence": 82.81579,
+          "zone": 7,
+          "training_load": 6.173898,
+          "decoupling": 12.851588,
+          "avg_dfa_a1": 0.83696073
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1694,
+          "avg_power": 114,
+          "max_power": 468,
+          "avg_hr": 102,
+          "max_hr": 168,
+          "avg_cadence": 47.437428,
+          "zone": 1,
+          "training_load": 16.94,
+          "decoupling": -9.402371,
+          "avg_dfa_a1": 1.3038985
+        },
+        {
+          "type": "WORK",
+          "label": "92s@307w68rpm",
+          "duration_secs": 92,
+          "avg_power": 307,
+          "max_power": 403,
+          "avg_hr": 137,
+          "max_hr": 145,
+          "avg_cadence": 67.88043,
+          "zone": 4,
+          "training_load": 2.1775148,
+          "decoupling": 12.29504,
+          "avg_dfa_a1": 1.1135246
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 378,
+          "avg_power": 244,
+          "max_power": 396,
+          "avg_hr": 134,
+          "max_hr": 145,
+          "avg_cadence": 70.06027,
+          "zone": 2,
+          "training_load": 6.4533334,
+          "decoupling": 13.875984,
+          "avg_dfa_a1": 1.0442462
+        },
+        {
+          "type": "WORK",
+          "label": "284s@271w74rpm",
+          "duration_secs": 284,
+          "avg_power": 271,
+          "max_power": 375,
+          "avg_hr": 134,
+          "max_hr": 144,
+          "avg_cadence": 74.29225,
+          "zone": 3,
+          "training_load": 5.4447336,
+          "decoupling": 3.2549355,
+          "avg_dfa_a1": 1.0932968
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3212,
+          "avg_power": 94,
+          "max_power": 391,
+          "avg_hr": 89,
+          "max_hr": 138,
+          "avg_cadence": 43.81631,
+          "zone": 1,
+          "training_load": 8.3456,
+          "avg_dfa_a1": 1.3086078
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 3765,
+          "total_secs": 5589,
+          "valid_pct": 67.4,
+          "artifact_rate_avg": 4.95,
+          "sufficient": false
+        }
+      }
     }
   ]
 }
