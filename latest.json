@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-04T13:42:30.974598",
+    "last_updated": "2026-06-04T16:38:09.491970",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -712,7 +712,7 @@
     "p_max": 1195,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-04T13:42:30.973659",
+    "calculation_timestamp": "2026-06-04T16:38:09.490402",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6011,21 +6011,8 @@
   ],
   "planned_workouts": [
     {
-      "id": 108439412,
-      "date": "2026-06-04",
-      "name": "QH Specificity W5 | Umbral 2\u00d720'",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 104,
-      "duration_hours": 1.61,
-      "duration_formatted": "1h36m20s",
-      "workout_summary": "15m @194W | 10s @0W | 2\u00d72m @292W / 2m rec | 2m @169W | 10s @0W | 2\u00d720m @308W / 8m rec | 15m @194W",
-      "has_terrain": false,
-      "description": "## QH Specificity W5 | Umbral 2\u00d720' \u2014 Potencia de Carrera\n## TSS objetivo: ~130 | Duraci\u00f3n: ~2h15 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\n20 minutos al FTP. El Somport dura 31 minutos a 82% FTP. \nMarie-Blanque dura 23 minutos a 86% FTP. Hoy haces 2\u00d720' al 90\u2013100% FTP.\nM\u00e1s alto que en carrera, m\u00e1s corto que en carrera. Eso crea margen de seguridad.\n\nCuando en el minuto 15 del segundo bloque empiece a doler, \ndeja de mirar el crono y mira la potencia. Si est\u00e1 en 295W+, \nest\u00e1s haciendo exactamente lo que necesitas. El dolor no es se\u00f1al de parar, \nes se\u00f1al de que est\u00e1s creando adaptaci\u00f3n. Aprende a distinguirlos aqu\u00ed, \nno en los Pirineos.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre (90'): pasta o arroz + huevo + caf\u00e9. 90g CHO. Comida real, no solo geles.\nDurante: 1 gel antes del primer bloque. Bid\u00f3n iso 500ml durante toda la sesi\u00f3n.\nPost (dentro de 20'): 120g CHO + 40g PRO. La sesi\u00f3n m\u00e1s dura de la semana entre semana.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nPotencia: 293\u2013325W (90\u2013100% FTP). Empieza SIEMPRE en el l\u00edmite inferior. \nFC esperada: bloque 1 llega a 165\u2013170 bpm. Bloque 2 llega a 168\u2013174 bpm.\nRecuperaci\u00f3n de 8' entre bloques. La FC debe bajar por debajo de 130 bpm antes de empezar el 2\u00ba.\nCadencia: 88\u201393 rpm. Si bajas de 85, el cu\u00e1driceps se carga demasiado.\nTerreno: plano o subida larga suave. El objetivo es potencia constante, no terreno heroico.\nSi el bloque 2 no sale completo, haz 16' y cierra. Ma\u00f1ana no entrenas, tienes tiempo de recuperar.\n\n---\n\nWarmup\n- Calentamiento 15m ramp 50-70% 85rpm\n\n- PREP ACTIVACI\u00d3N UMBRAL - Press Lap ahora 10s 0%\n\n2x\n- Activaci\u00f3n umbral 2m 88-92% 90rpm\n- Pausa activaci\u00f3n 2m 54%\n\nMain Set\n- Recuperaci\u00f3n pre-bloque 2m 52%\n\n- PREP BLOQUE UMBRAL 2\u00d720 - Press Lap ahora 10s 0%\n\nMain Set 2x\n- FTP sostenido QH 20m 90-100% 88-93rpm\n- Recuperaci\u00f3n umbral 8m 52-55% 82rpm\n\nCooldown\n- Vuelta a calma 15m ramp 70-50% 80rpm"
-    },
-    {
       "id": 112919961,
-      "date": "2026-06-05",
+      "date": "2026-06-04",
       "name": "IntervalCoach - Endurance Ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -6036,6 +6023,19 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Hey Marcos, steady endurance ride awaits! 6m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 30m 65-75% 85rpm\n\nCooldown\n- Fantastic work, spin easy now 4m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
+    },
+    {
+      "id": 108439412,
+      "date": "2026-06-05",
+      "name": "QH Specificity W5 | Umbral 2\u00d720'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 104,
+      "duration_hours": 1.61,
+      "duration_formatted": "1h36m20s",
+      "workout_summary": "15m @194W | 10s @0W | 2\u00d72m @292W / 2m rec | 2m @169W | 10s @0W | 2\u00d720m @308W / 8m rec | 15m @194W",
+      "has_terrain": false,
+      "description": "## QH Specificity W5 | Umbral 2\u00d720' \u2014 Potencia de Carrera\n## TSS objetivo: ~130 | Duraci\u00f3n: ~2h15 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\n20 minutos al FTP. El Somport dura 31 minutos a 82% FTP. \nMarie-Blanque dura 23 minutos a 86% FTP. Hoy haces 2\u00d720' al 90\u2013100% FTP.\nM\u00e1s alto que en carrera, m\u00e1s corto que en carrera. Eso crea margen de seguridad.\n\nCuando en el minuto 15 del segundo bloque empiece a doler, \ndeja de mirar el crono y mira la potencia. Si est\u00e1 en 295W+, \nest\u00e1s haciendo exactamente lo que necesitas. El dolor no es se\u00f1al de parar, \nes se\u00f1al de que est\u00e1s creando adaptaci\u00f3n. Aprende a distinguirlos aqu\u00ed, \nno en los Pirineos.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre (90'): pasta o arroz + huevo + caf\u00e9. 90g CHO. Comida real, no solo geles.\nDurante: 1 gel antes del primer bloque. Bid\u00f3n iso 500ml durante toda la sesi\u00f3n.\nPost (dentro de 20'): 120g CHO + 40g PRO. La sesi\u00f3n m\u00e1s dura de la semana entre semana.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nPotencia: 293\u2013325W (90\u2013100% FTP). Empieza SIEMPRE en el l\u00edmite inferior. \nFC esperada: bloque 1 llega a 165\u2013170 bpm. Bloque 2 llega a 168\u2013174 bpm.\nRecuperaci\u00f3n de 8' entre bloques. La FC debe bajar por debajo de 130 bpm antes de empezar el 2\u00ba.\nCadencia: 88\u201393 rpm. Si bajas de 85, el cu\u00e1driceps se carga demasiado.\nTerreno: plano o subida larga suave. El objetivo es potencia constante, no terreno heroico.\nSi el bloque 2 no sale completo, haz 16' y cierra. Ma\u00f1ana no entrenas, tienes tiempo de recuperar.\n\n---\n\nWarmup\n- Calentamiento 15m ramp 50-70% 85rpm\n\n- PREP ACTIVACI\u00d3N UMBRAL - Press Lap ahora 10s 0%\n\n2x\n- Activaci\u00f3n umbral 2m 88-92% 90rpm\n- Pausa activaci\u00f3n 2m 54%\n\nMain Set\n- Recuperaci\u00f3n pre-bloque 2m 52%\n\n- PREP BLOQUE UMBRAL 2\u00d720 - Press Lap ahora 10s 0%\n\nMain Set 2x\n- FTP sostenido QH 20m 90-100% 88-93rpm\n- Recuperaci\u00f3n umbral 8m 52-55% 82rpm\n\nCooldown\n- Vuelta a calma 15m ramp 70-50% 80rpm"
     },
     {
       "id": 108439416,
