@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-07T12:13:10.370740",
+    "last_updated": "2026-06-07T14:22:25.369321",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -666,9 +666,9 @@
           "current_week_hard_days_completed": 5,
           "current_week_hard_days_total": 6,
           "race_proximity": 13,
-          "next_week_load": 0.54,
+          "next_week_load": null,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.8
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -703,7 +703,7 @@
     "p_max": 1195,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 74.0,
-    "calculation_timestamp": "2026-06-07T12:13:10.369561",
+    "calculation_timestamp": "2026-06-07T14:22:25.368136",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6569,97 +6569,6 @@
       "description": ""
     },
     {
-      "id": 108443351,
-      "date": "2026-06-08",
-      "name": "QH Pre-Taper W6 \u2014 9\u201315 junio (SUMMARY)",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "## QH Pre-Taper W6 \u2014 9\u201315 junio\n**CTL entrada estimada: ~90\u201392 | TSB objetivo cierre semana: \u22125/+5**\n\n| D\u00eda | Sesi\u00f3n | Duraci\u00f3n | TSS |\n|-----|--------|----------|-----|\n| Lun 9 | Descanso total | \u2014 | 0 |\n| Mar 10 | VO2max 4\u00d73' Calidad | ~1h30 | ~85 |\n| Mi\u00e9 11 | Z2 + 1\u00d720' FTP | ~2h15 | ~110 |\n| Jue 12 | Recuperaci\u00f3n Z1 | ~1h | ~25 |\n| Vie 13 | Openers 3\u00d75' @90%FTP + Sprints | ~1h45 | ~70 |\n| S\u00e1b 14 | Z1 Muy Suave | ~1h | ~25 |\n| Dom 15 | Z2 Controlado | \u22642h30 | ~110 |\n| **TOTAL** | | **~10h** | **~425** |\n\nCTL no debe bajar m\u00e1s de 5 puntos respecto a la entrada de semana.\nTSB debe moverse de negativo hacia el rango \u22125/+5 al final del domingo.\nSe\u00f1al de alarma: si el martes o mi\u00e9rcoles la HRV baja m\u00e1s de 8 puntos \ndel baseline de 79 bpm, convierte esa sesi\u00f3n en Z1 sin negociar.\n\n- PLANIFICACI\u00d3N SEMANAL"
-    },
-    {
-      "id": 108446355,
-      "date": "2026-06-09",
-      "name": "QH Pre-Taper W6 | VO2max Ladder 40/20 \u2014 8\u00d72 Taper Afilado",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 70,
-      "duration_hours": 0.87,
-      "duration_formatted": "52m20s",
-      "workout_summary": "10m @234W | 4\u00d71m @276W / 30s rec | 5m @178W | 10s @0W | 8\u00d740s @442W / 20s rec | 5m @178W | 10s @0W | 8\u00d740s @442W / 20s rec | 10m @186W",
-      "has_terrain": false,
-      "description": "## QH Pre-Taper W6 | VO2max Ladder 40/20 \u2014 8\u00d72 Taper Afilado\n## TSS objetivo: ~85 | Duraci\u00f3n: ~1h30 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\n\u00daltima sesi\u00f3n de VO2max del ciclo. Vuelves al volumen de W2 (2 bloques de 8 series) \npero con la potencia m\u00e1s alta del ciclo. Menos cantidad, m\u00e1xima calidad. \nEl taper no reduce la intensidad, reduce el volumen. Esta es la diferencia entre \nun taper correcto y uno que te deja plano.\n\nHoy afilas lo que construiste. W2 fueron 16 series para construir. \nHoy son 16 series para afinar. El cuchillo ya est\u00e1 hecho, hoy lo afilas \npor \u00faltima vez. El s\u00e1bado que viene, corta solo.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre (90'): desayuno completo con 80g CHO. El cuerpo est\u00e1 en supercompensaci\u00f3n, \nnecesita el combustible disponible.\nDurante: 1 gel cafe\u00edna 20' antes del primer bloque + bid\u00f3n iso 500ml.\nPost (dentro de 30'): 100g CHO + 35g PRO. El cuerpo sigue adaptando \naunque el volumen baje esta semana.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nPotencia objetivo: 435\u2013450W (134\u2013138% FTP). La potencia m\u00e1s alta del ciclo \ncompensando el menor volumen. Si en W5 hiciste 432W de media, \nhoy apunta a 440W. Si no sale, 430W con calidad total tambi\u00e9n es perfecto.\nCon el cuerpo m\u00e1s descansado que en cualquier semana anterior, \nla calidad de las series ser\u00e1 notablemente alta. No lo interpretes como se\u00f1al \nde hacer un tercer bloque. Son 2 bloques y cierra.\nCadencia: 97\u2013104 rpm. Con el cuerpo fresco puedes subir la cadencia \npor encima del rango habitual. Aprov\u00e9chalo.\nDescanso entre bloques: 5' estrictos.\nSensaci\u00f3n al terminar: explosivo, activado, con ganas de m\u00e1s. \nEsa sensaci\u00f3n es exactamente con la que llegar\u00e1s a la QH el s\u00e1bado.\n\n---\n\nWarmup\n- Calentamiento Z2 10m 67-77% 90rpm\n\n4x\n- Activaci\u00f3n 85% 1m 85% 95rpm\n- Recuperaci\u00f3n activaci\u00f3n 30s 55%\n\nMain Set\n- Recuperaci\u00f3n pre-bloque 5m 55%\n\n- PREP BLOQUE VO2MAX TAPER 1 - Press Lap ahora 10s 0%\n\nMain Set 8x\n- Sprint VO2 Afilado QH 40s 134-138% 97-104rpm\n- Recuperaci\u00f3n parcial 20s 55%\n\nMain Set\n- Descanso bloque 5m 55%\n\n- PREP BLOQUE VO2MAX TAPER 2 - Press Lap ahora 10s 0%\n\nMain Set 8x\n- Sprint VO2 Afilado QH 40s 134-138% 97-104rpm\n- Recuperaci\u00f3n parcial 20s 55%\n\nCooldown\n- Vuelta a calma 10m ramp 65-50% 80rpm"
-    },
-    {
-      "id": 108443357,
-      "date": "2026-06-10",
-      "name": "QH Pre-Taper W6 | Z2 + 1\u00d720' FTP",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 93,
-      "duration_hours": 1.67,
-      "duration_formatted": "1h40m10s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "## QH Pre-Taper W6 | Z2 + 1\u00d720' FTP \u2014 Mantenimiento sin Acumulaci\u00f3n\n## TSS objetivo: ~110 | Duraci\u00f3n: ~2h15 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nUn solo bloque de FTP. No dos, no tres. Uno. El taper es psicol\u00f3gicamente \nel momento m\u00e1s dif\u00edcil del ciclo porque el instinto dice \"deber\u00eda entrenar m\u00e1s\" \njusto cuando el cuerpo est\u00e1 listo para rendir. Conf\u00eda en el proceso.\n\nLos estudios de periodizaci\u00f3n son claros: la forma f\u00edsica no se pierde \nen 7 d\u00edas de taper, se consolida. Cada d\u00eda que respetas el plan esta semana \nes un d\u00eda que llegas m\u00e1s fresco y m\u00e1s cargado al s\u00e1bado 21.\n\nEl bloque de 20' de hoy mantiene el recuerdo muscular de la potencia de carrera. \nNo construye, recuerda. Hay una diferencia importante.\n\n**\ud83c\udf7d\ufe0f Nutrici\u00f3n:**\nPre (75'): porridge + pl\u00e1tano + caf\u00e9. 70g CHO.\nDurante: 1 gel antes del bloque FTP + bid\u00f3n iso 500ml durante toda la sesi\u00f3n.\nPost: comida normal completa. Esta semana la nutrici\u00f3n es tan importante como \nel entrenamiento porque el gluc\u00f3geno muscular se est\u00e1 cargando para la carrera. \nCome bien en cada comida, no solo despu\u00e9s de entrenar.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nZ2 previo: 30' a 65\u201372% FTP. FC m\u00e1x 145 bpm. Es calentamiento real, \nno un tr\u00e1mite antes del bloque.\nBloque FTP: 293\u2013325W. Empieza siempre en el l\u00edmite inferior, 295W.\nFC esperada: 162\u2013170 bpm. Si llegas a 173 bpm antes del minuto 15, reduce 5W.\nCadencia: 89\u201393 rpm. T\u00e9cnica limpia y eficiente, no fuerza bruta.\nDespu\u00e9s del bloque: 30' m\u00e1s de Z2 y cierre. Sin hero\u00edsmos adicionales. \nEsta semana un paso en falso cuesta m\u00e1s que una semana entera de W1.\n\n---\n\nWarmup\n- Activaci\u00f3n suave 12m ramp 50-67% 85rpm\n\nMain Set\n- Z2 pre-bloque 30m 65-72% 88-90rpm\n\n- PREP BLOQUE FTP TAPER - Press Lap ahora 10s 0%\n\nMain Set\n- FTP mantenimiento taper 20m 90-100% 89-93rpm\n\nMain Set\n- Z2 cierre activo 28m 65-72% 87rpm\n\nCooldown\n- Cierre tranquilo 10m ramp 68-50% 82rpm"
-    },
-    {
-      "id": 108443360,
-      "date": "2026-06-11",
-      "name": "QH Pre-Taper W6 | Recuperaci\u00f3n Z1",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 26,
-      "duration_hours": 0.97,
-      "duration_formatted": "58m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "## QH Pre-Taper W6 | Recuperaci\u00f3n Z1 \u2014 Flush y Recarga\n## TSS objetivo: ~25 | Duraci\u00f3n: ~1h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nDos d\u00edas duros esta semana. Hoy el cuerpo limpia el lactato residual \ny empieza a cargar gluc\u00f3geno de forma activa. La circulaci\u00f3n sangu\u00ednea \nsuave acelera la recuperaci\u00f3n muscular y prepara el sistema para los \nopeners del viernes.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nL\u00edmite absoluto de FC: 135 bpm. Si lo superas, reduces marcha o bajas de la bici.\nPotencia: 130\u2013195W (40\u201360% FTP). No mires la potencia, mira la FC y la sensaci\u00f3n.\n\n---\n\nWarmup\n- Arranque suave 5m ramp 40-50%\n\nMain Set\n- Recuperaci\u00f3n Z1 pura 48m 48-58% freeride\n\nCooldown\n- Cierre 5m 40-48%"
-    },
-    {
-      "id": 108443364,
-      "date": "2026-06-12",
-      "name": "QH Pre-Taper W6 | Openers 3\u00d75' @90%FTP + Sprints",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 60,
-      "duration_hours": 1.32,
-      "duration_formatted": "1h19m20s",
-      "workout_summary": "15m @190W | 10s @0W | 3\u00d75m @292W / 3m rec | 5m @162W | 10s @0W | 6\u00d720s @390W / 2m40s rec | 12m @170W | 5m @150W",
-      "has_terrain": false,
-      "description": "## QH Pre-Taper W6 | Openers 3\u00d75' @90%FTP + Sprints Cortos\n## TSS objetivo: ~70 | Duraci\u00f3n: ~1h45 | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nEsta sesi\u00f3n es la m\u00e1s espec\u00edfica t\u00e1cticamente de toda la semana. \nLos bloques de 5' a 90% FTP simulan exactamente los primeros kil\u00f3metros \nde cada puerto en la QH: entrada controlada, potencia sostenida, \nsin explotar pero sin dormirse. Los sprints al final despiertan \nel sistema neuromuscular para que el s\u00e1bado las fibras r\u00e1pidas \nest\u00e9n disponibles cuando las necesites en los repechos o en los \nmomentos de aceleraci\u00f3n del pelot\u00f3n.\n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nBloques 5' @90%FTP: exactamente 293W. No 310W, no 280W. 293W.\nRecuperaci\u00f3n de 3' entre bloques: suficiente para bajar a 130 bpm.\nSprints: 5\u20136 esfuerzos de 15\u201320 segundos, aceleraci\u00f3n progresiva, \npico en los \u00faltimos 5 segundos.\n\n---\n\nWarmup\n- Calentamiento suave pre-openers 15m ramp 50-67% 84rpm\n\n- PREP BLOQUES 90% FTP - Press Lap ahora 10s 0%\n\nMain Set 3x\n- Opener sostenido QH 5m 88-92% 88-93rpm\n- Recuperaci\u00f3n opener 3m 52-55% 82rpm\n\nMain Set\n- Recuperaci\u00f3n pre-sprints 5m 50%\n\n- PREP SPRINTS NEUROMUSCULARES - Press Lap ahora 10s 0%\n\n6x\n- Sprint progresivo corto 20s ramp 95-145% 98-112rpm\n- Recuperaci\u00f3n sprint 2m40s 48% 78rpm\n\nMain Set\n- Z1 cierre neuromuscular 12m 48-57% freeride\n\nCooldown\n- 5m 43-50%"
-    },
-    {
-      "id": 108443369,
-      "date": "2026-06-13",
-      "name": "QH Pre-Taper W6 | Z1 Muy Suave",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 24,
-      "duration_hours": 0.97,
-      "duration_formatted": "58m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "## QH Pre-Taper W6 | Z1 Muy Suave \u2014 Activaci\u00f3n Pasiva\n## TSS objetivo: ~25 | Duraci\u00f3n: ~1h | FTP ref: 325W\n\n---\n\nWarmup\n- Arranque muy tranquilo 8m ramp 38-50%\n\nMain Set\n- Z1 pura semana taper 42m 48-55% freeride\n\nCooldown\n- Cierre suave 8m 40-48%"
-    },
-    {
-      "id": 108443372,
-      "date": "2026-06-14",
-      "name": "QH Pre-Taper W6 | Z2 Controlado",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 108,
-      "duration_hours": 2.45,
-      "duration_formatted": "2h27m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "## QH Pre-Taper W6 | Z2 Controlado \u2014 \u00daltimo Largo Pre-Race Week\n## TSS objetivo: ~110 | Duraci\u00f3n: \u22642h30 | FTP ref: 325W\n\n---\n\nWarmup\n- Activaci\u00f3n suave 12m ramp 50-63%\n\nMain Set\n- Z2 bloque 1 50m 64-72% 88-91rpm\n\n- PAUSA NUTRICI\u00d3N - Come y bebe 3m 50%\n\nMain Set\n- Z2 bloque 2 45m 65-73% 88-91rpm\n\n- PAUSA NUTRICI\u00d3N - Come y bebe 3m 50%\n\nMain Set\n- Z2 bloque final cierre 22m 65-72% 87rpm\n\nCooldown\n- Cierre definitivo semana taper 12m ramp 66-50%"
-    },
-    {
       "id": 97493421,
       "date": "2026-06-15",
       "name": "S1 Rest",
@@ -6867,12 +6776,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 10,
-    "success": 5,
-    "patternA": 5,
+    "attempted": 4,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
-    "bail_no_match": 5
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 15.3,
