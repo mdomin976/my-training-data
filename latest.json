@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-07T21:45:06.099674",
+    "last_updated": "2026-06-07T22:48:50.273706",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -666,9 +666,9 @@
           "current_week_hard_days_completed": 5,
           "current_week_hard_days_total": 6,
           "race_proximity": 13,
-          "next_week_load": null,
+          "next_week_load": 0.19,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -703,7 +703,7 @@
     "p_max": 1195,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 74.0,
-    "calculation_timestamp": "2026-06-07T21:45:06.098382",
+    "calculation_timestamp": "2026-06-07T22:48:50.272464",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6569,6 +6569,20 @@
       "description": ""
     },
     {
+      "id": 114747410,
+      "date": "2026-06-09",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 135,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": "12m @194W | 1m @325W | 30s @178W | 1m @325W | 30s @178W | 17m @227W | 3\u00d715m @316W / 8m rec | 10m @178W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Marcos! Threshold work ahead 12m ramp 45-75% 85rpm\n- Primer 1 1m 100% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 1m 100% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Endurance 17m 65-75% 85rpm\n- Threshold 1 15m 95-100% 92rpm\n- Recovery 8m 55% 80rpm\n- Threshold 2 15m 95-100% 92rpm\n- Recovery 8m 55% 80rpm\n- Threshold 3 15m 95-100% 92rpm\n- Endurance 17m 65-75% 85rpm\n\nCooldown\n- Fantastic effort, enjoy the spin 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Taper]"
+    },
+    {
       "id": 97493421,
       "date": "2026-06-15",
       "name": "S1 Rest",
@@ -6776,10 +6790,10 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
-    "success": 3,
+    "attempted": 5,
+    "success": 4,
     "patternA": 3,
-    "patternB": 0,
+    "patternB": 1,
     "bail_no_workout_doc": 1,
     "bail_no_match": 1
   },
