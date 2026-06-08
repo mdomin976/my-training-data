@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-08T21:53:26.708131",
+    "last_updated": "2026-06-08T23:14:44.237834",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -675,14 +675,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.18,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.33,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 2,
           "race_proximity": 12,
-          "next_week_load": 0.54,
-          "plan_coverage_current_week": 0.5,
-          "plan_coverage_next_week": 1.33
+          "next_week_load": 0.7,
+          "plan_coverage_current_week": 0.67,
+          "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
         "stream_agreement": false
@@ -717,7 +717,7 @@
     "p_max": 1195,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-08T21:53:26.706854",
+    "calculation_timestamp": "2026-06-08T23:14:44.236634",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6352,6 +6352,20 @@
       "description": "Warmup\n- Hey Marcos! Threshold work ahead 12m ramp 45-75% 85rpm\n- Primer 1 1m 100% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 1m 100% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Endurance 17m 65-75% 85rpm\n- Threshold 1 15m 95-100% 92rpm\n- Recovery 8m 55% 80rpm\n- Threshold 2 15m 95-100% 92rpm\n- Recovery 8m 55% 80rpm\n- Threshold 3 15m 95-100% 92rpm\n- Endurance 17m 65-75% 85rpm\n\nCooldown\n- Fantastic effort, enjoy the spin 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Taper]"
     },
     {
+      "id": 115027749,
+      "date": "2026-06-11",
+      "name": "IntervalCoach - Endurance + Tempo Pushes",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 2.08,
+      "duration_formatted": "2h5m",
+      "workout_summary": "15m @194W | 5\u00d715m @227W / 5m rec | 10m @178W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Marcos! Endurance and tempo awaits you. 15m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 15m 65-75% 88rpm\n- Tempo 5m 76-82% 90rpm\n\nCooldown\n- Awesome ride, Marcos. Recover well. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Taper]"
+    },
+    {
       "id": 97493421,
       "date": "2026-06-15",
       "name": "S1 Rest",
@@ -6389,6 +6403,20 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "## QH Race Week \u2014 16\u201321 junio\n**CTL entrada: ~87\u201389 | TSB objetivo d\u00eda carrera: +5 a +15**\n\n| D\u00eda | Sesi\u00f3n | Duraci\u00f3n | TSS |\n|-----|--------|----------|-----|\n| Lun 16 | Descanso + carga CHO d\u00eda 1 | \u2014 | 0 |\n| Mar 17 | Descanso + carga CHO d\u00eda 2 | \u2014 | 0 |\n| Mi\u00e9 18 | Z2 Suave + 3\u00d71' Aperturas | ~1h | ~40 |\n| Jue 19 | Descanso + carga CHO m\u00e1xima | \u2014 | 0 |\n| Vie 20 | Openers finales pre-QH | ~45m | ~35 |\n| S\u00e1b 21 | \ud83c\udfc1 QUEBRANTAHUESOS 2026 | ~5h35 | ~380 |\n\nControl HRV jueves y viernes: debe mantenerse en baseline 79 bpm o por encima.\nTSB el viernes ma\u00f1ana debe estar entre +5 y +15.\n\n- PLANIFICACI\u00d3N SEMANAL"
+    },
+    {
+      "id": 115027771,
+      "date": "2026-06-16",
+      "name": "IntervalCoach - Sweet Spot Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 116,
+      "duration_hours": 1.83,
+      "duration_formatted": "1h50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey Marcos! Sweet spot awaits 12m ramp 45-75% 85rpm\n- Primer 1 1m 91% 90rpm"
     },
     {
       "id": 108443379,
@@ -6559,12 +6587,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
-    "success": 3,
-    "patternA": 2,
+    "attempted": 6,
+    "success": 4,
+    "patternA": 3,
     "patternB": 1,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 1
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 14.15,
