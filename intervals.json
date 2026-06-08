@@ -1,78 +1,10 @@
 {
-  "generated_at": "2026-06-07T22:48:50.268570",
+  "generated_at": "2026-06-08T00:14:01.089459",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i151086163",
-      "date": "2026-05-24",
-      "type": "Ride",
-      "name": "Sallent de G\u00e1llego Road Cycling",
-      "interval_summary": [
-        "1x 50m53s 68w",
-        "1x 2h34m 225w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "3053s@68w39rpm",
-          "duration_secs": 3053,
-          "avg_power": 68,
-          "max_power": 840,
-          "avg_hr": 82,
-          "max_hr": 126,
-          "avg_cadence": 38.88283,
-          "zone": 1,
-          "training_load": 6.371105,
-          "decoupling": 29.283443,
-          "avg_dfa_a1": 1.3380307
-        },
-        {
-          "type": "WORK",
-          "label": "9267s@225w72rpm",
-          "duration_secs": 9267,
-          "avg_power": 225,
-          "max_power": 717,
-          "avg_hr": 144,
-          "max_hr": 179,
-          "avg_cadence": 72.39089,
-          "zone": 2,
-          "training_load": 181.71835,
-          "decoupling": 4.4842834,
-          "avg_dfa_a1": 0.83865094
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 102,
-          "max_hr": 102,
-          "zone": 1,
-          "training_load": 3.182117e-05
-        }
-      ],
-      "dfa": {
-        "avg": null,
-        "p25": null,
-        "p50": null,
-        "p75": null,
-        "tiz_below_lt1": null,
-        "tiz_lt1_transition": null,
-        "tiz_transition_lt2": null,
-        "tiz_above_lt2": null,
-        "drift": null,
-        "lt1_crossing": null,
-        "lt2_crossing": null,
-        "quality": {
-          "valid_secs": 3996,
-          "total_secs": 10918,
-          "valid_pct": 36.6,
-          "artifact_rate_avg": 0.87,
-          "sufficient": false
-        }
-      }
-    },
     {
       "activity_id": "i151384944",
       "date": "2026-05-25",
