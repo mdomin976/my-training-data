@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-09T21:50:21.094505",
+    "last_updated": "2026-06-09T23:19:42.369544",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -112,8 +112,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "green",
@@ -142,13 +142,13 @@
         "value_yesterday": 0.86
       },
       "tsb": {
-        "status": "amber",
-        "value": -28.1
+        "status": "green",
+        "value": -13.3
       }
     },
     "signal_summary": {
-      "green": 5,
-      "amber": 1,
+      "green": 6,
+      "amber": 0,
       "red": 0,
       "unavailable": 0
     },
@@ -159,17 +159,8 @@
       "modifier_applied": "taper_tightened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "tsb"
-      ],
-      "suggested_adjustments": {
-        "intensity": "preserve",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 amber (tsb) >= threshold 1.",
+    "modification": null,
+    "reason": "P3 green light. 6 green, 0 amber (threshold 1), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -225,10 +216,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 95.39,
-      "atl": 123.49,
-      "tsb": -28.1,
-      "ramp_rate": 6.27,
+      "ctl": 92.21,
+      "atl": 105.52,
+      "tsb": -13.31,
+      "ramp_rate": 3.09,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -684,9 +675,9 @@
     },
     "phase_detection": {
       "phase": "Taper",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [
-        "RACE_IMMINENT"
+        "RACE_IMMINENT_VOLUME_REDUCING"
       ],
       "basis": {
         "stream_1": {
@@ -696,13 +687,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.38,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 0.53,
+          "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 3,
           "race_proximity": 11,
           "next_week_load": 0.7,
-          "plan_coverage_current_week": 0.33,
+          "plan_coverage_current_week": 0.5,
           "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
@@ -715,7 +706,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "RACE_IMMINENT"
+      "RACE_IMMINENT_VOLUME_REDUCING"
     ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -738,7 +729,7 @@
     "p_max": 1195,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-09T21:50:21.093331",
+    "calculation_timestamp": "2026-06-09T23:19:42.368326",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6295,6 +6286,20 @@
       "description": "Warmup\n- Hey Marcos! Endurance and tempo awaits you. 15m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 15m 65-75% 88rpm\n- Tempo 5m 76-82% 90rpm\n\nCooldown\n- Awesome ride, Marcos. Recover well. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Taper]"
     },
     {
+      "id": 115263095,
+      "date": "2026-06-13",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 96,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Marcos! Gentle spin ahead. 15m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 108m 46-50% 80rpm\n- Loosen Up 107m 50% 85rpm\n\nCooldown\n- Great recovery, feel refreshed. 10m ramp 55-45% 85rpm\n\n[Weekly Plan - Taper]"
+    },
+    {
       "id": 97493421,
       "date": "2026-06-15",
       "name": "S1 Rest",
@@ -6516,12 +6521,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 7,
     "success": 4,
     "patternA": 3,
     "patternB": 1,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 2
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 13.45,
