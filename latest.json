@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-10T19:58:20.825037",
+    "last_updated": "2026-06-10T22:15:18.667148",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -682,9 +682,9 @@
     },
     "phase_detection": {
       "phase": "Taper",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [
-        "RACE_IMMINENT"
+        "RACE_IMMINENT_VOLUME_REDUCING"
       ],
       "basis": {
         "stream_1": {
@@ -694,13 +694,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.38,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 0.66,
+          "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 3,
           "race_proximity": 10,
           "next_week_load": 0.7,
-          "plan_coverage_current_week": 0.33,
+          "plan_coverage_current_week": 0.5,
           "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
@@ -713,7 +713,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "RACE_IMMINENT"
+      "RACE_IMMINENT_VOLUME_REDUCING"
     ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -736,7 +736,7 @@
     "p_max": 1195,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-10T19:58:20.823847",
+    "calculation_timestamp": "2026-06-10T22:15:18.666230",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6293,6 +6293,20 @@
       "description": "Warmup\n- Hey Marcos! Gentle spin ahead. 15m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 108m 46-50% 80rpm\n- Loosen Up 107m 50% 85rpm\n\nCooldown\n- Great recovery, feel refreshed. 10m ramp 55-45% 85rpm\n\n[Weekly Plan - Taper]"
     },
     {
+      "id": 115439728,
+      "date": "2026-06-14",
+      "name": "IntervalCoach - Neuromuscular Sprints",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 145,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h10s",
+      "workout_summary": "15m @194W | 7\u00d722m @227W / 10s rec | 10m @178W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Marcos! Long endurance + sprints ahead 15m ramp 45-75% 85rpm\n\nMain Set\n7x\n- Endurance 22m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nCooldown\n- Fantastic work, spin easy now 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Taper]"
+    },
+    {
       "id": 97493421,
       "date": "2026-06-15",
       "name": "S1 Rest",
@@ -6515,9 +6529,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 7,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 1,
     "bail_no_match": 3
