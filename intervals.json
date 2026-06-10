@@ -1,48 +1,10 @@
 {
-  "generated_at": "2026-06-09T23:19:42.364291",
+  "generated_at": "2026-06-10T01:36:52.841483",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i151719598",
-      "date": "2026-05-26",
-      "type": "Ride",
-      "name": "Barcelona - QH Specificity W4 | Recuperaci\u00f3n Z1",
-      "interval_summary": [
-        "1x 5m1s 84w",
-        "1x 53m39s 74w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "301s@84w44rpm",
-          "duration_secs": 301,
-          "avg_power": 84,
-          "max_power": 256,
-          "avg_hr": 92,
-          "max_hr": 115,
-          "avg_cadence": 44.37,
-          "zone": 1,
-          "training_load": 1.3583664,
-          "decoupling": 27.123518
-        },
-        {
-          "type": "WORK",
-          "label": "3219s@74w34rpm",
-          "duration_secs": 3219,
-          "avg_power": 74,
-          "max_power": 239,
-          "avg_hr": 77,
-          "max_hr": 113,
-          "avg_cadence": 33.956818,
-          "zone": 1,
-          "training_load": 11.1872835,
-          "decoupling": -6.9852858
-        }
-      ]
-    },
     {
       "activity_id": "i152053801",
       "date": "2026-05-27",
