@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T17:23:34.964777",
+  "generated_at": "2026-06-12T19:31:05.782356",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -2440,6 +2440,67 @@
           "avg_hr": 117,
           "max_hr": 123,
           "avg_cadence": 81.34768,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i156735460",
+      "date": "2026-06-12",
+      "type": "MountainBikeRide",
+      "name": "Ischia Mountain Biking",
+      "interval_summary": [
+        "1x 19m19s 123bpm",
+        "2x 79s 154bpm",
+        "1x 2m20s 152bpm",
+        "1x 1h34m 122bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1159s@123bpm",
+          "duration_secs": 1159,
+          "avg_hr": 123,
+          "max_hr": 163,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "79s@154bpm",
+          "duration_secs": 82,
+          "avg_hr": 154,
+          "max_hr": 163,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "140s@152bpm",
+          "duration_secs": 140,
+          "avg_hr": 152,
+          "max_hr": 163,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "79s@154bpm",
+          "duration_secs": 76,
+          "avg_hr": 154,
+          "max_hr": 165,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "5681s@122bpm",
+          "duration_secs": 5681,
+          "avg_hr": 122,
+          "max_hr": 165,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 97,
+          "max_hr": 97,
           "zone": 1
         }
       ]
