@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T08:32:12.211834",
+  "generated_at": "2026-06-13T11:02:43.803828",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -2502,6 +2502,25 @@
           "avg_hr": 97,
           "max_hr": 97,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i156888610",
+      "date": "2026-06-13",
+      "type": "MountainBikeRide",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "interval_summary": [
+        "1x 2h26m 128bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "8790s@128bpm",
+          "duration_secs": 8790,
+          "avg_hr": 128,
+          "max_hr": 169,
+          "zone": 2
         }
       ]
     }
