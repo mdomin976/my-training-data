@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-13T21:21:22.587273",
+    "last_updated": "2026-06-13T22:38:16.497107",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -710,9 +710,9 @@
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 3,
           "race_proximity": 7,
-          "next_week_load": 0.7,
+          "next_week_load": 0.8,
           "plan_coverage_current_week": 0.33,
-          "plan_coverage_next_week": 1.5
+          "plan_coverage_next_week": 1.67
         },
         "data_quality": "good",
         "stream_agreement": false
@@ -747,7 +747,7 @@
     "p_max": 1193,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-13T21:21:22.586017",
+    "calculation_timestamp": "2026-06-13T22:38:16.495937",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6494,6 +6494,20 @@
       "description": "## \ud83c\udfc1 QUEBRANTAHUESOS 2026 | Objetivo: Sub-5h35\n## TSS estimado: ~380 | Duraci\u00f3n objetivo: 5h35 | FTP: 325W | 4.6 W/kg\n\n---\n\n**\u26a1 Protocolo por segmento:**\nSalida \u2192 Somport (km 0\u201338): 240W. FC m\u00e1x 165 bpm. Paciencia.\nSomport (km 38\u201356): 268W constante. Cadencia 82\u201387 rpm.\nBajada y approche Marie-Blanque (km 56\u201385): 175W. Come. Bebe.\nMarie-Blanque (km 85\u201395): 279W constante. VI objetivo menor que 1.05.\nValle de Tena (km 95\u2013128): 248W. Ventana cr\u00edtica de nutrici\u00f3n.\nPortalet (km 128\u2013162): 272W. 65 minutos. FC 165\u2013172 bpm.\nBajada final (km 162\u2013200): freeride. Todo lo que quede, aqu\u00ed.\n\n---\n\nWarmup\n- Neutralizaci\u00f3n salida Sabi\u00f1\u00e1nigo 20m ramp 45-65% freeride\n\n- PREP SALIDA REAL QH - Press Lap ahora 10s 0%\n\nMain Set\n- Llano inicial paciencia 0-38km 1h ramp 70-74% 90-94rpm\n\n- PREP SOMPORT - Press Lap ahora 10s 0%\n\nMain Set\n- Somport 268W constante 31m 82-83% 82-87rpm\n\nMain Set\n- Bajada y approche MB come y bebe 33m 50-57% freeride\n\n- PREP MARIE-BLANQUE - Press Lap ahora 10s 0%\n\nMain Set\n- Marie-Blanque 279W sin picos 23m 84-87% 78-83rpm\n\nMain Set\n- Valle de Tena ventana nutricion 1h 74-77% 88-92rpm\n\n- PREP PORTALET - Press Lap ahora 10s 0%\n\nMain Set\n- Portalet 272W constante 1h5m 83-84% 80-85rpm\n\nMain Set\n- Bajada final vacia los depositos 48m 75%"
     },
     {
+      "id": 115906771,
+      "date": "2026-06-21",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 70,
+      "duration_hours": 2.8,
+      "duration_formatted": "2h48m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey Marcos! Recovery and drills await. 15m ramp 45-55% 85rpm\nMain Set"
+    },
+    {
       "id": 97493864,
       "date": "2026-06-22",
       "name": "S3 Build 1",
@@ -6599,12 +6613,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 7,
     "success": 3,
     "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 3
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 8.68,
