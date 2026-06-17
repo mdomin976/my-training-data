@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-17T21:45:16.003134",
+    "last_updated": "2026-06-17T23:11:02.456946",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -688,9 +688,9 @@
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 6,
           "race_proximity": 3,
-          "next_week_load": null,
+          "next_week_load": 0.23,
           "plan_coverage_current_week": 0.83,
-          "plan_coverage_next_week": 0.33
+          "plan_coverage_next_week": 0.5
         },
         "data_quality": "good",
         "stream_agreement": false
@@ -725,7 +725,7 @@
     "p_max": 1188,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-17T21:45:16.001892",
+    "calculation_timestamp": "2026-06-17T23:11:02.455532",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6894,6 +6894,19 @@
       "description": ""
     },
     {
+      "id": 116753115,
+      "date": "2026-06-25",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 152,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": "12m @194W | 1m @341W | 30s @178W | 1m @341W | 30s @178W | 17m @227W | 3\u00d715m @341W / 8m rec | 10m @178W",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
       "id": 97493889,
       "date": "2026-06-29",
       "name": "S3 Build 2",
@@ -6973,10 +6986,10 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
-    "success": 1,
+    "attempted": 4,
+    "success": 2,
     "patternA": 1,
-    "patternB": 0,
+    "patternB": 1,
     "bail_no_workout_doc": 0,
     "bail_no_match": 2
   },
