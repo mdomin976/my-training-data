@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-17T14:02:04.453988",
+    "last_updated": "2026-06-17T17:24:50.267035",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -106,7 +106,7 @@
       "value": 3,
       "severity": "info",
       "threshold": "RACE_A within 7 days",
-      "context": "Race week D-3 of 'Quebrantahuesos'. Today: Easy / rest, 17-35 TSS. Z1-Z2 only",
+      "context": "Race week D-3 of 'Quebrantahuesos'. Today: Easy / rest, 17-34 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -143,7 +143,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 5.0
+        "value": 9.9
       }
     },
     "signal_summary": {
@@ -213,10 +213,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 87.1,
-      "atl": 82.11,
-      "tsb": 4.99,
-      "ramp_rate": -2.94,
+      "ctl": 86.04,
+      "atl": 76.12,
+      "tsb": 9.92,
+      "ramp_rate": -4.0,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -649,17 +649,16 @@
         }
       }
     },
-    "consistency_index": 0.8,
+    "consistency_index": 0.75,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 4,
       "completed_days": 6,
-      "matched_days": 4,
+      "matched_days": 3,
       "planned_dates": [
         "2026-06-11",
         "2026-06-13",
         "2026-06-14",
-        "2026-06-16",
-        "2026-06-17"
+        "2026-06-16"
       ],
       "completed_dates": [
         "2026-06-12",
@@ -684,13 +683,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.99,
-          "hard_sessions_planned": 5,
+          "planned_tss_delta": 0.82,
+          "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 2,
-          "current_week_hard_days_total": 7,
+          "current_week_hard_days_total": 6,
           "race_proximity": 3,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.83,
           "plan_coverage_next_week": 0.33
         },
         "data_quality": "good",
@@ -726,13 +725,13 @@
     "p_max": 1188,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-17T14:02:04.452715",
+    "calculation_timestamp": "2026-06-17T17:24:50.265747",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 24,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -6803,19 +6802,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 108443379,
-      "date": "2026-06-17",
-      "name": "QH Race Week | Mi\u00e9rcoles \u2014 Z2 Suave + Aperturas",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.07,
-      "duration_formatted": "1h4m10s",
-      "workout_summary": "20m @186W | 15m @218W | 10s @0W | 3\u00d71m @366W / 3m rec | 12m @170W | 5m @150W",
-      "has_terrain": false,
-      "description": "## QH Race Week | Mi\u00e9rcoles \u2014 Z2 Suave + Aperturas Neuromusculares\n## TSS objetivo: ~40 | Duraci\u00f3n: ~1h | FTP ref: 325W\n\n---\n\n**\ud83e\udde0 Preparaci\u00f3n mental QH:**\nTres d\u00edas de carrera. Las aperturas de hoy despiertan el sistema neuromuscular. \n\n**\u26a1 Consejos de ejecuci\u00f3n:**\nAperturas: aceleraci\u00f3n progresiva en los primeros 10 segundos, pico natural en los \u00faltimos 20 segundos.\nPotencia en el pico: 400\u2013460W.\n\n---\n\nWarmup\n- Activaci\u00f3n suave race week 20m ramp 50-65% 85rpm\n\nMain Set\n- Z2 suave 15m 64-70% 87rpm\n\n- PREP APERTURAS RACE WEEK - Press Lap ahora 10s 0%\n\n3x\n- Apertura neuromuscular progresiva 1m ramp 85-140% 95-110rpm\n- Recuperaci\u00f3n completa apertura 3m 48-52% 78rpm\n\nMain Set\n- Z1 cierre sistema 12m 48-57% freeride\n\nCooldown\n- 5m 43-50%"
-    },
-    {
       "id": 88389590,
       "date": "2026-06-19",
       "name": "Quebrantahuesos",
@@ -6873,13 +6859,13 @@
       "name": "IntervalCoach - Aerobic Endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 70,
-      "duration_hours": 2.8,
-      "duration_formatted": "2h48m",
+      "planned_tss": 35,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey Marcos! Recovery and drills await. 15m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 72m 45-50% 85rpm\n- Loosen Up 71m 50-55% 90rpm\n\nCooldown\n- Awesome work, Marcos! Spin easy now. 10m ramp 55-45% 85rpm\n\n[Weekly Plan - Taper]"
+      "description": "Warmup\n- Hey Marcos! Recovery and drills await. 15m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 40m 45-50% 85rpm\n- Loosen Up 20m 50-55% 90rpm\n\nCooldown\n- Awesome work, Marcos! Spin easy now. 10m ramp 55-45% 85rpm\n\n[Weekly Plan - Taper]"
     },
     {
       "id": 97493864,
@@ -6987,9 +6973,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 3,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 2
@@ -7044,18 +7030,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 3,
       "current_day": "D-3",
-      "ctl_baseline": 87.1,
-      "normal_weekly_tss": 609.7,
+      "ctl_baseline": 86.0,
+      "normal_weekly_tss": 602.3,
       "race_week_tss_budget": {
-        "min": 244,
-        "max": 335
+        "min": 241,
+        "max": 331
       },
       "race_week_tss_spent": 366,
       "race_week_tss_remaining": {
         "min": 0,
         "max": 0
       },
-      "projected_race_day_tsb": 27.6,
+      "projected_race_day_tsb": 30.5,
       "tsb_target_range": {
         "min": 10,
         "max": 25
@@ -7064,7 +7050,7 @@
         "label": "Easy / rest",
         "load_target_tss": {
           "min": 17,
-          "max": 35
+          "max": 34
         },
         "zones": "Z1-Z2 only",
         "purpose": "Taper tantrums expected (D-4 to D-2). Normal \u2014 not lost fitness. Easy endurance preferred over complete rest for long events."
