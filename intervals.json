@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T13:49:55.078832",
+  "generated_at": "2026-06-19T16:33:02.916184",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -2321,6 +2321,58 @@
           "avg_cadence": 52.270382,
           "zone": 1,
           "training_load": 4.331361
+        }
+      ]
+    },
+    {
+      "activity_id": "i158635488",
+      "date": "2026-06-19",
+      "type": "Ride",
+      "name": "Sallent de G\u00e1llego - QH Race Week | Viernes \u2014 Openers Finales Pre-QH",
+      "interval_summary": [
+        "1x 15m1s 164w",
+        "1x 12m1s 190w",
+        "1x 44m13s 176w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "901s@164w68rpm",
+          "duration_secs": 901,
+          "avg_power": 164,
+          "max_power": 381,
+          "avg_hr": 115,
+          "max_hr": 138,
+          "avg_cadence": 68.46445,
+          "zone": 1,
+          "training_load": 8.464068,
+          "decoupling": 19.326792
+        },
+        {
+          "type": "WORK",
+          "label": "721s@190w84rpm",
+          "duration_secs": 721,
+          "avg_power": 190,
+          "max_power": 360,
+          "avg_hr": 127,
+          "max_hr": 144,
+          "avg_cadence": 84.32871,
+          "zone": 1,
+          "training_load": 8.521926,
+          "decoupling": 9.802966
+        },
+        {
+          "type": "WORK",
+          "label": "2653s@176w65rpm",
+          "duration_secs": 2653,
+          "avg_power": 176,
+          "max_power": 781,
+          "avg_hr": 119,
+          "max_hr": 158,
+          "avg_cadence": 64.96758,
+          "zone": 1,
+          "training_load": 35.854664,
+          "decoupling": -14.127801
         }
       ]
     }
