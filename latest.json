@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-19T21:45:23.779785",
+    "last_updated": "2026-06-19T23:02:17.577257",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -143,7 +143,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 16.0
+        "value": 18.9
       }
     },
     "signal_summary": {
@@ -213,10 +213,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 83.95,
-      "atl": 67.98,
-      "tsb": 15.97,
-      "ramp_rate": -3.72,
+      "ctl": 83.31,
+      "atl": 64.39,
+      "tsb": 18.92,
+      "ramp_rate": -4.35,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -674,9 +674,9 @@
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 7,
           "race_proximity": 1,
-          "next_week_load": 0.23,
+          "next_week_load": 0.41,
           "plan_coverage_current_week": 0.83,
-          "plan_coverage_next_week": 0.5
+          "plan_coverage_next_week": 0.67
         },
         "data_quality": "good",
         "stream_agreement": false
@@ -711,7 +711,7 @@
     "p_max": 1185,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 73.0,
-    "calculation_timestamp": "2026-06-19T21:45:23.778487",
+    "calculation_timestamp": "2026-06-19T23:02:17.575968",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6790,6 +6790,20 @@
       "description": "Warmup\n- Marcos, get ready for a solid threshold effort today! 12m ramp 45-75% 85rpm\n- Primer 1 1m 105% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 1m 105% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Endurance 17m 65-75% 85rpm\n- Threshold 1 15m 105% 92rpm\n- Recovery 8m 55% 80rpm\n- Threshold 2 15m 105% 92rpm\n- Recovery 8m 55% 80rpm\n- Threshold 3 15m 105% 92rpm\n- Endurance 17m 65-75% 85rpm\n\nCooldown\n- Fantastic work, Marcos! Enjoy the recovery spin. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Race Week]"
     },
     {
+      "id": 117337480,
+      "date": "2026-06-27",
+      "name": "IntervalCoach - Endurance Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 116,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey Marcos! Easy spin ahead 15m ramp 45-55% 85rpm\nMain Set"
+    },
+    {
       "id": 97493889,
       "date": "2026-06-29",
       "name": "S3 Build 2",
@@ -6869,12 +6883,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
+    "attempted": 5,
     "success": 2,
     "patternA": 1,
     "patternB": 1,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 8.51,
@@ -6926,18 +6940,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 1,
       "current_day": "D-1",
-      "ctl_baseline": 84.0,
-      "normal_weekly_tss": 587.6,
+      "ctl_baseline": 83.3,
+      "normal_weekly_tss": 583.2,
       "race_week_tss_budget": {
-        "min": 235,
-        "max": 323
+        "min": 233,
+        "max": 321
       },
       "race_week_tss_spent": 420,
       "race_week_tss_remaining": {
         "min": 0,
         "max": 0
       },
-      "projected_race_day_tsb": 23.0,
+      "projected_race_day_tsb": 25.5,
       "tsb_target_range": {
         "min": 10,
         "max": 25
