@@ -1,52 +1,10 @@
 {
-  "generated_at": "2026-06-18T22:22:09.822398",
+  "generated_at": "2026-06-19T00:10:49.015617",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i154347189",
-      "date": "2026-06-04",
-      "type": "Ride",
-      "name": "IntervalCoach - Endurance Ride",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2189,
-          "avg_power": 128,
-          "max_power": 451,
-          "avg_hr": 103,
-          "max_hr": 134,
-          "avg_cadence": 44.236988,
-          "zone": 1,
-          "training_load": 16.717632,
-          "decoupling": -7.3982263,
-          "avg_dfa_a1": 1.1235144
-        }
-      ],
-      "dfa": {
-        "avg": null,
-        "p25": null,
-        "p50": null,
-        "p75": null,
-        "tiz_below_lt1": null,
-        "tiz_lt1_transition": null,
-        "tiz_transition_lt2": null,
-        "tiz_above_lt2": null,
-        "drift": null,
-        "lt1_crossing": null,
-        "lt2_crossing": null,
-        "quality": {
-          "valid_secs": 1314,
-          "total_secs": 1979,
-          "valid_pct": 66.4,
-          "artifact_rate_avg": 3.81,
-          "sufficient": false
-        }
-      }
-    },
     {
       "activity_id": "i154718418",
       "date": "2026-06-05",
