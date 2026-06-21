@@ -1,67 +1,10 @@
 {
-  "generated_at": "2026-06-20T23:13:03.354447",
+  "generated_at": "2026-06-21T01:41:39.180325",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i154801994",
-      "date": "2026-06-06",
-      "type": "Ride",
-      "name": "QH Specificity W5 | Gran Fondo 4.5h + Portalet Power Final",
-      "interval_summary": [
-        "1x 45m23s 250w",
-        "1x 24m41s 323w",
-        "1x 4h36m 182w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2723s@250w76rpm",
-          "duration_secs": 2723,
-          "avg_power": 250,
-          "max_power": 401,
-          "avg_hr": 134,
-          "max_hr": 153,
-          "avg_cadence": 75.881744,
-          "zone": 2,
-          "training_load": 48.037228,
-          "decoupling": -7.3270273
-        },
-        {
-          "type": "WORK",
-          "label": "1481s@323w82rpm",
-          "duration_secs": 1481,
-          "avg_power": 323,
-          "max_power": 404,
-          "avg_hr": 162,
-          "max_hr": 169,
-          "avg_cadence": 81.913574,
-          "zone": 4,
-          "training_load": 41.13889,
-          "decoupling": 3.076926
-        },
-        {
-          "type": "WORK",
-          "label": "16614s@182w61rpm",
-          "duration_secs": 16614,
-          "avg_power": 182,
-          "max_power": 718,
-          "avg_hr": 124,
-          "max_hr": 167,
-          "avg_cadence": 61.341923,
-          "zone": 1,
-          "training_load": 187.83035
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3,
-          "zone": 1,
-          "training_load": 0.0035416174
-        }
-      ]
-    },
     {
       "activity_id": "i155034581",
       "date": "2026-06-07",
