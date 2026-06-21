@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T10:22:19.851619",
+  "generated_at": "2026-06-21T12:25:16.310356",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -2274,6 +2274,45 @@
           "avg_cadence": 88.0,
           "zone": 1,
           "training_load": 0.02812071
+        }
+      ]
+    },
+    {
+      "activity_id": "i159104781",
+      "date": "2026-06-21",
+      "type": "Ride",
+      "name": "Sallent de G\u00e1llego Road Cycling",
+      "interval_summary": [
+        "1x 23s 421w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5038,
+          "avg_power": 197,
+          "max_power": 547,
+          "avg_cadence": 67.800995,
+          "zone": 1,
+          "training_load": 63.3678
+        },
+        {
+          "type": "WORK",
+          "label": "23s@421w78rpm",
+          "duration_secs": 23,
+          "avg_power": 421,
+          "max_power": 558,
+          "avg_cadence": 77.73913,
+          "zone": 7,
+          "training_load": 0.5443787
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9335,
+          "avg_power": 102,
+          "max_power": 390,
+          "avg_cadence": 46.188984,
+          "zone": 1,
+          "training_load": 33.880863
         }
       ]
     }
