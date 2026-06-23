@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-23T06:12:18.092560",
+    "last_updated": "2026-06-23T10:04:44.916369",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -634,14 +634,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.88,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.32,
+          "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 3,
-          "race_proximity": null,
-          "next_week_load": 0.21,
-          "plan_coverage_current_week": 0.5,
-          "plan_coverage_next_week": 0.67
+          "current_week_hard_days_total": 4,
+          "race_proximity": 24,
+          "next_week_load": 1.23,
+          "plan_coverage_current_week": 0.83,
+          "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -674,7 +674,7 @@
     "p_max": 1185,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-23T06:12:18.091641",
+    "calculation_timestamp": "2026-06-23T10:04:44.915075",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6513,64 +6513,74 @@
   ],
   "planned_workouts": [
     {
-      "id": 117865479,
-      "date": "2026-06-26",
-      "name": "IntervalCoach - Strength Threshold Repeats",
+      "id": 117983956,
+      "date": "2026-06-24",
+      "name": "Long Duration, Low Intensity with late-stage efforts",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 129,
-      "duration_hours": 2.55,
-      "duration_formatted": "2h33m",
+      "planned_tss": 177,
+      "duration_hours": 3.39,
+      "duration_formatted": "3h23m10s",
+      "workout_summary": "3m @159W | 3m @178W | 3h | 10s @0W | 4\u00d72m @308W / 1m rec | 5m @178W",
+      "has_terrain": false,
+      "description": "- 3m 49%\n- 3m 55%\n\n\n- 180m z2\n\n\n- Press lap in 10 sec. 10s 0%\n\n4x\n-2m 95%\n-1m 50%\n\n- 5m 55%"
+    },
+    {
+      "id": 117991020,
+      "date": "2026-06-25",
+      "name": "Recuperaci\u00f3n Z1",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 27,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey Marcos! Endurance and strength await. 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 48m 65-75% 88rpm\n\n4x\n- Strength 1 (low cadence) 3m 82% 60rpm\n- Threshold 2m 95-100% 92rpm\n- Recovery 3m 55% 85rpm\n\nRecovery\n- Cruise 48m 65-75% 88rpm\n\nCooldown\n- Fantastic ride, Marcos. Recover well. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Main Set\n- Pedaleo suave Z1 1h 50-55% 92rpm\n\nCadencia alta, sin tensi\u00f3n. Cualquier sensaci\u00f3n de pesadez es normal \u2014 no subas la intensidad."
     },
     {
-      "id": 117865480,
-      "date": "2026-06-27",
-      "name": "IntervalCoach - Neuromuscular Sprints",
+      "id": 117992222,
+      "date": "2026-06-26",
+      "name": "Lactate Threashold Intervals 2x12 min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 194,
-      "duration_hours": 4.0,
-      "duration_formatted": "4h10s",
-      "workout_summary": "15m @194W | 7\u00d730m @227W / 10s rec | 4m @211W | 10m @178W",
+      "planned_tss": 92,
+      "duration_hours": 1.19,
+      "duration_formatted": "1h11m40s",
+      "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey Marcos! Long endurance + sprints today. 15m ramp 45-75% 85rpm\n\nMain Set\n7x\n- Endurance 30m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nRecovery\n- Endurance 4m 60-70%\n\nCooldown\n- Great job, Marcos! Spin easy now. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Improve ability to clear and tolerate lactate. Do not abuse this training. High stress to muscles and reduced benefit.\n\n- 10m Z2\n- Press lap in 10 sec. 10s 0%\n\n3 x\n\n- 12m 100%\n- 5m Z1\n- Press lap in 10 sec. 10s 0%\n\n- 12m 100%\n- 5m Z1\n- Press lap in 10 sec. 10s 0%\n\n- 12m 100%\n- 5m Z1\n- Press lap in 10 sec. 10s 0%\n\n-10m Z2"
     },
     {
-      "id": 117865482,
-      "date": "2026-06-28",
-      "name": "IntervalCoach - Endurance Cruise",
+      "id": 117992309,
+      "date": "2026-06-27",
+      "name": "Long Duration, Low Intensity with late-stage efforts",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 136,
+      "planned_tss": 177,
+      "duration_hours": 3.39,
+      "duration_formatted": "3h23m10s",
+      "workout_summary": "3m @159W | 3m @178W | 3h | 10s @0W | 4\u00d72m @308W / 1m rec | 5m @178W",
+      "has_terrain": false,
+      "description": "- 3m 49%\n- 3m 55%\n\n\n- 180m z2\n\n\n- Press lap in 10 sec. 10s 0%\n\n4x\n-2m 95%\n-1m 50%\n\n- 5m 55%"
+    },
+    {
+      "id": 117992604,
+      "date": "2026-06-28",
+      "name": "C1: Group ride/training race",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 216,
       "duration_hours": 3.0,
       "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey Marcos! Long Fat Max ride ahead. 15m ramp 45-75% 85rpm\n\nMain Set\n- Low 52m 67% 85rpm\n- Settle In 52m 67-72% 85rpm\n- Cruise 51m 72-67% 88rpm\n\nCooldown\n- Fantastic effort, Marcos. Recover well. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "C1: Group ride/training race\n2-4 hours at group ride pace\n\u2022 Show up to ride hard and be part of the group\u2014but know your limit. If you\u2019re still in the middle of your base, one hour with the group may be sufficient.\n- 180m 85%"
     },
     {
       "id": 97493889,
       "date": "2026-06-29",
       "name": "S3 Build 2",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 97493898,
-      "date": "2026-06-29",
-      "name": "S3 Build 3",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -6594,23 +6604,99 @@
       "description": ""
     },
     {
-      "id": 117905186,
-      "date": "2026-06-30",
-      "name": "IntervalCoach - Progressive Threshold",
+      "id": 117991348,
+      "date": "2026-06-29",
+      "name": "Activaci\u00f3n + Openers",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 130,
+      "planned_tss": 48,
+      "duration_hours": 1.07,
+      "duration_formatted": "1h4m",
+      "workout_summary": "15m @195W | 30m @222W | 3\u00d71m @325W / 2m rec | 10m @186W",
+      "has_terrain": false,
+      "description": "Warmup\n- 15m ramp 52-68%\n\nMain Set\n- Z2 base 30m 65-72%\n\n3x\n- Opener FTP 1m 100%\n- Recuperaci\u00f3n 2m 55%\n\nCooldown\n- 10m ramp 65-50%"
+    },
+    {
+      "id": 117991381,
+      "date": "2026-06-30",
+      "name": "Power speed profile: Aerobic test",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 83,
+      "duration_hours": 1.04,
+      "duration_formatted": "1h2m20s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "http://powerspeedprofile.com/ \nAerobic test: Warm-up (18 minutes)\n\nThe warm-up protocol consists of 6 steps starting at 40-50 percent of FTP and increasing gradually up to a 2 minute effort at 100 percent of FTP.\n\nThe warm-up is concluded by 6 minutes at 40-50 percent of FTP before the main set kicks off.\n\nAerobic test: Main set (34 minutes)\n\nThe main set consists of two all-out efforts separated by a 10 minute recovery period:\n\n4 minutes test \u2013 All-out effort. Try to ride with an even pace.\n10 minutes easy riding\n20 minutes test \u2013 All-out effort. Try to ride with an even pace.\n\n\n-2m 50%\n-2m 60%\n-2m 70%\n-2m 80%\n-2m 90%\n-2m 100%\n\n- 6m 50%\n- Press lap in 10 sec. 10s 0%\n\n\n\n\n- 4m 100% MMP\n\n- 10m 50%\n- Press lap in 10 sec. 10s 0%\n- 20m 100% MMP\n-10m 50%"
+    },
+    {
+      "id": 117991403,
+      "date": "2026-07-01",
+      "name": "Z2 moderado post-test",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 84,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey Marcos! Progressive Threshold awaits. 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 23m 65-75% 85rpm\n- Build 1 10m 88% 88rpm\n- Recovery 3m 55% 80rpm\n- Build 2 10m 94% 90rpm\n- Recovery 3m 55% 80rpm\n- Build 3 10m 100% 93rpm\n- Recovery 3m 55% 80rpm\n- Build 4 10m 105% 95rpm\n- Endurance 23m 65-75% 85rpm\n\nCooldown\n- Fantastic work, Marcos! Spin easy. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description_preview": "Warmup\n- 15m ramp 52-65%\nMain Set"
     },
     {
-      "id": 97494073,
+      "id": 117991435,
+      "date": "2026-07-02",
+      "name": "Hard-Start VO2 max Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 94,
+      "duration_hours": 1.18,
+      "duration_formatted": "1h11m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Allowing more time to be accumulated close to VO2 max, with less subjective effort.\n- 5m 50%\n- 5m 55%"
+    },
+    {
+      "id": 117991465,
+      "date": "2026-07-03",
+      "name": "Recuperaci\u00f3n Z1",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 27,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Main Set\n- Recuperaci\u00f3n activa Z1 1h 50-55% 92rpm"
+    },
+    {
+      "id": 117991513,
+      "date": "2026-07-04",
+      "name": "Sweet Spot 3\u00d715 min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 201,
+      "duration_hours": 3.57,
+      "duration_formatted": "3h34m",
+      "workout_summary": "15m @206W | 1h55m | 3\u00d715m @294W / 8m rec | 15m @202W",
+      "has_terrain": false
+    },
+    {
+      "id": 117993242,
+      "date": "2026-07-05",
+      "name": "C1: Group ride/training race",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 216,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "C1: Group ride/training race\n2-4 hours at group ride pace\n\u2022 Show up to ride hard and be part of the group\u2014but know your limit. If you\u2019re still in the middle of your base, one hour with the group may be sufficient."
+    },
+    {
+      "id": 97493898,
       "date": "2026-07-06",
-      "name": "S3 Rest",
+      "name": "S3 Build 3",
       "type": "NOTE",
       "sport_type": null,
       "planned_tss": null,
@@ -6634,6 +6720,95 @@
       "description_preview": null
     },
     {
+      "id": 117991725,
+      "date": "2026-07-07",
+      "name": "Hard-Start VO2 max Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 118,
+      "duration_hours": 1.52,
+      "duration_formatted": "1h31m10s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Allowing more time to be accumulated close to VO2 max, with less subjective effort.\n- 5m 50%\n- 5m 55%"
+    },
+    {
+      "id": 117991905,
+      "date": "2026-07-08",
+      "name": "Recovery ride",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 36,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "E3: Easy/recovery ride\n1-2 hours in zone 1\n\u2022 This is any ride that isn\u2019t interval work or a long endurance ride."
+    },
+    {
+      "id": 117992805,
+      "date": "2026-07-09",
+      "name": "Long Duration, Low Intensity with late-stage efforts",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 177,
+      "duration_hours": 2.22,
+      "duration_formatted": "2h13m",
+      "workout_summary": "3m @159W | 3m @178W | 3h | 10s @0W | 4\u00d72m @308W / 1m rec | 5m @178W",
+      "has_terrain": false
+    },
+    {
+      "id": 117992729,
+      "date": "2026-07-10",
+      "name": "BBK",
+      "type": "HOLIDAY",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 97494073,
+      "date": "2026-07-13",
+      "name": "S3 Rest",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 117993327,
+      "date": "2026-07-13",
+      "name": "Z2 moderado post-test",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 84,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Warmup\n- 15m ramp 52-65%\nMain Set"
+    },
+    {
+      "id": 117993886,
+      "date": "2026-07-15",
+      "name": "Low intensity with Tempo block",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 72,
+      "duration_hours": 1.52,
+      "duration_formatted": "1h31m10s",
+      "workout_summary": "3m @159W | 3m @178W | 10s @0W | 2\u00d720m @211W / 20m rec | 5m @178W",
+      "has_terrain": false
+    },
+    {
       "id": 97501106,
       "date": "2026-07-16",
       "name": "TdB 7.0 MD",
@@ -6645,15 +6820,67 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 117993454,
+      "date": "2026-07-16",
+      "name": "Pre-race Openers (day before)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 58,
+      "duration_hours": 1.04,
+      "duration_formatted": "1h2m10s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 10m Z2\n- Press lap in 10 sec. 10s 0%\n- 1m Z4"
+    },
+    {
+      "id": 117983260,
+      "date": "2026-07-17",
+      "name": "Tour de Broskis Day 1",
+      "type": "RACE_B",
+      "sport_type": "Ride",
+      "planned_tss": 300,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 117983264,
+      "date": "2026-07-18",
+      "name": "Tour de Broskis Day 2",
+      "type": "RACE_B",
+      "sport_type": "Ride",
+      "planned_tss": 250,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 117983269,
+      "date": "2026-07-19",
+      "name": "Tour de Broskis Day 3",
+      "type": "RACE_B",
+      "sport_type": "Ride",
+      "planned_tss": 360,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 18,
+    "success": 6,
+    "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 3
+    "bail_no_match": 12
   },
   "weekly_summary": {
     "total_training_hours": 12.15,
@@ -6664,8 +6891,60 @@
     "avg_resting_hr": 43.3
   },
   "race_calendar": {
-    "next_race": null,
-    "all_races": [],
+    "next_race": {
+      "name": "Tour de Broskis Day 1",
+      "date": "2026-07-17",
+      "category": "RACE_B",
+      "type": "Ride",
+      "days_until": 24,
+      "moving_time_seconds": null,
+      "distance_meters": null,
+      "display": {
+        "distance": null
+      },
+      "has_terrain": false
+    },
+    "all_races": [
+      {
+        "name": "Tour de Broskis Day 1",
+        "date": "2026-07-17",
+        "category": "RACE_B",
+        "type": "Ride",
+        "days_until": 24,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "Tour de Broskis Day 2",
+        "date": "2026-07-18",
+        "category": "RACE_B",
+        "type": "Ride",
+        "days_until": 25,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "Tour de Broskis Day 3",
+        "date": "2026-07-19",
+        "category": "RACE_B",
+        "type": "Ride",
+        "days_until": 26,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      }
+    ],
     "taper_alert": {
       "active": false
     },
