@@ -1,86 +1,10 @@
 {
-  "generated_at": "2026-06-23T23:15:32.369486",
+  "generated_at": "2026-06-24T01:26:12.093084",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i155632291",
-      "date": "2026-06-09",
-      "type": "Run",
-      "name": "Naples Running",
-      "interval_summary": [
-        "1x 5m36s 100bpm",
-        "5x 5m22s 117bpm",
-        "1x 6m37s 108bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "336s@100bpm73rpm",
-          "duration_secs": 336,
-          "avg_hr": 100,
-          "max_hr": 123,
-          "avg_cadence": 72.71429,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "322s@117bpm81rpm",
-          "duration_secs": 327,
-          "avg_hr": 115,
-          "max_hr": 127,
-          "avg_cadence": 76.666664,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "322s@117bpm81rpm",
-          "duration_secs": 318,
-          "avg_hr": 116,
-          "max_hr": 122,
-          "avg_cadence": 82.08491,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "397s@108bpm69rpm",
-          "duration_secs": 397,
-          "avg_hr": 108,
-          "max_hr": 120,
-          "avg_cadence": 69.46348,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "322s@117bpm81rpm",
-          "duration_secs": 327,
-          "avg_hr": 118,
-          "max_hr": 125,
-          "avg_cadence": 82.52905,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "322s@117bpm81rpm",
-          "duration_secs": 336,
-          "avg_hr": 120,
-          "max_hr": 124,
-          "avg_cadence": 81.96131,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "322s@117bpm81rpm",
-          "duration_secs": 302,
-          "avg_hr": 117,
-          "max_hr": 123,
-          "avg_cadence": 81.34768,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i156735460",
       "date": "2026-06-12",
