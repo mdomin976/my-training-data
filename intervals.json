@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T04:50:42.729964",
+  "generated_at": "2026-06-26T08:32:09.527015",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -1538,6 +1538,304 @@
           "valid_pct": 85.7,
           "artifact_rate_avg": 1.25,
           "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i160436539",
+      "date": "2026-06-26",
+      "type": "Ride",
+      "name": "Lactate Threashold Intervals 2x12 min",
+      "interval_summary": [
+        "1x 10m1s 203w",
+        "1x 18s 320w",
+        "2x 12m1s 328w",
+        "1x 5m 162w",
+        "1x 15m20s 171w",
+        "1x 3m31s 350w",
+        "1x 15m54s 145w",
+        "1x 7m45s 374w",
+        "1x 5m1s 4w",
+        "1x 5m58s 96w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "601s@203w61rpm",
+          "duration_secs": 601,
+          "avg_power": 203,
+          "max_power": 530,
+          "avg_hr": 124,
+          "max_hr": 154,
+          "avg_cadence": 60.988335,
+          "zone": 1,
+          "training_load": 10.144014,
+          "decoupling": -1.086086,
+          "avg_dfa_a1": 1.2983108
+        },
+        {
+          "type": "WORK",
+          "label": "18s@320w69rpm",
+          "duration_secs": 18,
+          "avg_power": 320,
+          "max_power": 375,
+          "avg_hr": 124,
+          "max_hr": 134,
+          "avg_cadence": 69.111115,
+          "zone": 4,
+          "training_load": 0.14998344,
+          "decoupling": 2.8324082,
+          "avg_dfa_a1": 1.2555577
+        },
+        {
+          "type": "WORK",
+          "label": "721s@328w86rpm",
+          "duration_secs": 720,
+          "avg_power": 327,
+          "max_power": 382,
+          "avg_hr": 156,
+          "max_hr": 164,
+          "avg_cadence": 83.51806,
+          "zone": 5,
+          "training_load": 20.370935,
+          "decoupling": 5.993444,
+          "avg_dfa_a1": 0.6827054
+        },
+        {
+          "type": "WORK",
+          "label": "300s@162w83rpm",
+          "duration_secs": 300,
+          "avg_power": 162,
+          "max_power": 283,
+          "avg_hr": 135,
+          "max_hr": 163,
+          "avg_cadence": 82.96,
+          "zone": 1,
+          "training_load": 3.0930178,
+          "decoupling": 25.111448,
+          "avg_dfa_a1": 0.73757654
+        },
+        {
+          "type": "WORK",
+          "label": "920s@171w78rpm",
+          "duration_secs": 920,
+          "avg_power": 171,
+          "max_power": 808,
+          "avg_hr": 127,
+          "max_hr": 154,
+          "avg_cadence": 78.125,
+          "zone": 1,
+          "training_load": 10.874025,
+          "decoupling": 13.219475,
+          "avg_dfa_a1": 1.0831141
+        },
+        {
+          "type": "WORK",
+          "label": "721s@328w86rpm",
+          "duration_secs": 721,
+          "avg_power": 329,
+          "max_power": 417,
+          "avg_hr": 159,
+          "max_hr": 168,
+          "avg_cadence": 88.85992,
+          "zone": 5,
+          "training_load": 20.899803,
+          "decoupling": 3.4268448,
+          "avg_dfa_a1": 0.696209
+        },
+        {
+          "type": "WORK",
+          "label": "211s@350w90rpm",
+          "duration_secs": 211,
+          "avg_power": 350,
+          "max_power": 463,
+          "avg_hr": 167,
+          "max_hr": 172,
+          "avg_cadence": 89.696686,
+          "zone": 6,
+          "training_load": 6.993103,
+          "decoupling": -5.894822,
+          "avg_dfa_a1": 0.54912895
+        },
+        {
+          "type": "WORK",
+          "label": "954s@145w49rpm",
+          "duration_secs": 954,
+          "avg_power": 145,
+          "max_power": 401,
+          "avg_hr": 129,
+          "max_hr": 170,
+          "avg_cadence": 48.61216,
+          "zone": 1,
+          "training_load": 15.059526,
+          "decoupling": 26.525246,
+          "avg_dfa_a1": 0.92420727
+        },
+        {
+          "type": "WORK",
+          "label": "465s@374w88rpm",
+          "duration_secs": 465,
+          "avg_power": 374,
+          "max_power": 476,
+          "avg_hr": 163,
+          "max_hr": 180,
+          "avg_cadence": 88.46882,
+          "zone": 7,
+          "training_load": 16.922699,
+          "decoupling": 2.7286944,
+          "avg_dfa_a1": 0.67939717
+        },
+        {
+          "type": "WORK",
+          "label": "301s@4w11rpm",
+          "duration_secs": 301,
+          "avg_power": 4,
+          "max_power": 279,
+          "avg_hr": 123,
+          "max_hr": 180,
+          "avg_cadence": 10.850498,
+          "zone": 1,
+          "training_load": 2.1550887,
+          "decoupling": 26.361351,
+          "avg_dfa_a1": 0.75223523
+        },
+        {
+          "type": "WORK",
+          "label": "358s@96w65rpm",
+          "duration_secs": 358,
+          "avg_power": 96,
+          "max_power": 193,
+          "avg_hr": 110,
+          "max_hr": 126,
+          "avg_cadence": 64.519554,
+          "zone": 1,
+          "training_load": 1.3557396,
+          "decoupling": 11.223367,
+          "avg_dfa_a1": 0.9159917
+        }
+      ],
+      "dfa": {
+        "avg": 0.849,
+        "p25": 0.536,
+        "p50": 0.815,
+        "p75": 1.127,
+        "tiz_below_lt1": {
+          "secs": 1740,
+          "pct": 34.0,
+          "avg_hr": 127,
+          "avg_watts": 200
+        },
+        "tiz_lt1_transition": {
+          "secs": 1040,
+          "pct": 20.3,
+          "avg_hr": 129,
+          "avg_watts": 148
+        },
+        "tiz_transition_lt2": {
+          "secs": 1411,
+          "pct": 27.6,
+          "avg_hr": 153,
+          "avg_watts": 268
+        },
+        "tiz_above_lt2": {
+          "secs": 927,
+          "pct": 18.1,
+          "avg_hr": 163,
+          "avg_watts": 295
+        },
+        "drift": {
+          "first_third_avg": 0.927,
+          "last_third_avg": 0.791,
+          "delta": -0.136,
+          "interpretable": false
+        },
+        "lt1_crossing": {
+          "secs_in_band": 427,
+          "avg_hr": 129,
+          "avg_watts": 174
+        },
+        "lt2_crossing": {
+          "secs_in_band": 914,
+          "avg_hr": 161,
+          "avg_watts": 304
+        },
+        "quality": {
+          "valid_secs": 5118,
+          "total_secs": 5568,
+          "valid_pct": 91.9,
+          "artifact_rate_avg": 1.79,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i160433941",
+      "date": "2026-06-25",
+      "type": "Ride",
+      "name": "Barcelona Road Cycling",
+      "interval_summary": [
+        "1x 6m36s 261w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3468,
+          "avg_power": 163,
+          "max_power": 338,
+          "avg_hr": 106,
+          "max_hr": 135,
+          "avg_cadence": 62.89921,
+          "zone": 1,
+          "training_load": 34.73352,
+          "decoupling": -8.045993,
+          "avg_dfa_a1": 1.1248442
+        },
+        {
+          "type": "WORK",
+          "label": "396s@261w76rpm",
+          "duration_secs": 396,
+          "avg_power": 261,
+          "max_power": 359,
+          "avg_hr": 128,
+          "max_hr": 137,
+          "avg_cadence": 76.22727,
+          "zone": 3,
+          "training_load": 7.094258,
+          "decoupling": -0.64001566,
+          "avg_dfa_a1": 0.85356385
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1065,
+          "avg_power": 50,
+          "max_power": 306,
+          "avg_hr": 75,
+          "max_hr": 134,
+          "avg_cadence": 27.173292,
+          "zone": 1,
+          "training_load": 3.8046675,
+          "decoupling": -2.7343514,
+          "avg_dfa_a1": 1.056147
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 3309,
+          "total_secs": 4810,
+          "valid_pct": 68.8,
+          "artifact_rate_avg": 5.17,
+          "sufficient": false
         }
       }
     }
