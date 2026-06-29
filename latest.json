@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-29T21:09:30.201137",
+    "last_updated": "2026-06-29T22:32:03.219845",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -189,10 +189,10 @@
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 322.1,
-      "w_prime": 27392,
+      "eftp": 321.8,
+      "w_prime": 27365,
       "w_prime_kj": 27.4,
-      "p_max": 1184,
+      "p_max": 1183,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -573,7 +573,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 325,
-          "w_prime_used": 27392,
+          "w_prime_used": 27365,
           "ftp_staleness_days": 56,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -668,9 +668,9 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 4,
           "race_proximity": 18,
-          "next_week_load": 0.61,
+          "next_week_load": 1.13,
           "plan_coverage_current_week": 1.8,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -697,13 +697,13 @@
       "benchmark_percentage": "+0.0%",
       "seasonal_expected": false
     },
-    "eftp": 322.1,
-    "w_prime": 27392,
+    "eftp": 321.8,
+    "w_prime": 27365,
     "w_prime_kj": 27.4,
-    "p_max": 1184,
+    "p_max": 1183,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-29T21:09:30.199875",
+    "calculation_timestamp": "2026-06-29T22:32:03.218593",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6860,6 +6860,33 @@
       "description_preview": null
     },
     {
+      "id": 119506260,
+      "date": "2026-07-10",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 160,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": "12m @194W | 1m @325W | 30s @178W | 1m @325W | 30s @178W | 32m @227W | 3\u00d715m @316W / 8m rec | 10m @178W",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
+      "id": 119506343,
+      "date": "2026-07-12",
+      "name": "IntervalCoach - Aerobic Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 118,
+      "duration_hours": 2.58,
+      "duration_formatted": "2h35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey Marcos! Endurance with pickups today 15m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 97494073,
       "date": "2026-07-13",
       "name": "S3 Rest",
@@ -6964,12 +6991,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 13,
-    "success": 4,
+    "attempted": 15,
+    "success": 5,
     "patternA": 4,
-    "patternB": 0,
+    "patternB": 1,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 9
+    "bail_no_match": 10
   },
   "weekly_summary": {
     "total_training_hours": 9.91,
