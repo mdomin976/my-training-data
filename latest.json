@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-30T10:07:38.193653",
+    "last_updated": "2026-06-30T12:24:25.724589",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -705,7 +705,7 @@
     "p_max": 1295,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 74.0,
-    "calculation_timestamp": "2026-06-30T10:07:38.192407",
+    "calculation_timestamp": "2026-06-30T12:24:25.723425",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6969,15 +6969,68 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 119647539,
+      "date": "2026-07-21",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 91,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey Marcos! Endurance ride today 15m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 119647622,
+      "date": "2026-07-24",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 160,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": "12m @194W | 1m @325W | 30s @178W | 1m @325W | 30s @178W | 32m @227W | 3\u00d715m @316W / 8m rec | 10m @178W",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
+      "id": 119647668,
+      "date": "2026-07-25",
+      "name": "IntervalCoach - Sprint Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 181,
+      "duration_hours": 3.75,
+      "duration_formatted": "3h45m10s",
+      "workout_summary": "15m @194W | 7\u00d728m @227W / 10s rec | 3m @211W | 10m @178W",
+      "has_terrain": false,
+      "start_time": "09:00"
+    },
+    {
+      "id": 119647707,
+      "date": "2026-07-26",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 210,
+      "duration_hours": 3.08,
+      "duration_formatted": "3h5m",
+      "workout_summary": "12m @194W | 1m @341W | 30s @178W | 1m @341W | 30s @178W | 5\u00d78m @227W / 30s rec | 7m @227W | 15m @341W | 8m @178W | 15m @341W | 8m @178W | 15m @341W | 5\u00d78m @227W / 30s rec | 7m @227W | 10m @178W",
+      "has_terrain": false,
+      "start_time": "09:00"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 14,
-    "success": 4,
-    "patternA": 3,
-    "patternB": 1,
+    "attempted": 18,
+    "success": 7,
+    "patternA": 5,
+    "patternB": 2,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 10
+    "bail_no_match": 11
   },
   "weekly_summary": {
     "total_training_hours": 11.48,
