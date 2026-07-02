@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-02T07:46:17.077343",
+    "last_updated": "2026-07-02T10:45:19.815717",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -118,6 +118,15 @@
       "context": "TID shift: 7d Polarized vs 28d Pyramidal. Training distribution changing.",
       "persistence_days": null,
       "tier": 3
+    },
+    {
+      "metric": "race_week",
+      "value": 2,
+      "severity": "info",
+      "threshold": "RACE_B within 7 days",
+      "context": "Race week D-2 of 'Alpinum Medial'. Today: Opener, 27-45 TSS. 3-4 efforts Z4 only (20-60s), moderate cadence, full recovery",
+      "persistence_days": null,
+      "tier": 1
     }
   ],
   "readiness_decision": {
@@ -152,7 +161,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -8.8
+        "value": -1.1
       }
     },
     "signal_summary": {
@@ -162,12 +171,12 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Build",
+      "phase": "Taper",
       "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "amber_threshold": 1,
+      "modifier_applied": "race_week_tightened"
     },
-    "race_week_defers": false,
+    "race_week_defers": true,
     "modification": {
       "triggers": [
         "hrv",
@@ -211,10 +220,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 90.98,
-      "atl": 99.81,
-      "tsb": -8.83,
-      "ramp_rate": 4.46,
+      "ctl": 89.05,
+      "atl": 90.12,
+      "tsb": -1.07,
+      "ramp_rate": 2.53,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -229,7 +238,7 @@
           "max_hr": 187,
           "threshold_pace": null,
           "pace_units": null,
-          "ftp": 325,
+          "ftp": 340,
           "ftp_indoor": null
         },
         "run": {
@@ -296,9 +305,9 @@
     "weight": {
       "weight_latest_kg": 69.4,
       "weight_latest_date": "2026-07-02",
-      "wkg_current": 4.68,
+      "wkg_current": 4.9,
       "wkg_ftp_source": "tested",
-      "ftp_setting_date": "2026-05-04",
+      "ftp_setting_date": "2026-07-02",
       "display": {
         "weight_latest": {
           "value": 69.4,
@@ -521,11 +530,11 @@
               "actual_hr": 176,
               "pct_lthr": 103.5,
               "source": "observed_outdoor",
-              "coggan_watts": 344,
-              "coggan_wpkg": 4.96,
-              "cp_model_watts": 424,
-              "cp_model_wpkg": 6.11,
-              "model_divergence_pct": -5.4
+              "coggan_watts": 360,
+              "coggan_wpkg": 5.19,
+              "cp_model_watts": 439,
+              "cp_model_wpkg": 6.33,
+              "model_divergence_pct": -8.7
             },
             "600s": {
               "actual_watts": 351,
@@ -533,11 +542,11 @@
               "actual_hr": 174,
               "pct_lthr": 102.4,
               "source": "observed_outdoor",
-              "coggan_watts": 315,
-              "coggan_wpkg": 4.54,
-              "cp_model_watts": 375,
-              "cp_model_wpkg": 5.4,
-              "model_divergence_pct": -6.4
+              "coggan_watts": 330,
+              "coggan_wpkg": 4.76,
+              "cp_model_watts": 390,
+              "cp_model_wpkg": 5.62,
+              "model_divergence_pct": -10.0
             },
             "1200s": {
               "actual_watts": 337,
@@ -545,11 +554,11 @@
               "actual_hr": 170,
               "pct_lthr": 100.0,
               "source": "observed_outdoor",
-              "coggan_watts": 302,
-              "coggan_wpkg": 4.35,
-              "cp_model_watts": 350,
-              "cp_model_wpkg": 5.04,
-              "model_divergence_pct": -3.7
+              "coggan_watts": 316,
+              "coggan_wpkg": 4.55,
+              "cp_model_watts": 365,
+              "cp_model_wpkg": 5.26,
+              "model_divergence_pct": -7.7
             },
             "1800s": {
               "actual_watts": 333,
@@ -557,11 +566,11 @@
               "actual_hr": 167,
               "pct_lthr": 98.2,
               "source": "observed_outdoor",
-              "coggan_watts": 292,
-              "coggan_wpkg": 4.21,
-              "cp_model_watts": 342,
-              "cp_model_wpkg": 4.93,
-              "model_divergence_pct": -2.6
+              "coggan_watts": 306,
+              "coggan_wpkg": 4.41,
+              "cp_model_watts": 357,
+              "cp_model_wpkg": 5.14,
+              "model_divergence_pct": -6.7
             },
             "3600s": {
               "actual_watts": 312,
@@ -569,11 +578,11 @@
               "actual_hr": 165,
               "pct_lthr": 97.1,
               "source": "observed_outdoor",
-              "coggan_watts": 280,
-              "coggan_wpkg": 4.03,
-              "cp_model_watts": 333,
-              "cp_model_wpkg": 4.8,
-              "model_divergence_pct": -6.3
+              "coggan_watts": 292,
+              "coggan_wpkg": 4.21,
+              "cp_model_watts": 348,
+              "cp_model_wpkg": 5.01,
+              "model_divergence_pct": -10.3
             },
             "5400s": {
               "actual_watts": 305,
@@ -581,11 +590,11 @@
               "actual_hr": 164,
               "pct_lthr": 96.5,
               "source": "observed_outdoor",
-              "coggan_watts": 266,
-              "coggan_wpkg": 3.83,
-              "cp_model_watts": 331,
-              "cp_model_wpkg": 4.77,
-              "model_divergence_pct": -7.9
+              "coggan_watts": 279,
+              "coggan_wpkg": 4.02,
+              "cp_model_watts": 346,
+              "cp_model_wpkg": 4.99,
+              "model_divergence_pct": -11.8
             },
             "7200s": {
               "actual_watts": 297,
@@ -593,17 +602,17 @@
               "actual_hr": 163,
               "pct_lthr": 95.9,
               "source": "observed_outdoor",
-              "coggan_watts": 254,
-              "coggan_wpkg": 3.66,
-              "cp_model_watts": 329,
-              "cp_model_wpkg": 4.74,
-              "model_divergence_pct": -9.7
+              "coggan_watts": 265,
+              "coggan_wpkg": 3.82,
+              "cp_model_watts": 344,
+              "cp_model_wpkg": 4.96,
+              "model_divergence_pct": -13.7
             }
           },
           "coverage_ratio": 1.0,
-          "ftp_used": 325,
+          "ftp_used": 340,
           "w_prime_used": 29752,
-          "ftp_staleness_days": 59,
+          "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
@@ -682,9 +691,11 @@
       ]
     },
     "phase_detection": {
-      "phase": "Build",
-      "confidence": "high",
-      "reason_codes": [],
+      "phase": "Taper",
+      "confidence": "medium",
+      "reason_codes": [
+        "RACE_IMMINENT"
+      ],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
@@ -693,14 +704,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.74,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.36,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 2,
-          "current_week_hard_days_total": 5,
-          "race_proximity": 15,
-          "next_week_load": 1.13,
+          "current_week_hard_days_total": 4,
+          "race_proximity": 2,
+          "next_week_load": 0.61,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 1.6
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -710,8 +721,10 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
-    "phase_triggers": [],
+    "phase_detected": "Taper",
+    "phase_triggers": [
+      "RACE_IMMINENT"
+    ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -721,10 +734,10 @@
       "seasonal_expected": null
     },
     "benchmark_outdoor": {
-      "current_ftp": 325,
+      "current_ftp": 340,
       "ftp_8_weeks_ago": 325,
-      "benchmark_index": 0.0,
-      "benchmark_percentage": "+0.0%",
+      "benchmark_index": 0.046,
+      "benchmark_percentage": "+4.6%",
       "seasonal_expected": false
     },
     "eftp": 341.0,
@@ -733,7 +746,7 @@
     "p_max": 1295,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-02T07:46:17.076426",
+    "calculation_timestamp": "2026-07-02T10:45:19.814495",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -742,7 +755,7 @@
       "planned_workouts_7d": 9,
       "ftp_history_days": {
         "indoor": 0,
-        "outdoor": 0
+        "outdoor": 59
       }
     }
   },
@@ -6583,56 +6596,57 @@
   ],
   "planned_workouts": [
     {
-      "id": 117991435,
+      "id": 120071572,
       "date": "2026-07-02",
-      "name": "Hard-Start VO2 max Intervals",
+      "name": "Recovery ride",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 94,
-      "duration_hours": 1.18,
-      "duration_formatted": "1h11m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Allowing more time to be accumulated close to VO2 max, with less subjective effort.\n\n- 5m 50%\n- 5m 55%\n- Press lap in 10 sec. 10s 0%\n\n5 x\n- 1m 125%\n- 5m 105%\n- 4m z1\n- Press lap in 10 sec. 10s 0%\n\n- 1m 125%\n- 5m 105%\n- 4m z1\n- Press lap in 10 sec. 10s 0%\n\n- 1m 125%\n- 5m 105%\n- 4m z1\n- Press lap in 10 sec. 10s 0%\n\n- 1m 125%\n- 5m 105%\n- 4m z1\n- Press lap in 10 sec. 10s 0%\n\n- 1m 125%\n- 5m 105%\n- 4m z1\n- Press lap in 10 sec. 10s 0%\n\n- 10m z1"
-    },
-    {
-      "id": 117991465,
-      "date": "2026-07-03",
-      "name": "Recuperaci\u00f3n Z1",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 27,
+      "planned_tss": 36,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Main Set\n- Recuperaci\u00f3n activa Z1 1h 50-55% 92rpm"
+      "description": "E3: Easy/recovery ride\n1-2 hours in zone 1\n\u2022 This is any ride that isn\u2019t interval work or a long endurance ride.\n\u2022 It should feel very easy.\n\u2022 Great opportunity to do neuromuscular work.\n- 60m Z1"
     },
     {
-      "id": 117991513,
-      "date": "2026-07-04",
-      "name": "Sweet Spot 3\u00d715 min",
+      "id": 120071403,
+      "date": "2026-07-03",
+      "name": "QH Race Week | Viernes \u2014 Openers Finales Pre-QH",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 201,
-      "duration_hours": 3.57,
-      "duration_formatted": "3h34m",
-      "workout_summary": "15m @206W | 1h55m | 3\u00d715m @294W / 8m rec | 15m @202W",
+      "planned_tss": 27,
+      "duration_hours": 0.89,
+      "duration_formatted": "53m10s",
+      "workout_summary": "15m @175W | 12m @182W | 10s @0W | 5\u00d720s @394W / 2m40s rec | 8m @170W | 3m @152W",
       "has_terrain": false,
-      "description": "Warmup\n- 15m 52-75% 88rpm\n\nEndurance\n- 115m Z2\n\nMain Set 3x\n- Sweet Spot 15m 88-93%\n- Recuperaci\u00f3n activa 8m 55%\n\nCooldown\n- 15m ramp 75-50% 82rpm"
+      "description": "## QH Race Week | Viernes \u2014 Openers Finales Pre-QH\n## TSS objetivo: ~35 | Duraci\u00f3n: ~45\u201350m | FTP ref: 325W\n\n---\n\nWarmup\n- Activaci\u00f3n muy suave pre-QH 15m ramp 45-58%\n\nMain Set\n- Z1 suave pre-sprints 12m 50-57% freeride\n\n- PREP OPENERS FINALES QH - Press Lap ahora 10s 0%\n\n5x\n- Opener final QH 20s ramp 90-142% 98-112rpm\n- Recuperaci\u00f3n opener 2m40s 48% 78rpm\n\nMain Set\n- Z1 cierre definitivo pre-QH 8m 46-54%\n\nCooldown\n- 3m 42-48%"
     },
     {
-      "id": 117993242,
-      "date": "2026-07-05",
-      "name": "C1: Group ride/training race",
-      "type": "WORKOUT",
+      "id": 120071535,
+      "date": "2026-07-04",
+      "name": "Alpinum Medial",
+      "type": "RACE_B",
       "sport_type": "Ride",
-      "planned_tss": 216,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
+      "planned_tss": 320,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "C1: Group ride/training race\n2-4 hours at group ride pace\n\u2022 Show up to ride hard and be part of the group\u2014but know your limit. If you\u2019re still in the middle of your base, one hour with the group may be sufficient.\n- 180m 85%"
+      "start_time": "08:00",
+      "description": ""
+    },
+    {
+      "id": 120071580,
+      "date": "2026-07-05",
+      "name": "Recovery ride",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 36,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "E3: Easy/recovery ride\n1-2 hours in zone 1\n\u2022 This is any ride that isn\u2019t interval work or a long endurance ride.\n\u2022 It should feel very easy.\n\u2022 Great opportunity to do neuromuscular work.\n- 60m Z1"
     },
     {
       "id": 97493898,
@@ -6693,9 +6707,9 @@
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 177,
-      "duration_hours": 2.22,
-      "duration_formatted": "2h13m",
-      "workout_summary": "3m @159W | 3m @178W | 3h | 10s @0W | 4\u00d72m @308W / 1m rec | 5m @178W",
+      "duration_hours": 3.39,
+      "duration_formatted": "3h23m10s",
+      "workout_summary": "3m @166W | 3m @187W | 3h | 10s @0W | 4\u00d72m @323W / 1m rec | 5m @187W",
       "has_terrain": false,
       "description": "- 3m 49%\n- 3m 55%\n\n\n- 180m z2\n\n\n- Press lap in 10 sec. 10s 0%\n\n4x\n-2m 95%\n-1m 50%\n\n- 5m 55%"
     },
@@ -6711,33 +6725,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
-    },
-    {
-      "id": 119506260,
-      "date": "2026-07-10",
-      "name": "IntervalCoach - Threshold Repeats",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 160,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
-      "workout_summary": "12m @194W | 1m @325W | 30s @178W | 1m @325W | 30s @178W | 32m @227W | 3\u00d715m @316W / 8m rec | 10m @178W",
-      "has_terrain": false,
-      "start_time": "09:00"
-    },
-    {
-      "id": 119506343,
-      "date": "2026-07-12",
-      "name": "IntervalCoach - Aerobic Build",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 118,
-      "duration_hours": 2.58,
-      "duration_formatted": "2h35m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description_preview": "Warmup\n- Hey Marcos! Endurance with pickups today 15m ramp 45-75% 85rpm\nMain Set"
     },
     {
       "id": 97494073,
@@ -6771,10 +6758,10 @@
       "name": "Low intensity with Tempo block",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 72,
+      "planned_tss": 73,
       "duration_hours": 1.52,
       "duration_formatted": "1h31m10s",
-      "workout_summary": "3m @159W | 3m @178W | 10s @0W | 2\u00d720m @211W / 20m rec | 5m @178W",
+      "workout_summary": "3m @166W | 3m @187W | 10s @0W | 2\u00d720m @221W / 20m rec | 5m @187W",
       "has_terrain": false
     },
     {
@@ -6796,7 +6783,7 @@
       "name": "Pre-race Openers (day before)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 58,
+      "planned_tss": 59,
       "duration_hours": 1.04,
       "duration_formatted": "1h2m10s",
       "workout_summary": null,
@@ -6865,7 +6852,7 @@
       "planned_tss": 160,
       "duration_hours": 2.5,
       "duration_formatted": "2h30m",
-      "workout_summary": "12m @194W | 1m @325W | 30s @178W | 1m @325W | 30s @178W | 32m @227W | 3\u00d715m @316W / 8m rec | 10m @178W",
+      "workout_summary": "12m @204W | 1m @340W | 30s @187W | 1m @340W | 30s @187W | 32m @238W | 3\u00d715m @332W / 8m rec | 10m @187W",
       "has_terrain": false,
       "start_time": "09:00"
     },
@@ -6875,10 +6862,10 @@
       "name": "IntervalCoach - Sprint Repeats",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 181,
+      "planned_tss": 182,
       "duration_hours": 3.75,
       "duration_formatted": "3h45m10s",
-      "workout_summary": "15m @194W | 7\u00d728m @227W / 10s rec | 3m @211W | 10m @178W",
+      "workout_summary": "15m @204W | 7\u00d728m @238W / 10s rec | 3m @221W | 10m @187W",
       "has_terrain": false,
       "start_time": "09:00"
     },
@@ -6888,21 +6875,21 @@
       "name": "IntervalCoach - Threshold Repeats",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 210,
+      "planned_tss": 211,
       "duration_hours": 3.08,
       "duration_formatted": "3h5m",
-      "workout_summary": "12m @194W | 1m @341W | 30s @178W | 1m @341W | 30s @178W | 5\u00d78m @227W / 30s rec | 7m @227W | 15m @341W | 8m @178W | 15m @341W | 8m @178W | 15m @341W | 5\u00d78m @227W / 30s rec | 7m @227W | 10m @178W",
+      "workout_summary": "12m @204W | 1m @357W | 30s @187W | 1m @357W | 30s @187W | 5\u00d78m @238W / 30s rec | 7m @238W | 15m @357W | 8m @187W | 15m @357W | 8m @187W | 15m @357W | 5\u00d78m @238W / 30s rec | 7m @238W | 10m @187W",
       "has_terrain": false,
       "start_time": "09:00"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 16,
-    "success": 7,
+    "attempted": 13,
+    "success": 6,
     "patternA": 5,
-    "patternB": 2,
+    "patternB": 1,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 9
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 9.06,
@@ -6914,19 +6901,40 @@
   },
   "race_calendar": {
     "next_race": {
-      "name": "Tour de Broskis Day 1",
-      "date": "2026-07-17",
+      "name": "Alpinum Medial",
+      "date": "2026-07-04",
       "category": "RACE_B",
       "type": "Ride",
-      "days_until": 15,
-      "moving_time_seconds": null,
-      "distance_meters": null,
+      "days_until": 2,
+      "moving_time_seconds": 14400,
+      "distance_meters": 134000.0,
       "display": {
-        "distance": null
+        "distance": {
+          "value": 134.0,
+          "unit": "km"
+        }
       },
-      "has_terrain": false
+      "has_terrain": false,
+      "start_time": "08:00"
     },
     "all_races": [
+      {
+        "name": "Alpinum Medial",
+        "date": "2026-07-04",
+        "category": "RACE_B",
+        "type": "Ride",
+        "days_until": 2,
+        "moving_time_seconds": 14400,
+        "distance_meters": 134000.0,
+        "display": {
+          "distance": {
+            "value": 134.0,
+            "unit": "km"
+          }
+        },
+        "has_terrain": false,
+        "start_time": "08:00"
+      },
       {
         "name": "Tour de Broskis Day 1",
         "date": "2026-07-17",
@@ -6971,7 +6979,56 @@
       "active": false
     },
     "race_week": {
-      "active": false
+      "active": true,
+      "event_name": "Alpinum Medial",
+      "event_date": "2026-07-04",
+      "event_category": "RACE_B",
+      "event_type": "Ride",
+      "event_duration_class": "long_endurance",
+      "event_moving_time_seconds": 14400,
+      "days_until_event": 2,
+      "current_day": "D-2",
+      "ctl_baseline": 89.0,
+      "normal_weekly_tss": 623.4,
+      "race_week_tss_budget": {
+        "min": 312,
+        "max": 405
+      },
+      "race_week_tss_spent": 561,
+      "race_week_tss_remaining": {
+        "min": 0,
+        "max": 0
+      },
+      "projected_race_day_tsb": 17.2,
+      "tsb_target_range": {
+        "min": 5,
+        "max": 20
+      },
+      "today": {
+        "label": "Opener",
+        "load_target_tss": {
+          "min": 27,
+          "max": 45
+        },
+        "zones": "3-4 efforts Z4 only (20-60s), moderate cadence, full recovery",
+        "purpose": "Light neuromuscular activation. Preserve glycogen."
+      },
+      "carb_loading": {
+        "applicable": true,
+        "active": true,
+        "starts": "D-4",
+        "start_date": "2026-06-30",
+        "note": "10-12 g\u00b7kg\u207b\u00b9/day. No depletion phase needed."
+      },
+      "opener": {
+        "day": "D-2",
+        "date": "2026-07-02",
+        "intensity": "lighter"
+      },
+      "go_no_go": {
+        "tsb_status": "green",
+        "notes": []
+      }
     }
   }
 }
