@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-05T17:16:18.198918",
+    "last_updated": "2026-07-05T18:37:25.737255",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -670,9 +670,9 @@
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 3,
           "race_proximity": 12,
-          "next_week_load": 0.61,
+          "next_week_load": 1.14,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -707,7 +707,7 @@
     "p_max": 1292,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-05T17:16:18.197658",
+    "calculation_timestamp": "2026-07-05T18:37:25.736015",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6226,6 +6226,34 @@
       "description": ""
     },
     {
+      "id": 120731391,
+      "date": "2026-07-10",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 160,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": "12m @204W | 1m @340W | 30s @187W | 1m @340W | 30s @187W | 32m @238W | 3\u00d715m @332W / 8m rec | 10m @187W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Marcos! Threshold beast mode activated 12m ramp 45-75% 85rpm\n- Primer 1 1m 100% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 100% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 32m 65-75% 85rpm\n- Threshold 1 15m 95-100% 92rpm\n- Recovery 8m 55%\n- Threshold 2 15m 95-100% 92rpm\n- Recovery 8m 55%\n- Threshold 3 15m 95-100% 92rpm\n- Endurance 32m 65-75% 85rpm\n\nCooldown\n- Crushed it, time to recover 10m ramp 65-45%\n\n[Weekly Plan - Peak]"
+    },
+    {
+      "id": 120731430,
+      "date": "2026-07-12",
+      "name": "IntervalCoach - Aerobic Cruise",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 123,
+      "duration_hours": 2.67,
+      "duration_formatted": "2h40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey Marcos, big aerobic ride today! 15m ramp 45-75% 85rpm\n\nMain Set\n- Low 45m 65% 85rpm\n- Mid 45m 69% 88rpm\n- Upper 45m 73% 90rpm\n\nCooldown\n- Awesome ride, Marcos, enjoy the spin 10m ramp 65-45%\n\n[Weekly Plan - Peak]"
+    },
+    {
       "id": 97494073,
       "date": "2026-07-13",
       "name": "S3 Rest",
@@ -6383,12 +6411,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 11,
-    "success": 5,
+    "attempted": 13,
+    "success": 6,
     "patternA": 4,
-    "patternB": 1,
+    "patternB": 2,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 8.36,
