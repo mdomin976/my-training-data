@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-06T06:01:23.672507",
+    "last_updated": "2026-07-06T11:03:52.862248",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -652,9 +652,9 @@
     },
     "phase_detection": {
       "phase": "Taper",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [
-        "RACE_IMMINENT"
+        "RACE_IMMINENT_VOLUME_REDUCING"
       ],
       "basis": {
         "stream_1": {
@@ -664,13 +664,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.94,
-          "hard_sessions_planned": 4,
+          "planned_tss_delta": 0.51,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 4,
+          "current_week_hard_days_total": 2,
           "race_proximity": 11,
           "next_week_load": 1.72,
-          "plan_coverage_current_week": 1.6,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
@@ -683,7 +683,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "RACE_IMMINENT"
+      "RACE_IMMINENT_VOLUME_REDUCING"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -706,7 +706,7 @@
     "p_max": 1291,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-06T06:01:23.671287",
+    "calculation_timestamp": "2026-07-06T11:03:52.861026",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -6212,34 +6212,6 @@
       "description": ""
     },
     {
-      "id": 120731391,
-      "date": "2026-07-10",
-      "name": "IntervalCoach - Threshold Repeats",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 160,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
-      "workout_summary": "12m @204W | 1m @340W | 30s @187W | 1m @340W | 30s @187W | 32m @238W | 3\u00d715m @332W / 8m rec | 10m @187W",
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey Marcos! Threshold beast mode activated 12m ramp 45-75% 85rpm\n- Primer 1 1m 100% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 100% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 32m 65-75% 85rpm\n- Threshold 1 15m 95-100% 92rpm\n- Recovery 8m 55%\n- Threshold 2 15m 95-100% 92rpm\n- Recovery 8m 55%\n- Threshold 3 15m 95-100% 92rpm\n- Endurance 32m 65-75% 85rpm\n\nCooldown\n- Crushed it, time to recover 10m ramp 65-45%\n\n[Weekly Plan - Peak]"
-    },
-    {
-      "id": 120731430,
-      "date": "2026-07-12",
-      "name": "IntervalCoach - Aerobic Cruise",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 123,
-      "duration_hours": 2.67,
-      "duration_formatted": "2h40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey Marcos, big aerobic ride today! 15m ramp 45-75% 85rpm\n\nMain Set\n- Low 45m 65% 85rpm\n- Mid 45m 69% 88rpm\n- Upper 45m 73% 90rpm\n\nCooldown\n- Awesome ride, Marcos, enjoy the spin 10m ramp 65-45%\n\n[Weekly Plan - Peak]"
-    },
-    {
       "id": 97494073,
       "date": "2026-07-13",
       "name": "S3 Rest",
@@ -6397,12 +6369,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
-    "success": 6,
+    "attempted": 10,
+    "success": 5,
     "patternA": 4,
-    "patternB": 2,
+    "patternB": 1,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 8.36,
