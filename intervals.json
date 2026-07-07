@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-07-06T23:46:20.400354",
+  "generated_at": "2026-07-07T03:50:56.109499",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i159466992",
-      "date": "2026-06-22",
-      "type": "Ride",
-      "name": "Barcelona Road Cycling",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4379,
-          "avg_power": 119,
-          "max_power": 422,
-          "avg_hr": 96,
-          "max_hr": 140,
-          "avg_cadence": 44.79636,
-          "zone": 1,
-          "training_load": 31.772682,
-          "decoupling": 8.1533785
-        }
-      ]
-    },
     {
       "activity_id": "i159931733",
       "date": "2026-06-24",
