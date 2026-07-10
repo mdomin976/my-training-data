@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T23:37:29.058959",
+  "generated_at": "2026-07-10T01:16:04.614298",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -229,77 +229,6 @@
           "valid_pct": 91.9,
           "artifact_rate_avg": 1.79,
           "sufficient": true
-        }
-      }
-    },
-    {
-      "activity_id": "i160433941",
-      "date": "2026-06-25",
-      "type": "Ride",
-      "name": "Barcelona Road Cycling",
-      "interval_summary": [
-        "1x 6m36s 261w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3468,
-          "avg_power": 163,
-          "max_power": 338,
-          "avg_hr": 106,
-          "max_hr": 135,
-          "avg_cadence": 62.89921,
-          "zone": 1,
-          "training_load": 34.73352,
-          "decoupling": -8.045993,
-          "avg_dfa_a1": 1.1248442
-        },
-        {
-          "type": "WORK",
-          "label": "396s@261w76rpm",
-          "duration_secs": 396,
-          "avg_power": 261,
-          "max_power": 359,
-          "avg_hr": 128,
-          "max_hr": 137,
-          "avg_cadence": 76.22727,
-          "zone": 3,
-          "training_load": 7.094258,
-          "decoupling": -0.64001566,
-          "avg_dfa_a1": 0.85356385
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1065,
-          "avg_power": 50,
-          "max_power": 306,
-          "avg_hr": 75,
-          "max_hr": 134,
-          "avg_cadence": 27.173292,
-          "zone": 1,
-          "training_load": 3.8046675,
-          "decoupling": -2.7343514,
-          "avg_dfa_a1": 1.056147
-        }
-      ],
-      "dfa": {
-        "avg": null,
-        "p25": null,
-        "p50": null,
-        "p75": null,
-        "tiz_below_lt1": null,
-        "tiz_lt1_transition": null,
-        "tiz_transition_lt2": null,
-        "tiz_above_lt2": null,
-        "drift": null,
-        "lt1_crossing": null,
-        "lt2_crossing": null,
-        "quality": {
-          "valid_secs": 3309,
-          "total_secs": 4810,
-          "valid_pct": 68.8,
-          "artifact_rate_avg": 5.17,
-          "sufficient": false
         }
       }
     },
