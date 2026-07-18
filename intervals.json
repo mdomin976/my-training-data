@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:41:26.335344",
+  "generated_at": "2026-07-18T18:38:20.834293",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -2368,6 +2368,71 @@
           "zone": 1,
           "training_load": 0.016805556,
           "decoupling": 75.268814
+        }
+      ]
+    },
+    {
+      "activity_id": "i166955394",
+      "date": "2026-07-18",
+      "type": "Ride",
+      "name": "Tour de Broskis Day 2",
+      "interval_summary": [
+        "1x 2h20m 203w",
+        "1x 36s 296w",
+        "1x 14s 283w",
+        "1x 6h52m 154w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "8403s@203w72rpm",
+          "duration_secs": 8403,
+          "avg_power": 203,
+          "max_power": 973,
+          "avg_hr": 129,
+          "max_hr": 173,
+          "avg_cadence": 71.71429,
+          "zone": 1,
+          "training_load": 105.45464,
+          "decoupling": -7.9590297
+        },
+        {
+          "type": "WORK",
+          "label": "36s@296w84rpm",
+          "duration_secs": 36,
+          "avg_power": 296,
+          "max_power": 345,
+          "avg_hr": 167,
+          "max_hr": 169,
+          "avg_cadence": 83.72222,
+          "zone": 3,
+          "training_load": 0.7325346,
+          "decoupling": -0.63398975
+        },
+        {
+          "type": "WORK",
+          "label": "14s@283w83rpm",
+          "duration_secs": 14,
+          "avg_power": 283,
+          "max_power": 333,
+          "avg_hr": 167,
+          "max_hr": 169,
+          "avg_cadence": 82.78571,
+          "zone": 3,
+          "training_load": 0.3007531,
+          "decoupling": 12.055307
+        },
+        {
+          "type": "WORK",
+          "label": "24773s@154w61rpm",
+          "duration_secs": 24773,
+          "avg_power": 154,
+          "max_power": 729,
+          "avg_hr": 123,
+          "max_hr": 165,
+          "avg_cadence": 61.48141,
+          "zone": 1,
+          "training_load": 157.82391
         }
       ]
     }
