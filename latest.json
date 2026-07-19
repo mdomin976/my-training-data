@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-19T15:17:57.502236",
+    "last_updated": "2026-07-19T16:27:07.094247",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -737,7 +737,7 @@
     "p_max": 1277,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 73.0,
-    "calculation_timestamp": "2026-07-19T15:17:57.501345",
+    "calculation_timestamp": "2026-07-19T16:27:07.093038",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1154,7 +1154,8 @@
           }
         }
       },
-      "weather_status": "unavailable"
+      "weather_status": "unavailable",
+      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 7/10\nTSS: 245\nTraining stimulus: endurance\nEst. recovery: 69h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-UXQPHK"
     },
     {
       "id": "i166955394",
