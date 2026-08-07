@@ -1,73 +1,10 @@
 {
-  "generated_at": "2026-08-06T13:21:27.260129",
+  "generated_at": "2026-08-07T00:05:30.410516",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i168560223",
-      "date": "2026-07-23",
-      "type": "Ride",
-      "name": "Barcelona Road Cycling",
-      "interval_summary": [
-        "1x 1h10m 168w",
-        "1x 16m20s 308w",
-        "1x 28m56s 76w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "4223s@168w69rpm",
-          "duration_secs": 4223,
-          "avg_power": 168,
-          "max_power": 815,
-          "avg_hr": 116,
-          "max_hr": 160,
-          "avg_cadence": 69.105545,
-          "zone": 1,
-          "training_load": 34.044167,
-          "decoupling": 9.676224
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_power": 194,
-          "max_power": 194,
-          "avg_hr": 96,
-          "max_hr": 96,
-          "avg_cadence": 96.0,
-          "zone": 1,
-          "training_load": 0.00153787
-        },
-        {
-          "type": "WORK",
-          "label": "980s@308w88rpm",
-          "duration_secs": 980,
-          "avg_power": 308,
-          "max_power": 754,
-          "avg_hr": 151,
-          "max_hr": 176,
-          "avg_cadence": 87.92959,
-          "zone": 3,
-          "training_load": 26.585466,
-          "decoupling": 0.50706905
-        },
-        {
-          "type": "WORK",
-          "label": "1736s@76w43rpm",
-          "duration_secs": 1736,
-          "avg_power": 76,
-          "max_power": 630,
-          "avg_hr": 105,
-          "max_hr": 172,
-          "avg_cadence": 42.926483,
-          "zone": 1,
-          "training_load": 5.8777394,
-          "decoupling": -6.934393
-        }
-      ]
-    },
     {
       "activity_id": "i170536365",
       "date": "2026-07-29",
