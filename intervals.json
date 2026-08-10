@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T18:04:06.844028",
+  "generated_at": "2026-08-10T19:17:34.386704",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -189,6 +189,36 @@
           "avg_hr": 109,
           "max_hr": 109,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i174486777",
+      "date": "2026-08-10",
+      "type": "MountainBikeRide",
+      "name": "Sallent de G\u00e1llego Mountain Biking",
+      "interval_summary": [
+        "1x 3h31m 133bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4
+        },
+        {
+          "type": "WORK",
+          "label": "12674s@133bpm",
+          "duration_secs": 12674,
+          "avg_hr": 133,
+          "max_hr": 173,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_hr": 129,
+          "max_hr": 130,
+          "zone": 2
         }
       ]
     }
