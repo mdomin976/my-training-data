@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T18:03:53.496813",
+  "generated_at": "2026-08-20T19:00:35.041027",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -467,6 +467,104 @@
           "total_secs": 4781,
           "valid_pct": 64.4,
           "artifact_rate_avg": 4.64,
+          "sufficient": false
+        }
+      }
+    },
+    {
+      "activity_id": "i178055485",
+      "date": "2026-08-20",
+      "type": "Ride",
+      "name": "Calafell Road Cycling",
+      "interval_summary": [
+        "1x 33m 245w",
+        "1x 38m53s 161w",
+        "1x 16m34s 354w",
+        "1x 1h2m 124w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1980s@245w87rpm",
+          "duration_secs": 1980,
+          "avg_power": 245,
+          "max_power": 589,
+          "avg_hr": 143,
+          "max_hr": 181,
+          "avg_cadence": 86.95705,
+          "zone": 2,
+          "training_load": 40.84511,
+          "decoupling": -31.910181,
+          "avg_dfa_a1": 0.82742745
+        },
+        {
+          "type": "WORK",
+          "label": "2333s@161w70rpm",
+          "duration_secs": 2333,
+          "avg_power": 161,
+          "max_power": 400,
+          "avg_hr": 136,
+          "max_hr": 181,
+          "avg_cadence": 69.635704,
+          "zone": 1,
+          "training_load": 15.718755,
+          "avg_dfa_a1": 0.74507236
+        },
+        {
+          "type": "WORK",
+          "label": "994s@354w87rpm",
+          "duration_secs": 994,
+          "avg_power": 354,
+          "max_power": 432,
+          "avg_hr": 174,
+          "max_hr": 181,
+          "avg_cadence": 87.34004,
+          "zone": 6,
+          "training_load": 30.101128,
+          "decoupling": 5.655999
+        },
+        {
+          "type": "WORK",
+          "label": "3756s@124w59rpm",
+          "duration_secs": 3756,
+          "avg_power": 124,
+          "max_power": 407,
+          "avg_hr": 123,
+          "max_hr": 180,
+          "avg_cadence": 59.09151,
+          "zone": 1,
+          "training_load": 32.707684
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_power": 109,
+          "max_power": 110,
+          "avg_hr": 106,
+          "max_hr": 106,
+          "avg_cadence": 65.5,
+          "zone": 1,
+          "training_load": 0.0018473665,
+          "decoupling": 1.8181819
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 2356,
+          "total_secs": 7968,
+          "valid_pct": 29.6,
+          "artifact_rate_avg": 0.74,
           "sufficient": false
         }
       }
