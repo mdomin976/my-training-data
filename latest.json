@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-26T05:37:39.949531",
+    "last_updated": "2026-08-26T06:18:17.418631",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -116,37 +116,37 @@
     "priority": 1,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 67.2,
-        "delta_pct": null
+        "status": "green",
+        "value": 69.0,
+        "baseline_7d": 67.4,
+        "delta_pct": 2.4
       },
       "rhr": {
-        "status": "amber",
-        "value": 50,
-        "baseline_7d": 46.7,
-        "delta_bpm": 3.3
+        "status": "green",
+        "value": 44,
+        "baseline_7d": 45.9,
+        "delta_bpm": -1.9
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.96,
+        "quality": 2
       },
       "acwr": {
         "status": "amber",
         "value": 1.47
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": 1.55
+        "status": "green",
+        "value": 1.07,
+        "value_yesterday": 1.52
       }
     },
     "signal_summary": {
-      "green": 0,
-      "amber": 2,
+      "green": 4,
+      "amber": 1,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -244,15 +244,15 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 50,
-      "hrv": null,
+      "resting_hr": 44,
+      "hrv": 69.0,
       "hrv_snapshot_rmssd": null,
       "hrv_snapshot_sdrr": null,
       "resting_hr_snapshot": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "sleep_quality": 2,
+      "sleep_hours": 7.96,
+      "sleep_formatted": "7h57m",
+      "sleep_score": 86.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -281,14 +281,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": 1.55,
-    "hrv_baseline_7d": 67.2,
-    "rhr_baseline_7d": 46.7,
+    "recovery_index": 1.07,
+    "recovery_index_yesterday": 1.52,
+    "hrv_baseline_7d": 67.4,
+    "rhr_baseline_7d": 45.9,
     "hrv_baseline_28d": 70.3,
-    "rhr_baseline_28d": 46.0,
-    "latest_hrv": null,
-    "latest_rhr": 50,
+    "rhr_baseline_28d": 45.8,
+    "latest_hrv": 69.0,
+    "latest_rhr": 44,
     "acwr": 1.47,
     "acwr_interpretation": "caution",
     "monotony": 1.0,
@@ -300,7 +300,7 @@
     "multi_sport_detected": false,
     "strain": 564.0,
     "stress_tolerance": 5.6,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 5.3,
     "tss_7d_total": 564.0,
     "tss_28d_total": 1534.0,
     "zone_distribution_7d": {
@@ -696,9 +696,9 @@
     "p_max": 1242,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-26T05:37:39.948264",
+    "calculation_timestamp": "2026-08-26T06:18:17.417352",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 19,
@@ -5511,13 +5511,13 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 50,
-      "hrv_rmssd": null,
+      "resting_hr": 44,
+      "hrv_rmssd": 69.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.96,
+      "sleep_formatted": "7h57m",
+      "sleep_quality": 2,
+      "sleep_score": 86.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -5562,8 +5562,8 @@
     "total_training_formatted": "10h14m",
     "total_tss": 564,
     "activities_count": 4,
-    "avg_hrv": 67.2,
-    "avg_resting_hr": 46.7
+    "avg_hrv": 67.4,
+    "avg_resting_hr": 45.9
   },
   "race_calendar": {
     "next_race": null,
