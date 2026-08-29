@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T17:24:16.048005",
+  "generated_at": "2026-08-29T19:56:33.551766",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -1901,6 +1901,110 @@
           "training_load": 43.497074
         }
       ]
+    },
+    {
+      "activity_id": "i181100143",
+      "date": "2026-08-29",
+      "type": "Ride",
+      "name": "Torredembarra Road Cycling",
+      "interval_summary": [
+        "1x 12s 397w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1025,
+          "avg_power": 184,
+          "max_power": 405,
+          "avg_hr": 108,
+          "max_hr": 139,
+          "avg_cadence": 82.63717,
+          "zone": 1,
+          "training_load": 11.636098,
+          "decoupling": -9.641592,
+          "avg_dfa_a1": 1.0386949
+        },
+        {
+          "type": "WORK",
+          "label": "12s@397w65rpm",
+          "duration_secs": 12,
+          "avg_power": 397,
+          "max_power": 473,
+          "avg_hr": 130,
+          "max_hr": 134,
+          "avg_cadence": 65.083336,
+          "zone": 7,
+          "training_load": 0.2592011,
+          "decoupling": -15.622315,
+          "avg_dfa_a1": 1.3942027
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 11142,
+          "avg_power": 186,
+          "max_power": 475,
+          "avg_hr": 119,
+          "max_hr": 155,
+          "avg_cadence": 75.48273,
+          "zone": 1,
+          "training_load": 134.85551,
+          "decoupling": -6.269381,
+          "avg_dfa_a1": 1.2197689
+        }
+      ],
+      "dfa": {
+        "avg": 1.171,
+        "p25": 0.919,
+        "p50": 1.208,
+        "p75": 1.412,
+        "tiz_below_lt1": {
+          "secs": 6420,
+          "pct": 70.7,
+          "avg_hr": 116,
+          "avg_watts": 179
+        },
+        "tiz_lt1_transition": {
+          "secs": 1603,
+          "pct": 17.6,
+          "avg_hr": 130,
+          "avg_watts": 222
+        },
+        "tiz_transition_lt2": {
+          "secs": 1051,
+          "pct": 11.6,
+          "avg_hr": 142,
+          "avg_watts": 250
+        },
+        "tiz_above_lt2": {
+          "secs": 13,
+          "pct": 0.1,
+          "avg_hr": 142,
+          "avg_watts": 296
+        },
+        "drift": {
+          "first_third_avg": 1.271,
+          "last_third_avg": 0.976,
+          "delta": -0.295,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 653,
+          "avg_hr": 124,
+          "avg_watts": 198
+        },
+        "lt2_crossing": {
+          "secs_in_band": 112,
+          "avg_hr": 144,
+          "avg_watts": 273
+        },
+        "quality": {
+          "valid_secs": 9087,
+          "total_secs": 11304,
+          "valid_pct": 80.4,
+          "artifact_rate_avg": 2.35,
+          "sufficient": true
+        }
+      }
     }
   ]
 }
