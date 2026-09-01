@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T17:14:30.836795",
+  "generated_at": "2026-09-01T19:58:18.612812",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -1890,6 +1890,94 @@
           "training_load": 60.100143
         }
       ]
+    },
+    {
+      "activity_id": "i182199855",
+      "date": "2026-09-01",
+      "type": "Ride",
+      "name": "Barcelona Road Cycling",
+      "interval_summary": [
+        "1x 43m1s 190w",
+        "1x 14m26s 354w",
+        "1x 34m2s 108w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2581s@190w67rpm",
+          "duration_secs": 2581,
+          "avg_power": 190,
+          "max_power": 510,
+          "avg_hr": 124,
+          "max_hr": 154,
+          "avg_cadence": 67.303215,
+          "zone": 1,
+          "training_load": 37.136543,
+          "decoupling": 13.397889,
+          "avg_dfa_a1": 1.0901148
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 48,
+          "avg_power": 117,
+          "max_power": 540,
+          "avg_hr": 95,
+          "max_hr": 113,
+          "avg_cadence": 50.270832,
+          "zone": 1,
+          "training_load": 0.08639119,
+          "decoupling": -59.986786,
+          "avg_dfa_a1": 1.3405863
+        },
+        {
+          "type": "WORK",
+          "label": "866s@354w89rpm",
+          "duration_secs": 866,
+          "avg_power": 354,
+          "max_power": 553,
+          "avg_hr": 165,
+          "max_hr": 179,
+          "avg_cadence": 89.198616,
+          "zone": 6,
+          "training_load": 29.428846,
+          "decoupling": 0.9484989,
+          "avg_dfa_a1": 0.7669891
+        },
+        {
+          "type": "WORK",
+          "label": "2042s@108w46rpm",
+          "duration_secs": 2042,
+          "avg_power": 108,
+          "max_power": 500,
+          "avg_hr": 110,
+          "max_hr": 177,
+          "avg_cadence": 46.427216,
+          "zone": 1,
+          "training_load": 14.277351,
+          "decoupling": -10.415505,
+          "avg_dfa_a1": 1.221325
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 3488,
+          "total_secs": 5300,
+          "valid_pct": 65.8,
+          "artifact_rate_avg": 4.85,
+          "sufficient": false
+        }
+      }
     }
   ]
 }
