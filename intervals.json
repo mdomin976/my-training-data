@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T13:13:01.058770",
+  "generated_at": "2026-09-14T18:40:53.115261",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -1512,6 +1512,93 @@
           "zone": 1
         }
       ]
+    },
+    {
+      "activity_id": "i186707211",
+      "date": "2026-09-14",
+      "type": "Ride",
+      "name": "Barcelona Road Cycling",
+      "interval_summary": [
+        "1x 1h11m 23w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4305s@23w57rpm",
+          "duration_secs": 4305,
+          "avg_power": 23,
+          "max_power": 361,
+          "avg_hr": 133,
+          "max_hr": 175,
+          "avg_cadence": 57.135185,
+          "zone": 1,
+          "training_load": 21.162222,
+          "decoupling": 100.0,
+          "avg_dfa_a1": 1.0458294
+        },
+        {
+          "type": "WORK",
+          "duration_secs": 784,
+          "avg_hr": 107,
+          "max_hr": 167,
+          "zone": 1,
+          "decoupling": "NaN",
+          "avg_dfa_a1": 1.2115761
+        }
+      ],
+      "dfa": {
+        "avg": 1.057,
+        "p25": 0.653,
+        "p50": 1.139,
+        "p75": 1.373,
+        "tiz_below_lt1": {
+          "secs": 2527,
+          "pct": 57.9,
+          "avg_hr": 120,
+          "avg_watts": 13
+        },
+        "tiz_lt1_transition": {
+          "secs": 410,
+          "pct": 9.4,
+          "avg_hr": 128,
+          "avg_watts": 16
+        },
+        "tiz_transition_lt2": {
+          "secs": 1144,
+          "pct": 26.2,
+          "avg_hr": 158,
+          "avg_watts": 34
+        },
+        "tiz_above_lt2": {
+          "secs": 281,
+          "pct": 6.4,
+          "avg_hr": 167,
+          "avg_watts": 0
+        },
+        "drift": {
+          "first_third_avg": 0.926,
+          "last_third_avg": 0.896,
+          "delta": -0.03,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 258,
+          "avg_hr": 128,
+          "avg_watts": 9
+        },
+        "lt2_crossing": {
+          "secs_in_band": 329,
+          "avg_hr": 166,
+          "avg_watts": 0
+        },
+        "quality": {
+          "valid_secs": 4362,
+          "total_secs": 5060,
+          "valid_pct": 86.2,
+          "artifact_rate_avg": 1.7,
+          "sufficient": true
+        }
+      }
     }
   ]
 }
