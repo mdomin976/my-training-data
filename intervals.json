@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:14:02.574445",
+  "generated_at": "2026-09-18T17:43:15.475233",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -1478,6 +1478,54 @@
           "valid_pct": 80.0,
           "artifact_rate_avg": 2.98,
           "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i187995486",
+      "date": "2026-09-18",
+      "type": "Ride",
+      "name": "Barcelona Road Cycling",
+      "interval_summary": [
+        "1x 1h37m 113bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5861s@113bpm",
+          "duration_secs": 5861,
+          "avg_hr": 113,
+          "max_hr": 150,
+          "zone": 1,
+          "avg_dfa_a1": 1.1706566
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_hr": 88,
+          "max_hr": 89,
+          "zone": 1,
+          "avg_dfa_a1": 1.268069
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 3982,
+          "total_secs": 5715,
+          "valid_pct": 69.7,
+          "artifact_rate_avg": 3.37,
+          "sufficient": false
         }
       }
     }
