@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T16:44:50.945753",
+  "generated_at": "2026-09-19T18:59:16.805017",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -1421,6 +1421,77 @@
           "total_secs": 5715,
           "valid_pct": 69.7,
           "artifact_rate_avg": 3.37,
+          "sufficient": false
+        }
+      }
+    },
+    {
+      "activity_id": "i188313012",
+      "date": "2026-09-19",
+      "type": "Ride",
+      "name": "Barcelona Road Cycling",
+      "interval_summary": [
+        "1x 5m53s 253w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1263,
+          "avg_power": 220,
+          "max_power": 412,
+          "avg_hr": 122,
+          "max_hr": 147,
+          "avg_cadence": 66.52965,
+          "zone": 1,
+          "training_load": 19.70545,
+          "decoupling": -0.90402967,
+          "avg_dfa_a1": 1.0299199
+        },
+        {
+          "type": "WORK",
+          "label": "353s@253w75rpm",
+          "duration_secs": 353,
+          "avg_power": 253,
+          "max_power": 306,
+          "avg_hr": 129,
+          "max_hr": 136,
+          "avg_cadence": 74.74788,
+          "zone": 3,
+          "training_load": 5.7180166,
+          "decoupling": 0.06015786,
+          "avg_dfa_a1": 0.89535284
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2016,
+          "avg_power": 109,
+          "max_power": 346,
+          "avg_hr": 95,
+          "max_hr": 139,
+          "avg_cadence": 48.448696,
+          "zone": 1,
+          "training_load": 13.737004,
+          "decoupling": 29.42978,
+          "avg_dfa_a1": 1.1347023
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 2069,
+          "total_secs": 3326,
+          "valid_pct": 62.2,
+          "artifact_rate_avg": 8.89,
           "sufficient": false
         }
       }
