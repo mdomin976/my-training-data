@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-05T23:18:58.952578",
+    "last_updated": "2026-10-06T03:14:36.476147",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -106,41 +106,41 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "green",
-        "value": 83.0,
-        "baseline_7d": 83.3,
-        "delta_pct": -0.4
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 84.5,
+        "delta_pct": null
       },
       "rhr": {
-        "status": "green",
-        "value": 42,
-        "baseline_7d": 41.4,
-        "delta_bpm": 0.6
+        "status": "amber",
+        "value": 46,
+        "baseline_7d": 42.4,
+        "delta_bpm": 3.6
       },
       "sleep": {
-        "status": "amber",
-        "hours": 6.98,
-        "quality": 2
+        "status": "unavailable",
+        "hours": null,
+        "quality": null
       },
       "acwr": {
         "status": "green",
         "value": 0.94
       },
       "ri": {
-        "status": "green",
-        "value": 0.98,
-        "value_yesterday": 0.8
+        "status": "unavailable",
+        "value": null,
+        "value_yesterday": 0.99
       },
       "tsb": {
         "status": "green",
-        "value": 19.2
+        "value": 22.4
       }
     },
     "signal_summary": {
-      "green": 5,
+      "green": 2,
       "amber": 1,
       "red": 0,
-      "unavailable": 0
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Build",
@@ -150,13 +150,13 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 2 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-10-04",
-    "age_days": 1,
+    "age_days": 2,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -182,18 +182,18 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 52.41,
-      "atl": 33.24,
-      "tsb": 19.17,
-      "ramp_rate": -4.19,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 51.17,
+      "atl": 28.82,
+      "tsb": 22.35,
+      "ramp_rate": -4.09,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 324.1,
-      "w_prime": 28505,
+      "eftp": 323.8,
+      "w_prime": 28476,
       "w_prime_kj": 28.5,
-      "p_max": 1206,
-      "vo2max": 72.0,
+      "p_max": 1205,
+      "vo2max": null,
       "sports": {
         "cycling": {
           "lthr": 172,
@@ -229,15 +229,15 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 42,
-      "hrv": 83.0,
+      "resting_hr": 46,
+      "hrv": null,
       "hrv_snapshot_rmssd": null,
       "hrv_snapshot_sdrr": null,
       "resting_hr_snapshot": null,
-      "sleep_quality": 2,
-      "sleep_hours": 6.98,
-      "sleep_formatted": "6h59m",
-      "sleep_score": 83.0,
+      "sleep_quality": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_score": null,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -266,14 +266,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.98,
-    "recovery_index_yesterday": 0.8,
-    "hrv_baseline_7d": 83.3,
-    "rhr_baseline_7d": 41.4,
-    "hrv_baseline_28d": 84.9,
+    "recovery_index": null,
+    "recovery_index_yesterday": 0.99,
+    "hrv_baseline_7d": 84.5,
+    "rhr_baseline_7d": 42.4,
+    "hrv_baseline_28d": 85.1,
     "rhr_baseline_28d": 42.2,
-    "latest_hrv": 83.0,
-    "latest_rhr": 42,
+    "latest_hrv": null,
+    "latest_rhr": 46,
     "acwr": 0.94,
     "acwr_interpretation": "optimal",
     "monotony": 0.65,
@@ -285,7 +285,7 @@
     "multi_sport_detected": false,
     "strain": 131.0,
     "stress_tolerance": 2.0,
-    "load_recovery_ratio": 2.1,
+    "load_recovery_ratio": null,
     "tss_7d_total": 201.0,
     "tss_28d_total": 851.0,
     "zone_distribution_7d": {
@@ -391,12 +391,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-09-08",
-          "end": "2026-10-05"
+          "start": "2026-09-09",
+          "end": "2026-10-06"
         },
         "previous_window": {
-          "start": "2026-08-11",
-          "end": "2026-09-07"
+          "start": "2026-08-12",
+          "end": "2026-09-08"
         },
         "anchors": {
           "5s": {
@@ -431,12 +431,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-09-08",
-          "end": "2026-10-05"
+          "start": "2026-09-09",
+          "end": "2026-10-06"
         },
         "previous_window": {
-          "start": "2026-08-11",
-          "end": "2026-09-07"
+          "start": "2026-08-12",
+          "end": "2026-09-08"
         },
         "anchors": {
           "60s": {
@@ -466,8 +466,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-08-25",
-          "end": "2026-10-05"
+          "start": "2026-08-26",
+          "end": "2026-10-06"
         },
         "weight_kg": 71.4,
         "weight_source": "athlete_profile",
@@ -493,9 +493,9 @@
               "source": "observed_outdoor",
               "coggan_watts": 320,
               "coggan_wpkg": 4.48,
-              "cp_model_watts": 378,
-              "cp_model_wpkg": 5.29,
-              "model_divergence_pct": -2.6
+              "cp_model_watts": 377,
+              "cp_model_wpkg": 5.28,
+              "model_divergence_pct": -2.4
             },
             "1200s": {
               "actual_watts": 295,
@@ -560,7 +560,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 330,
-          "w_prime_used": 28505,
+          "w_prime_used": 28476,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -618,14 +618,15 @@
         }
       }
     },
-    "consistency_index": 0.5,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 2,
+      "planned_days": 3,
       "completed_days": 3,
       "matched_days": 1,
       "planned_dates": [
         "2026-10-03",
-        "2026-10-04"
+        "2026-10-04",
+        "2026-10-06"
       ],
       "completed_dates": [
         "2026-09-30",
@@ -645,13 +646,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.51,
+          "planned_tss_delta": 1.76,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
           "next_week_load": 1.61,
-          "plan_coverage_current_week": 2.75,
+          "plan_coverage_current_week": 2.0,
           "plan_coverage_next_week": 2.75
         },
         "data_quality": "good",
@@ -679,22 +680,22 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 324.1,
-    "w_prime": 28505,
+    "eftp": 323.8,
+    "w_prime": 28476,
     "w_prime_kj": 28.5,
-    "p_max": 1206,
+    "p_max": 1205,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": 72.0,
-    "calculation_timestamp": "2026-10-05T23:18:58.951692",
+    "vo2max": null,
+    "calculation_timestamp": "2026-10-06T03:14:36.474841",
     "data_quality": {
-      "hrv_data_points": 7,
+      "hrv_data_points": 6,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 14,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
-        "outdoor": 154
+        "outdoor": 155
       }
     }
   },
@@ -3781,48 +3782,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-09-29",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": 39,
-      "hrv_rmssd": 76.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 7.13,
-      "sleep_formatted": "7h8m",
-      "sleep_quality": 3,
-      "sleep_score": 72.0,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-09-30",
       "weight_kg": null,
       "display": {
@@ -4073,48 +4032,51 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-10-06",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": 46,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 140901338,
-      "date": "2026-10-05",
-      "name": "T1 Build 1",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Transici\u00f3n activa: Z2, sin estructura dura, fuerza anat\u00f3mica.\nCarga objetivo: 350"
-    },
-    {
-      "id": 140901390,
-      "date": "2026-10-05",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 140902787,
-      "date": "2026-10-05",
-      "name": "T1 Build 1 | Lunes \u00b7 Descanso + plan de la semana",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "SEMANA T1 Build 1 | 5 oct \u2192 11 oct\nCarga objetivo: 350 (suma de las sesiones: 341) \u00b7 Horas de bici \u2248 7.2 h\nTipo de semana: CARGA 1 de 3.\n\nFOCO\n\u2022 Transici\u00f3n activa: mantener el CTL con Z2 sin estructura dura y arrancar la adaptaci\u00f3n anat\u00f3mica en el gimnasio.\n\nSESIONES\n\u2022 Mar: Z2 65' (\u2248 50 TSS)\n\u2022 Mi\u00e9: Z2 60' (\u2248 46 TSS)\n\u2022 Jue: Z2 65' (\u2248 50 TSS)\n\u2022 S\u00e1b: Tirada larga 170' (\u2248 135 TSS)\n\u2022 Dom: Z2 75' (\u2248 59 TSS)\n\u2022 Mar: Gimnasio A (\u2248 40-50')\n\u2022 Jue: Gimnasio B (\u2248 40-50')\n\nREGLAS DE LA SEMANA\n\u2022 M\u00e1x. 2 d\u00edas duros. Las dos sesiones clave son flotantes entre martes y jueves seg\u00fan readiness_decision.\n\u2022 Una sola variable nueva por semana (Section 11).\n\u2022 Sue\u00f1o \u2265 7,5 h, registra RPE y sensaciones en el 100% de las sesiones, p\u00e9sate una vez por semana.\n\u2022 Z3 (zona gris) < 5% en base. Si te sales en rodajes Z2, baja un punto de potencia.\n\nLUNES: DESCANSO + MOVILIDAD 15'\n\u2022 Rutina: 90/90 de cadera 1' por lado \u00b7 flexor de cadera en zancada 45'' por lado \u00b7 gato-camello 10 \u00b7 rotaci\u00f3n tor\u00e1cica 8 por lado \u00b7 puente de gl\u00fateo con pausa 2\u00d712 \u00b7 estiramiento de isquios 45'' por pierna \u00b7 tobillo contra la pared 10 por lado.\n\u2022 Alimentaci\u00f3n: d\u00eda de recuperaci\u00f3n: 3,5-4 g/kg de CHO (\u2248250-280 g), prote\u00edna 1,8 g/kg (\u2248125 g) en 4 tomas, bastante verdura, grasas buenas (aceite de oliva, frutos secos, pescado azul).\n\u2022 Suplementos: D3, omega-3, magnesio nocturno. No tomes cafe\u00edna de m\u00e1s hoy.\n\u2022 Prepara la semana: ropa, bidones, geles, comida; revisa el pron\u00f3stico y decide si el rodillo es mejor opci\u00f3n."
-    },
     {
       "id": 140902789,
       "date": "2026-10-06",
@@ -4269,7 +4231,7 @@
       "duration_formatted": "1h10m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "T1 Build 2 \u00b7 martes 13 oct \u00b7 70' \u00b7 \u224855 TSS\n- Calentamiento 10m ramp 50-68%\n- Z2 55m 71%"
+      "description": "T1 Build 2 \u00b7 martes 13 oct \u00b7 70' \u00b7 \u224855 TSS\n\n- Calentamiento 10m ramp 50-68%\n- Z2 55m 71%\n- Vuelta a la calma 5m 55%\n\nOBJETIVO\n\u2022 Volumen aer\u00f3bico sin coste de recuperaci\u00f3n: construir mitocondrias y capilarizaci\u00f3n, trabajar eficiencia y mantener el CTL.\n\nEJECUCI\u00d3N\n\u2022 Intensidad: 67-75% FTP, FC 126-142 lpm (Z2). Objetivo: 71% FTP. Si el pulso se dispara, baja potencia: es mejor quedarte corto que pasarte.\n\u2022 Cadencia libre 85-95 rpm; gira los pedales con redondez. Sin r\u00e1fagas: nada de Z3 (zona gris < 5% en base).\n\u2022 Respira por la nariz el 80% del tiempo: es un buen control de que no te pasas de intensidad.\n\u2022 Mejor terreno llano o rodillo para mantener la potencia constante; si hay cuestas, s\u00fabelas en Z2 con cadencia \u2265 80.\n\u2022 Es la fase de transici\u00f3n: sin estructura. Disfruta, cambia de rutas y mant\u00e9n RPE 3-4/10.\n\u2022 Octubre: temperaturas suaves pero lluvia/viento. Lleva cortavientos ligero y no recortes la hidrataci\u00f3n aunque sudes menos.\n\nALIMENTACI\u00d3N\n\u2022 Previo: desayuno normal con CHO (0,7-1 g/kg \u2248 50-70 g) 1-2 h antes: tostadas, fruta y yogur o avena. Entrenar en ayunas est\u00e1 descartado en el plan.\n\u2022 Durante: 0-30 g CHO/h opcional (1 gel o 1 pl\u00e1tano a mitad). Agua 500-600 ml/h con 300-500 mg Na/L.\n\u2022 Sesi\u00f3n sin carga digestiva alta: aprovecha para probar productos nuevos.\n\u2022 Post: comida normal en 1-2 h con CHO + prote\u00edna (25-30 g). Meta del d\u00eda \u2248 5 g/kg de CHO (\u2248350 g) y 1,8 g/kg de prote\u00edna (\u2248125 g) repartida en 4 tomas.\n\nSUPLEMENTACI\u00d3N\n\u2022 Base diaria: vitamina D3 1.000-2.000 UI (oto\u00f1o-invierno; confirma tu nivel de 25(OH)D en el an\u00e1lisis de noviembre, objetivo 30-50 ng/ml); omega-3 1-2 g EPA+DHA con una comida; magnesio 300-400 mg por la noche (glicinato/citrato).\n\u2022 Creatina monohidrato 3-5 g/d\u00eda, todos los d\u00edas (tambi\u00e9n descanso) mientras dure el bloque de fuerza: apoya la calidad de las series pesadas. Puede subir 0,5-1 kg de agua intracelular; es normal. P\u00e9sate semanal, a la misma hora.\n\u2022 Sin cafe\u00edna necesaria hoy: gu\u00e1rdala para las sesiones clave. Sin suplementos ergog\u00e9nicos de moda (cetonas, etc.: descartados en el plan).\n\u2022 Los suplementos son orientativos; consulta con tu m\u00e9dico o dietista deportivo y prioriza comida real. An\u00e1lisis recomendado en noviembre: ferritina, hierro, 25(OH)D, B12, TSH.\n\nRECUPERACI\u00d3N\n\u2022 Vuelta a la calma de 5-10' y estiramientos suaves / foam roller 5-8' (cu\u00e1driceps, isquios, gl\u00fateo, gemelos) esa tarde.\n\u2022 10' con las piernas elevadas tras comer si la sesi\u00f3n fue \u2265 90' o intensa.\n\u2022 Sue\u00f1o: objetivo \u2265 7,5 h; acu\u00e9state a la misma hora, sin pantallas 45' antes, habitaci\u00f3n fr\u00eda y oscura. Anota las horas y el RPE.\n\u2022 Morning check (Section 11): HRV y pulso en reposo al despertar. Si readiness no-go, RI < 0,7 o HRV \u221220% sobre tu base, convierte la siguiente sesi\u00f3n dura en Z1 o descanso y mueve las claves entre martes y jueves."
     },
     {
       "id": 140902810,
@@ -4281,7 +4243,8 @@
       "duration_hours": 0.28,
       "duration_formatted": "16m30s",
       "workout_summary": "8m | 3\u00d740s / 30s rec | 5m",
-      "has_terrain": false
+      "has_terrain": false,
+      "description": "T1 Build 2 \u00b7 martes 13 oct \u00b7 Gimnasio A \u00b7 \u2248 40-50'\n\nWarm Up\n- 8m Remo / bici muy suave\n- Press lap\n\nMain Set\n3x\n- 15 reps Prensa de piernas (peso ligero RIR 4)\n- Press lap\n- 15 reps Peso muerto rumano con mancuernas (RIR 4)\n- Press lap\n- 12 reps Zancada atr\u00e1s alterna (por pierna, RIR 4)\n- Press lap\n- 12 reps Remo con mancuerna (por lado)\n- Press lap\n- 12 reps Flexiones (RIR 3)\n- Press lap\n- 40s Plancha frontal\n- Press lap\n- 30s Plancha lateral\n- Press lap\n\nCooldown\n- 5m Movilidad de cadera y tobillo\n\nOBJETIVO\n\u2022 Preparar tendones, articulaciones y patr\u00f3n de movimiento con volumen moderado y carga ligera. Sin llegar al fallo.\n\nEJECUCI\u00d3N\n\u2022 3 rondas del circuito sin pausa larga (30-45'' entre ejercicios, 90'' entre rondas). Carga moderada: RIR 3-4, t\u00e9cnica limpia.\n\u2022 Respira: exhala en el esfuerzo. Tempo 2'' bajada, 1'' arriba. No busques el m\u00e1ximo.\n\u2022 Calentamiento previo imprescindible: 8' de bici/remo + movilidad de cadera, tobillo y tor\u00e1cica.\n\u2022 Cierra con 5' de movilidad. Evita hacer la sesi\u00f3n justo antes de una clave.\n\nALIMENTACI\u00d3N\n\u2022 Previo (1-2 h antes): comida con CHO + 20-30 g de prote\u00edna (p. ej. arroz con pollo, o yogur con cereales y fruta). Llega hidratado (400-500 ml de agua en las 2 h previas).\n\u2022 Post (\u2264 60'): 25-35 g de prote\u00edna (\u22480,4 g/kg) + 60-80 g de CHO. Ejemplos: batido de whey con pl\u00e1tano y leche, o pollo con arroz. Cena con 30-40 g de prote\u00edna; antes de dormir yogur griego o case\u00edna (25-30 g).\n\nSUPLEMENTACI\u00d3N\n\u2022 Base diaria: vitamina D3 1.000-2.000 UI (oto\u00f1o-invierno; confirma tu nivel de 25(OH)D en el an\u00e1lisis de noviembre, objetivo 30-50 ng/ml); omega-3 1-2 g EPA+DHA con una comida; magnesio 300-400 mg por la noche (glicinato/citrato).\n\u2022 Cafe\u00edna opcional 2-3 mg/kg 45' antes si vas justo de energ\u00eda; evita dosis altas de vitamina C/E justo despu\u00e9s de fuerza (pueden atenuar adaptaciones).\n\u2022 Los suplementos son orientativos; consulta con tu m\u00e9dico o dietista deportivo y prioriza comida real. An\u00e1lisis recomendado en noviembre: ferritina, hierro, 25(OH)D, B12, TSH.\n\nRECUPERACI\u00d3N\n\u2022 Evita el ba\u00f1o de agua fr\u00eda justo despu\u00e9s de fuerza (aten\u00faa la hipertrofia); mejor ducha templada, 5-10' de movilidad y caminar.\n\u2022 Si hay agujetas fuertes (> 4/10), baja un 10-15% la carga de la siguiente sesi\u00f3n de piernas, no la de la bici Z2.\n\u2022 Sue\u00f1o: objetivo \u2265 7,5 h; acu\u00e9state a la misma hora, sin pantallas 45' antes, habitaci\u00f3n fr\u00eda y oscura. Anota las horas y el RPE.\n\u2022 Morning check (Section 11): HRV y pulso en reposo al despertar. Si readiness no-go, RI < 0,7 o HRV \u221220% sobre tu base, convierte la siguiente sesi\u00f3n dura en Z1 o descanso y mueve las claves entre martes y jueves."
     },
     {
       "id": 140902812,
@@ -4941,23 +4904,49 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "SEMANA B1 Build 3 | 16 nov \u2192 22 nov\nCarga objetivo: 440 (suma de las sesiones: 438) \u00b7 Horas de bici \u2248 9.2 h\nTipo de semana: CARGA 3 de 3."
+    },
+    {
+      "id": 140902892,
+      "date": "2026-11-17",
+      "name": "B1 Build 3 | Mar \u00b7 Z2 Endurance 75'",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 59,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "B1 Build 3 \u00b7 martes 17 nov \u00b7 75' \u00b7 \u224859 TSS\n- Calentamiento 10m ramp 50-68%\n- Z2 60m 71%"
+    },
+    {
+      "id": 140902893,
+      "date": "2026-11-17",
+      "name": "B1 Build 3 | Mar \u00b7 Gimnasio A \u00b7 Fuerza pesada",
+      "type": "WORKOUT",
+      "sport_type": "Workout",
+      "planned_tss": null,
+      "duration_hours": 0.23,
+      "duration_formatted": "14m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "B1 Build 3 \u00b7 martes 17 nov \u00b7 Gimnasio A \u00b7 \u2248 40-50'\nWarm Up\n- 8m Bici suave / remo"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 39,
+    "attempted": 41,
     "success": 6,
     "patternA": 6,
     "patternB": 0,
-    "bail_no_workout_doc": 21,
-    "bail_no_match": 33
+    "bail_no_workout_doc": 19,
+    "bail_no_match": 35
   },
   "weekly_summary": {
     "total_training_hours": 4.43,
     "total_training_formatted": "4h25m",
     "total_tss": 201,
     "activities_count": 3,
-    "avg_hrv": 83.3,
-    "avg_resting_hr": 41.4
+    "avg_hrv": 84.5,
+    "avg_resting_hr": 42.4
   },
   "race_calendar": {
     "next_race": null,
