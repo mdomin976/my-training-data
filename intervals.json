@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T10:30:52.066650",
+  "generated_at": "2026-10-14T15:30:53.532833",
   "version": "3.112",
   "script_hash": "8b12ed3ee13a",
   "scan_hours": 72,
@@ -545,6 +545,105 @@
           "valid_pct": 70.8,
           "artifact_rate_avg": 3.07,
           "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i197223254",
+      "date": "2026-10-14",
+      "type": "Ride",
+      "name": "T1 Build 2 | Mi\u00e9 \u00b7 Z2 Endurance 65'",
+      "interval_summary": [
+        "1x 6m47s 264w",
+        "1x 31s 443w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2998,
+          "avg_power": 182,
+          "max_power": 501,
+          "avg_hr": 125,
+          "max_hr": 160,
+          "avg_cadence": 63.08216,
+          "zone": 1,
+          "training_load": 38.127308,
+          "decoupling": 5.7948008,
+          "avg_dfa_a1": 1.1237631
+        },
+        {
+          "type": "WORK",
+          "label": "407s@264w79rpm",
+          "duration_secs": 407,
+          "avg_power": 264,
+          "max_power": 346,
+          "avg_hr": 148,
+          "max_hr": 156,
+          "avg_cadence": 78.68796,
+          "zone": 3,
+          "training_load": 7.2355556,
+          "decoupling": 3.7295666,
+          "avg_dfa_a1": 0.736223
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 604,
+          "avg_power": 97,
+          "max_power": 444,
+          "avg_hr": 108,
+          "max_hr": 157,
+          "avg_cadence": 43.990974,
+          "zone": 1,
+          "training_load": 4.4611692,
+          "decoupling": -6.3592234,
+          "avg_dfa_a1": 1.2941315
+        },
+        {
+          "type": "WORK",
+          "label": "31s@443w77rpm",
+          "duration_secs": 31,
+          "avg_power": 443,
+          "max_power": 594,
+          "avg_hr": 143,
+          "max_hr": 155,
+          "avg_cadence": 76.96774,
+          "zone": 7,
+          "training_load": 1.1538731,
+          "decoupling": 13.660619,
+          "avg_dfa_a1": 1.505129
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 453,
+          "avg_power": 58,
+          "max_power": 488,
+          "avg_hr": 99,
+          "max_hr": 160,
+          "avg_cadence": 32.967087,
+          "zone": 1,
+          "training_load": 4.243167,
+          "decoupling": -15.187523,
+          "avg_dfa_a1": 1.2102975
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 2793,
+          "total_secs": 4369,
+          "valid_pct": 63.9,
+          "artifact_rate_avg": 3.95,
+          "sufficient": false
         }
       }
     }
